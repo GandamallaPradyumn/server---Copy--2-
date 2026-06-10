@@ -1,0 +1,35 @@
+{
+  "depot": "MIRYALAGUDA",
+  "target_date": "2026-05-16",
+  "predicted_depot_pkm": 1788970.625,
+  "total_services": 125,
+  "count_add_slot": 25,
+  "count_cut": 6,
+  "count_no_change": 94,
+  "total_allocated_pkm": 1357452.356411472,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 63,
+    "OVERSUPPLY": 46,
+    "INEFFICIENT": 16
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 50.4,
+    "OVERSUPPLY": 36.8,
+    "INEFFICIENT": 12.8
+  },
+  "total_revenue": 1804388.1776746172,
+  "total_contribution": 724563.1776746172,
+  "total_planned_kms": 43193.0,
+  "depot_avg_epk": 41.248493278076474,
+  "depot_avg_or": 0.6557575284122927,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 29019.099660085958,
+    "OVERSUPPLY": 612110.7426748578,
+    "UNDERSUPPLY": 1163258.3353396733
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -107405.90033991405,
+    "OVERSUPPLY": 219735.74267485787,
+    "UNDERSUPPLY": 612233.3353396733
+  }
+}

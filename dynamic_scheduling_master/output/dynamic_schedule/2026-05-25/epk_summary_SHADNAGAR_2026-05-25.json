@@ -1,0 +1,35 @@
+{
+  "depot": "SHADNAGAR",
+  "target_date": "2026-05-25",
+  "predicted_depot_pkm": 1803529.0,
+  "total_services": 88,
+  "count_add_slot": 50,
+  "count_cut": 3,
+  "count_no_change": 35,
+  "total_allocated_pkm": 1697111.8841432936,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 71,
+    "OVERSUPPLY": 12,
+    "INEFFICIENT": 5
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 80.7,
+    "OVERSUPPLY": 13.6,
+    "INEFFICIENT": 5.7
+  },
+  "total_revenue": 2010226.3168649627,
+  "total_contribution": 1131901.316864963,
+  "total_planned_kms": 35133.0,
+  "depot_avg_epk": 55.15432875221265,
+  "depot_avg_or": 0.8803159025629086,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 5307.79195305167,
+    "OVERSUPPLY": 169586.09065814974,
+    "UNDERSUPPLY": 1835332.4342537613
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -28392.20804694833,
+    "OVERSUPPLY": 58461.09065814975,
+    "UNDERSUPPLY": 1101832.4342537613
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "depot": "MAHESWARAM",
+  "target_date": "2026-05-09",
+  "predicted_depot_pkm": 1010062.9375,
+  "total_services": 80,
+  "count_add_slot": 30,
+  "count_cut": 1,
+  "count_no_change": 49,
+  "total_allocated_pkm": 955993.7283372709,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 56,
+    "OVERSUPPLY": 19,
+    "INEFFICIENT": 5
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 70.0,
+    "OVERSUPPLY": 23.8,
+    "INEFFICIENT": 6.2
+  },
+  "total_revenue": 1253810.2245288857,
+  "total_contribution": 617812.2245288857,
+  "total_planned_kms": 25439.920000000002,
+  "depot_avg_epk": 47.3820156188675,
+  "depot_avg_or": 0.7855715082977678,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 22587.17245189599,
+    "OVERSUPPLY": 168795.78003102334,
+    "UNDERSUPPLY": 1062427.2720459665
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -7062.827548104013,
+    "OVERSUPPLY": 52070.780031023336,
+    "UNDERSUPPLY": 572804.2720459664
+  }
+}

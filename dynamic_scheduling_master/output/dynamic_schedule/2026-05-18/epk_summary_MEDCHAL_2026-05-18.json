@@ -1,0 +1,35 @@
+{
+  "depot": "MEDCHAL",
+  "target_date": "2026-05-18",
+  "predicted_depot_pkm": 1819094.5,
+  "total_services": 182,
+  "count_add_slot": 44,
+  "count_cut": 0,
+  "count_no_change": 138,
+  "total_allocated_pkm": 1644427.112462446,
+  "quadrant_counts": {
+    "OVERSUPPLY": 100,
+    "UNDERSUPPLY": 75,
+    "INEFFICIENT": 7
+  },
+  "quadrant_pcts": {
+    "OVERSUPPLY": 54.9,
+    "UNDERSUPPLY": 41.2,
+    "INEFFICIENT": 3.8
+  },
+  "total_revenue": 2307198.912579866,
+  "total_contribution": 1205085.4125798661,
+  "total_planned_kms": 44084.54,
+  "depot_avg_epk": 49.48685789891442,
+  "depot_avg_or": 0.7003054635916661,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 2460.9635220122045,
+    "OVERSUPPLY": 843070.7016681512,
+    "UNDERSUPPLY": 1461667.2473897028
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -26264.036477987796,
+    "OVERSUPPLY": 326004.2016681512,
+    "UNDERSUPPLY": 905345.2473897028
+  }
+}

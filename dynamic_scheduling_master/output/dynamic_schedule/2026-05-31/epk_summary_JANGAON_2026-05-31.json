@@ -1,0 +1,90 @@
+{
+  "depot": "JANGAON",
+  "target_date": "2026-05-31",
+  "predicted_depot_pkm": 1993416.125,
+  "total_services": 115,
+  "count_add_slot": 0,
+  "count_cut": 1,
+  "count_add_candidates_no_spare": 0,
+  "count_no_change": 114,
+  "total_allocated_pkm": 1808502.3975694592,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 77,
+    "OVERSUPPLY": 23,
+    "INEFFICIENT": 15
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 67.0,
+    "OVERSUPPLY": 20.0,
+    "INEFFICIENT": 13.0
+  },
+  "total_revenue": 2069704.3448121361,
+  "total_contribution": 1284826.664812136,
+  "total_planned_kms": 49455.0,
+  "depot_avg_epk": 42.326505220569025,
+  "depot_avg_or": 0.715443169668071,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 0.0,
+    "OVERSUPPLY": 335016.91892333183,
+    "UNDERSUPPLY": 1734687.4258888043
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -123430.6,
+    "OVERSUPPLY": 183593.6389233318,
+    "UNDERSUPPLY": 1224663.6258888042
+  },
+  "maintenance_pct": 0.12,
+  "pkm_90d_avg": 2224645.3833837896,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 27,
+      "planned": 24,
+      "cut": 0,
+      "maintenance": 3,
+      "spare": 0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 43,
+      "planned": 40,
+      "cut": 1,
+      "maintenance": 5,
+      "spare": -1,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PE": {
+      "available": 5,
+      "planned": 5,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": -1,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PO": {
+      "available": 34,
+      "planned": 34,
+      "cut": 0,
+      "maintenance": 4,
+      "spare": -4,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "SL": {
+      "available": 9,
+      "planned": 12,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": -4,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

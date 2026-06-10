@@ -1,0 +1,120 @@
+{
+  "depot": "SIDDIPET",
+  "target_date": "2026-05-31",
+  "predicted_depot_pkm": 1733167.0,
+  "total_services": 119,
+  "count_add_slot": 5,
+  "count_cut": 10,
+  "count_add_candidates_no_spare": 25,
+  "count_no_change": 79,
+  "total_allocated_pkm": 1660548.3848677077,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 75,
+    "INEFFICIENT": 25,
+    "OVERSUPPLY": 19
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 63.0,
+    "INEFFICIENT": 21.0,
+    "OVERSUPPLY": 16.0
+  },
+  "total_revenue": 1981836.701225107,
+  "total_contribution": 725911.7012251071,
+  "total_planned_kms": 50237.0,
+  "depot_avg_epk": 40.41927725155744,
+  "depot_avg_or": 0.6742129719164879,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 59942.89082738794,
+    "OVERSUPPLY": 276511.61514842015,
+    "UNDERSUPPLY": 1645382.195249299
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -223107.10917261205,
+    "OVERSUPPLY": 68836.61514842017,
+    "UNDERSUPPLY": 880182.195249299
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1794406.7590817309,
+  "fleet_breakdown": {
+    "EXP": {
+      "available": 16,
+      "planned": 14,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "H-EXP": {
+      "available": 17,
+      "planned": 15,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 1,
+      "estimated": true,
+      "added": 1,
+      "to_add": 11
+    },
+    "H-PVG": {
+      "available": 42,
+      "planned": 38,
+      "cut": 0,
+      "maintenance": 3,
+      "spare": 1,
+      "estimated": true,
+      "added": 1,
+      "to_add": 13
+    },
+    "I-EXP": {
+      "available": 5,
+      "planned": 4,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 1,
+      "to_add": 2
+    },
+    "I.L.": {
+      "available": 4,
+      "planned": 3,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "IL": {
+      "available": 6,
+      "planned": 5,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PVG": {
+      "available": 26,
+      "planned": 23,
+      "cut": 10,
+      "maintenance": 2,
+      "spare": 11,
+      "estimated": true,
+      "added": 2,
+      "to_add": 2
+    },
+    "SL": {
+      "available": 19,
+      "planned": 17,
+      "cut": 0,
+      "maintenance": 2,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 2
+    }
+  }
+}

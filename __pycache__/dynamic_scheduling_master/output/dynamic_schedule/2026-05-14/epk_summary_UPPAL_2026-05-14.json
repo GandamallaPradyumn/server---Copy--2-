@@ -1,0 +1,35 @@
+{
+  "depot": "UPPAL",
+  "target_date": "2026-05-14",
+  "predicted_depot_pkm": 1736089.875,
+  "total_services": 196,
+  "count_add_slot": 148,
+  "count_cut": 0,
+  "count_no_change": 48,
+  "total_allocated_pkm": 1582442.1595374844,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 163,
+    "OVERSUPPLY": 19,
+    "INEFFICIENT": 14
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 83.2,
+    "OVERSUPPLY": 9.7,
+    "INEFFICIENT": 7.1
+  },
+  "total_revenue": 2204513.624821034,
+  "total_contribution": 1291777.1248210338,
+  "total_planned_kms": 36509.46,
+  "depot_avg_epk": 62.641723480686444,
+  "depot_avg_or": 1.0419376744773075,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 48778.29925043723,
+    "OVERSUPPLY": 135515.33792777042,
+    "UNDERSUPPLY": 2020219.987642826
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -13571.700749562771,
+    "OVERSUPPLY": 31215.337927770433,
+    "UNDERSUPPLY": 1274133.487642826
+  }
+}

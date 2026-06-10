@@ -1,0 +1,35 @@
+{
+  "depot": "JANGAON",
+  "target_date": "2026-05-22",
+  "predicted_depot_pkm": 2180303.25,
+  "total_services": 115,
+  "count_add_slot": 51,
+  "count_cut": 1,
+  "count_no_change": 63,
+  "total_allocated_pkm": 1923243.9405138257,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 84,
+    "OVERSUPPLY": 20,
+    "INEFFICIENT": 11
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 73.0,
+    "OVERSUPPLY": 17.4,
+    "INEFFICIENT": 9.6
+  },
+  "total_revenue": 2216626.5400530365,
+  "total_contribution": 1431748.8600530364,
+  "total_planned_kms": 49455.0,
+  "depot_avg_epk": 45.070363814288335,
+  "depot_avg_or": 0.7608777229247967,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 0.0,
+    "OVERSUPPLY": 333220.7497415829,
+    "UNDERSUPPLY": 1883405.7903114534
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -85977.8,
+    "OVERSUPPLY": 179774.68974158287,
+    "UNDERSUPPLY": 1337951.9703114533
+  }
+}

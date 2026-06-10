@@ -1,0 +1,35 @@
+{
+  "depot": "VEMULAWADA",
+  "target_date": "2026-05-24",
+  "predicted_depot_pkm": 1297710.0,
+  "total_services": 74,
+  "count_add_slot": 25,
+  "count_cut": 0,
+  "count_no_change": 49,
+  "total_allocated_pkm": 1194582.0489851993,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 47,
+    "OVERSUPPLY": 23,
+    "INEFFICIENT": 4
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 63.5,
+    "OVERSUPPLY": 31.1,
+    "INEFFICIENT": 5.4
+  },
+  "total_revenue": 1477424.5612622737,
+  "total_contribution": 649624.5612622738,
+  "total_planned_kms": 33112.0,
+  "depot_avg_epk": 44.61387287517877,
+  "depot_avg_or": 0.743240529008483,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 11201.230852153938,
+    "OVERSUPPLY": 387991.729515423,
+    "UNDERSUPPLY": 1078231.600894697
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -33498.76914784606,
+    "OVERSUPPLY": 120741.729515423,
+    "UNDERSUPPLY": 562381.600894697
+  }
+}

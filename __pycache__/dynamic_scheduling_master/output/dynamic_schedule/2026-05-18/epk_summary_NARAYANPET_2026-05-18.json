@@ -1,0 +1,35 @@
+{
+  "depot": "NARAYANPET",
+  "target_date": "2026-05-18",
+  "predicted_depot_pkm": 2155251.75,
+  "total_services": 95,
+  "count_add_slot": 64,
+  "count_cut": 0,
+  "count_no_change": 31,
+  "total_allocated_pkm": 2012281.231259663,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 81,
+    "OVERSUPPLY": 9,
+    "INEFFICIENT": 5
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 85.3,
+    "OVERSUPPLY": 9.5,
+    "INEFFICIENT": 5.3
+  },
+  "total_revenue": 2437690.0585459163,
+  "total_contribution": 1397427.558545916,
+  "total_planned_kms": 41610.5,
+  "depot_avg_epk": 58.72022726128996,
+  "depot_avg_or": 0.9466799569352511,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 15178.957080127195,
+    "OVERSUPPLY": 128423.99496059213,
+    "UNDERSUPPLY": 2294087.1065051965
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -32121.042919872805,
+    "OVERSUPPLY": 29973.994960592117,
+    "UNDERSUPPLY": 1399574.6065051968
+  }
+}

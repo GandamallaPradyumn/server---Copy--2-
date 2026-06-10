@@ -1,0 +1,35 @@
+{
+  "depot": "JAGITYAL",
+  "target_date": "2026-05-19",
+  "predicted_depot_pkm": 1899826.875,
+  "total_services": 111,
+  "count_add_slot": 40,
+  "count_cut": 8,
+  "count_no_change": 63,
+  "total_allocated_pkm": 1693257.0149695086,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 68,
+    "OVERSUPPLY": 31,
+    "INEFFICIENT": 12
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 61.3,
+    "OVERSUPPLY": 27.9,
+    "INEFFICIENT": 10.8
+  },
+  "total_revenue": 2088064.248106788,
+  "total_contribution": 907614.2481067881,
+  "total_planned_kms": 47218.0,
+  "depot_avg_epk": 44.15306069827748,
+  "depot_avg_or": 0.7236095342011898,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 12653.05002154709,
+    "OVERSUPPLY": 577240.2668112257,
+    "UNDERSUPPLY": 1498170.9312740155
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -95846.9499784529,
+    "OVERSUPPLY": 187290.26681122568,
+    "UNDERSUPPLY": 816170.9312740153
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "depot": "ARMOOR",
+  "target_date": "2026-03-11",
+  "predicted_depot_pkm": 1477641.625,
+  "total_services": 90,
+  "count_add_slot": 28,
+  "count_cut": 2,
+  "count_no_change": 60,
+  "total_allocated_pkm": 1235898.709633249,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 46,
+    "OVERSUPPLY": 38,
+    "INEFFICIENT": 6
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 51.1,
+    "OVERSUPPLY": 42.2,
+    "INEFFICIENT": 6.7
+  },
+  "total_revenue": 1720571.142835854,
+  "total_contribution": 1039601.942835854,
+  "total_planned_kms": 36987.0,
+  "depot_avg_epk": 48.3523178284609,
+  "depot_avg_or": 0.6805454001148666,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 22864.89805893386,
+    "OVERSUPPLY": 548964.7115281833,
+    "UNDERSUPPLY": 1148741.533248737
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -18329.00194106614,
+    "OVERSUPPLY": 223676.8115281833,
+    "UNDERSUPPLY": 834254.1332487368
+  }
+}

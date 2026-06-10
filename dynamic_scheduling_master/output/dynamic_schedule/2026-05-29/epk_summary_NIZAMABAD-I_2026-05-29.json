@@ -1,0 +1,120 @@
+{
+  "depot": "NIZAMABAD-I",
+  "target_date": "2026-05-29",
+  "predicted_depot_pkm": 1636945.25,
+  "total_services": 125,
+  "count_add_slot": 0,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 0,
+  "count_no_change": 125,
+  "total_allocated_pkm": 1369663.7079227115,
+  "quadrant_counts": {
+    "OVERSUPPLY": 59,
+    "UNDERSUPPLY": 47,
+    "INEFFICIENT": 19
+  },
+  "quadrant_pcts": {
+    "OVERSUPPLY": 47.2,
+    "UNDERSUPPLY": 37.6,
+    "INEFFICIENT": 15.2
+  },
+  "total_revenue": 1826196.9789438776,
+  "total_contribution": 838472.9989438776,
+  "total_planned_kms": 51753.0,
+  "depot_avg_epk": 37.73318455711704,
+  "depot_avg_or": 0.5796706588997474,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 29494.7718391796,
+    "OVERSUPPLY": 876313.5983615589,
+    "UNDERSUPPLY": 920388.6087431393
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -160600.8481608204,
+    "OVERSUPPLY": 415391.51836155885,
+    "UNDERSUPPLY": 583682.3287431393
+  },
+  "maintenance_pct": 0.12,
+  "pkm_90d_avg": 1730147.636632269,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 11,
+      "planned": 10,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "HT": {
+      "available": 4,
+      "planned": 3,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "IH": {
+      "available": 5,
+      "planned": 4,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "MB": {
+      "available": 35,
+      "planned": 31,
+      "cut": 0,
+      "maintenance": 4,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 37,
+      "planned": 33,
+      "cut": 0,
+      "maintenance": 4,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PE": {
+      "available": 22,
+      "planned": 20,
+      "cut": 0,
+      "maintenance": 3,
+      "spare": -1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PO": {
+      "available": 21,
+      "planned": 19,
+      "cut": 0,
+      "maintenance": 3,
+      "spare": -1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "SL": {
+      "available": 6,
+      "planned": 5,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

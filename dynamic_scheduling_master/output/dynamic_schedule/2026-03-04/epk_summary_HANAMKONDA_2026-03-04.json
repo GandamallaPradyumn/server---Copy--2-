@@ -1,0 +1,35 @@
+{
+  "depot": "HANAMKONDA",
+  "target_date": "2026-03-04",
+  "predicted_depot_pkm": 2140347.75,
+  "total_services": 169,
+  "count_add_slot": 2,
+  "count_cut": 1,
+  "count_no_change": 166,
+  "total_allocated_pkm": 1355609.7327873046,
+  "quadrant_counts": {
+    "OVERSUPPLY": 102,
+    "INEFFICIENT": 53,
+    "UNDERSUPPLY": 14
+  },
+  "quadrant_pcts": {
+    "OVERSUPPLY": 60.4,
+    "INEFFICIENT": 31.4,
+    "UNDERSUPPLY": 8.3
+  },
+  "total_revenue": 1659653.9375717617,
+  "total_contribution": 167111.4275717617,
+  "total_planned_kms": 53984.0,
+  "depot_avg_epk": 35.260920119385304,
+  "depot_avg_or": 0.5030509992060286,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 575877.5311525901,
+    "OVERSUPPLY": 970516.8596824065,
+    "UNDERSUPPLY": 113259.54673676527
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -206661.64884741005,
+    "OVERSUPPLY": 320047.25968240644,
+    "UNDERSUPPLY": 53725.81673676527
+  }
+}

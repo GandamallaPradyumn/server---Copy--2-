@@ -1,0 +1,35 @@
+{
+  "depot": "KOSGI",
+  "target_date": "2026-05-22",
+  "predicted_depot_pkm": 371953.5625,
+  "total_services": 25,
+  "count_add_slot": 2,
+  "count_cut": 0,
+  "count_no_change": 23,
+  "total_allocated_pkm": 345504.0196405128,
+  "quadrant_counts": {
+    "OVERSUPPLY": 12,
+    "UNDERSUPPLY": 11,
+    "INEFFICIENT": 2
+  },
+  "quadrant_pcts": {
+    "OVERSUPPLY": 48.0,
+    "UNDERSUPPLY": 44.0,
+    "INEFFICIENT": 8.0
+  },
+  "total_revenue": 392671.96313938615,
+  "total_contribution": 149771.96313938618,
+  "total_planned_kms": 9716.0,
+  "depot_avg_epk": 39.321677920103234,
+  "depot_avg_or": 0.6529390473027725,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 14230.556268054803,
+    "OVERSUPPLY": 155305.7966885618,
+    "UNDERSUPPLY": 223135.61018276954
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -2619.443731945197,
+    "OVERSUPPLY": 43655.79668856179,
+    "UNDERSUPPLY": 108735.61018276955
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "depot": "KALVAKURTHY",
+  "target_date": "2026-05-19",
+  "predicted_depot_pkm": 1987087.0,
+  "total_services": 98,
+  "count_add_slot": 54,
+  "count_cut": 1,
+  "count_no_change": 43,
+  "total_allocated_pkm": 1873078.2056596032,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 72,
+    "OVERSUPPLY": 20,
+    "INEFFICIENT": 6
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 73.5,
+    "OVERSUPPLY": 20.4,
+    "INEFFICIENT": 6.1
+  },
+  "total_revenue": 2132542.278404832,
+  "total_contribution": 1047567.2784048321,
+  "total_planned_kms": 43399.0,
+  "depot_avg_epk": 49.053277358383816,
+  "depot_avg_or": 0.8163811819666184,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 25015.811717402637,
+    "OVERSUPPLY": 360817.038127042,
+    "UNDERSUPPLY": 1746709.4285603876
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -32084.188282597363,
+    "OVERSUPPLY": 113617.03812704203,
+    "UNDERSUPPLY": 966034.4285603876
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "depot": "PARKAL",
+  "target_date": "2026-05-28",
+  "predicted_depot_pkm": 1388272.375,
+  "total_services": 79,
+  "count_add_slot": 2,
+  "count_cut": 3,
+  "count_add_candidates_no_spare": 0,
+  "count_no_change": 74,
+  "total_allocated_pkm": 1267460.953981629,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 47,
+    "OVERSUPPLY": 21,
+    "INEFFICIENT": 11
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 59.5,
+    "OVERSUPPLY": 26.6,
+    "INEFFICIENT": 13.9
+  },
+  "total_revenue": 1501407.6090827622,
+  "total_contribution": 774392.3990827621,
+  "total_planned_kms": 34127.0,
+  "depot_avg_epk": 44.04203165009445,
+  "depot_avg_or": 0.6973781188768183,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 31651.155172274965,
+    "OVERSUPPLY": 351736.0041830768,
+    "UNDERSUPPLY": 1118020.4497274102
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -55084.36482772503,
+    "OVERSUPPLY": 152078.9441830768,
+    "UNDERSUPPLY": 677397.8197274102
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1256222.7449563507,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 27,
+      "planned": 24,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 2,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PE": {
+      "available": 7,
+      "planned": 6,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PO": {
+      "available": 19,
+      "planned": 17,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 2,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PVG": {
+      "available": 30,
+      "planned": 27,
+      "cut": 3,
+      "maintenance": 1,
+      "spare": 5,
+      "estimated": true,
+      "added": 2,
+      "to_add": 2
+    },
+    "SL": {
+      "available": 6,
+      "planned": 5,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

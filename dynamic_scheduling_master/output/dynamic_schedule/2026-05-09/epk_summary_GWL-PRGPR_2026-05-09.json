@@ -1,0 +1,35 @@
+{
+  "depot": "GWL-PRGPR",
+  "target_date": "2026-05-09",
+  "predicted_depot_pkm": 1563325.0,
+  "total_services": 79,
+  "count_add_slot": 41,
+  "count_cut": 1,
+  "count_no_change": 37,
+  "total_allocated_pkm": 1468204.4530645362,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 60,
+    "OVERSUPPLY": 15,
+    "INEFFICIENT": 4
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 75.9,
+    "OVERSUPPLY": 19.0,
+    "INEFFICIENT": 5.1
+  },
+  "total_revenue": 1675182.3298230767,
+  "total_contribution": 881332.3298230767,
+  "total_planned_kms": 31754.0,
+  "depot_avg_epk": 52.75898699602708,
+  "depot_avg_or": 0.8103756831340374,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 24501.79884094512,
+    "OVERSUPPLY": 252061.03717291218,
+    "UNDERSUPPLY": 1398619.4938092194
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -9873.20115905488,
+    "OVERSUPPLY": 88861.03717291218,
+    "UNDERSUPPLY": 802344.4938092194
+  }
+}

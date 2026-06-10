@@ -1,0 +1,90 @@
+{
+  "depot": "MAHABOOBABAD",
+  "target_date": "2026-05-28",
+  "predicted_depot_pkm": 1386075.625,
+  "total_services": 76,
+  "count_add_slot": 7,
+  "count_cut": 3,
+  "count_add_candidates_no_spare": 0,
+  "count_no_change": 66,
+  "total_allocated_pkm": 1313341.5361122435,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 55,
+    "OVERSUPPLY": 13,
+    "INEFFICIENT": 8
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 72.4,
+    "OVERSUPPLY": 17.1,
+    "INEFFICIENT": 10.5
+  },
+  "total_revenue": 1529810.1297406957,
+  "total_contribution": 971322.3397406959,
+  "total_planned_kms": 31066.0,
+  "depot_avg_epk": 48.36404019359288,
+  "depot_avg_or": 0.7785535981272893,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 4322.505181641484,
+    "OVERSUPPLY": 179584.74484240572,
+    "UNDERSUPPLY": 1345902.8797166487
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -48766.75481835852,
+    "OVERSUPPLY": 80305.93484240571,
+    "UNDERSUPPLY": 939783.1597166486
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1243427.2982185194,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 14,
+      "planned": 12,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 2,
+      "estimated": true,
+      "added": 1,
+      "to_add": 1
+    },
+    "PE": {
+      "available": 13,
+      "planned": 11,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 2,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PO": {
+      "available": 15,
+      "planned": 13,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 2,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PVG": {
+      "available": 41,
+      "planned": 37,
+      "cut": 3,
+      "maintenance": 1,
+      "spare": 6,
+      "estimated": true,
+      "added": 6,
+      "to_add": 6
+    },
+    "SL": {
+      "available": 4,
+      "planned": 3,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

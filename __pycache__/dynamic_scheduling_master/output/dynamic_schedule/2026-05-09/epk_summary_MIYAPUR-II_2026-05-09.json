@@ -1,0 +1,35 @@
+{
+  "depot": "MIYAPUR-II",
+  "target_date": "2026-05-09",
+  "predicted_depot_pkm": 1281253.125,
+  "total_services": 176,
+  "count_add_slot": 107,
+  "count_cut": 0,
+  "count_no_change": 69,
+  "total_allocated_pkm": 1202758.7925845138,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 119,
+    "INEFFICIENT": 42,
+    "OVERSUPPLY": 15
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 67.6,
+    "INEFFICIENT": 23.9,
+    "OVERSUPPLY": 8.5
+  },
+  "total_revenue": 2165175.7222212357,
+  "total_contribution": 1470902.7222212355,
+  "total_planned_kms": 27770.92,
+  "depot_avg_epk": 75.66664366686835,
+  "depot_avg_or": 1.2241595801176723,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 28346.93114954249,
+    "OVERSUPPLY": 166505.16232519186,
+    "UNDERSUPPLY": 1970323.6287465012
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -106058.56885045751,
+    "OVERSUPPLY": 90915.16232519186,
+    "UNDERSUPPLY": 1486046.1287465012
+  }
+}

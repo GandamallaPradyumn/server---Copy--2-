@@ -1,0 +1,35 @@
+{
+  "depot": "HUSNABAD",
+  "target_date": "2026-05-27",
+  "predicted_depot_pkm": 1013179.875,
+  "total_services": 66,
+  "count_add_slot": 15,
+  "count_cut": 3,
+  "count_no_change": 48,
+  "total_allocated_pkm": 979631.8695872149,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 39,
+    "OVERSUPPLY": 22,
+    "INEFFICIENT": 5
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 59.1,
+    "OVERSUPPLY": 33.3,
+    "INEFFICIENT": 7.6
+  },
+  "total_revenue": 1147253.6825543037,
+  "total_contribution": 495978.68255430355,
+  "total_planned_kms": 26051.0,
+  "depot_avg_epk": 43.771674740858685,
+  "depot_avg_or": 0.7022170037218572,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 21207.506020230077,
+    "OVERSUPPLY": 357509.1337542878,
+    "UNDERSUPPLY": 768537.0427797857
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -24292.493979769923,
+    "OVERSUPPLY": 123684.13375428777,
+    "UNDERSUPPLY": 396587.04277978576
+  }
+}

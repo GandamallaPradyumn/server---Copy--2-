@@ -1,0 +1,35 @@
+{
+  "depot": "TANDUR",
+  "target_date": "2026-05-18",
+  "predicted_depot_pkm": 1844373.75,
+  "total_services": 92,
+  "count_add_slot": 47,
+  "count_cut": 2,
+  "count_no_change": 43,
+  "total_allocated_pkm": 1671273.4713892487,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 63,
+    "OVERSUPPLY": 22,
+    "INEFFICIENT": 7
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 68.5,
+    "OVERSUPPLY": 23.9,
+    "INEFFICIENT": 7.6
+  },
+  "total_revenue": 1951113.6347627402,
+  "total_contribution": 1012613.6347627402,
+  "total_planned_kms": 37540.0,
+  "depot_avg_epk": 51.886649202977594,
+  "depot_avg_or": 0.8260061355548992,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 21176.104650397847,
+    "OVERSUPPLY": 375085.09109012794,
+    "UNDERSUPPLY": 1554852.4390222144
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -53273.89534960216,
+    "OVERSUPPLY": 125035.09109012793,
+    "UNDERSUPPLY": 940852.4390222144
+  }
+}

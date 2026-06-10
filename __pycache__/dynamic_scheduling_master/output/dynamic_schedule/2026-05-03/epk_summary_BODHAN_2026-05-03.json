@@ -1,0 +1,35 @@
+{
+  "depot": "BODHAN",
+  "target_date": "2026-05-03",
+  "predicted_depot_pkm": 1746982.0,
+  "total_services": 104,
+  "count_add_slot": 39,
+  "count_cut": 0,
+  "count_no_change": 65,
+  "total_allocated_pkm": 1712777.5267056092,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 59,
+    "OVERSUPPLY": 41,
+    "INEFFICIENT": 4
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 56.7,
+    "OVERSUPPLY": 39.4,
+    "INEFFICIENT": 3.8
+  },
+  "total_revenue": 2167349.1124941255,
+  "total_contribution": 1226420.0224941256,
+  "total_planned_kms": 50213.0,
+  "depot_avg_epk": 46.08350071156086,
+  "depot_avg_or": 0.7499042470071395,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 17083.286541483387,
+    "OVERSUPPLY": 857295.795321802,
+    "UNDERSUPPLY": 1292970.03063084
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -16006.35345851661,
+    "OVERSUPPLY": 368270.295321802,
+    "UNDERSUPPLY": 874156.08063084
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "depot": "ADILABAD",
+  "target_date": "2026-05-29",
+  "predicted_depot_pkm": 2021865.0,
+  "total_services": 136,
+  "count_add_slot": 0,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 0,
+  "count_no_change": 136,
+  "total_allocated_pkm": 1998141.0408248473,
+  "quadrant_counts": {
+    "OVERSUPPLY": 63,
+    "UNDERSUPPLY": 58,
+    "INEFFICIENT": 15
+  },
+  "quadrant_pcts": {
+    "OVERSUPPLY": 46.3,
+    "UNDERSUPPLY": 42.6,
+    "INEFFICIENT": 11.0
+  },
+  "total_revenue": 2539552.3204256985,
+  "total_contribution": 1029202.3204256988,
+  "total_planned_kms": 60414.0,
+  "depot_avg_epk": 42.6021537303758,
+  "depot_avg_or": 0.6458111222360378,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 139474.03468882467,
+    "OVERSUPPLY": 1136528.2431654767,
+    "UNDERSUPPLY": 1263550.0425713973
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -36425.96531117534,
+    "OVERSUPPLY": 388378.2431654768,
+    "UNDERSUPPLY": 677250.0425713974
+  },
+  "maintenance_pct": 0.12,
+  "pkm_90d_avg": 2464675.1854248717,
+  "fleet_breakdown": {
+    "AH": {
+      "available": 2,
+      "planned": 1,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "EP": {
+      "available": 4,
+      "planned": 3,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "EX": {
+      "available": 19,
+      "planned": 17,
+      "cut": 0,
+      "maintenance": 2,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "HA": {
+      "available": 3,
+      "planned": 2,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "HL": {
+      "available": 2,
+      "planned": 1,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "HT": {
+      "available": 18,
+      "planned": 16,
+      "cut": 0,
+      "maintenance": 2,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "IE": {
+      "available": 8,
+      "planned": 7,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "IH": {
+      "available": 2,
+      "planned": 1,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "IO": {
+      "available": 15,
+      "planned": 13,
+      "cut": 0,
+      "maintenance": 2,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "MB": {
+      "available": 3,
+      "planned": 2,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "OP": {
+      "available": 13,
+      "planned": 11,
+      "cut": 0,
+      "maintenance": 2,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 18,
+      "planned": 16,
+      "cut": 0,
+      "maintenance": 2,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PE": {
+      "available": 24,
+      "planned": 21,
+      "cut": 0,
+      "maintenance": 3,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PO": {
+      "available": 26,
+      "planned": 23,
+      "cut": 0,
+      "maintenance": 3,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "depot": "DUBBAKA",
+  "target_date": "2026-06-02",
+  "predicted_depot_pkm": 647061.0625,
+  "total_services": 41,
+  "count_add_slot": 2,
+  "count_cut": 6,
+  "count_add_candidates_no_spare": 2,
+  "count_no_change": 31,
+  "total_allocated_pkm": 555621.0578978675,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 21,
+    "INEFFICIENT": 11,
+    "OVERSUPPLY": 9
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 51.2,
+    "INEFFICIENT": 26.8,
+    "OVERSUPPLY": 22.0
+  },
+  "total_revenue": 657351.8811280967,
+  "total_contribution": 230751.8811280967,
+  "total_planned_kms": 17064.0,
+  "depot_avg_epk": 36.79330547800564,
+  "depot_avg_or": 0.569604064034411,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 21922.162387757628,
+    "OVERSUPPLY": 138500.1433057853,
+    "UNDERSUPPLY": 496929.5754345537
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -73677.83761224238,
+    "OVERSUPPLY": 44450.14330578531,
+    "UNDERSUPPLY": 259979.57543455373
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 676212.5306982,
+  "fleet_breakdown": {
+    "BB": {
+      "available": 5,
+      "planned": 4.0,
+      "cut": 4.0,
+      "maintenance": 0,
+      "spare": 5.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "EXP": {
+      "available": 11,
+      "planned": 10.0,
+      "cut": 2.0,
+      "maintenance": 1,
+      "spare": 2.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "H-EXP": {
+      "available": 5,
+      "planned": 4.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "H-PVG": {
+      "available": 5,
+      "planned": 4.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 1,
+      "to_add": 2
+    },
+    "I-SL": {
+      "available": 3,
+      "planned": 2.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PVG": {
+      "available": 18,
+      "planned": 16.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 1,
+      "to_add": 2
+    }
+  }
+}

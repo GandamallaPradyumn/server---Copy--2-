@@ -1,0 +1,35 @@
+{
+  "depot": "UTNOOR",
+  "target_date": "2026-05-27",
+  "predicted_depot_pkm": 609860.375,
+  "total_services": 37,
+  "count_add_slot": 9,
+  "count_cut": 0,
+  "count_no_change": 28,
+  "total_allocated_pkm": 573896.3072068346,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 24,
+    "OVERSUPPLY": 8,
+    "INEFFICIENT": 5
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 64.9,
+    "OVERSUPPLY": 21.6,
+    "INEFFICIENT": 13.5
+  },
+  "total_revenue": 702782.133487064,
+  "total_contribution": 314182.13348706404,
+  "total_planned_kms": 15544.0,
+  "depot_avg_epk": 45.62866431589247,
+  "depot_avg_or": 0.7191104748322291,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 34383.17769511329,
+    "OVERSUPPLY": 133334.52978223676,
+    "UNDERSUPPLY": 535064.426009714
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -12066.822304886704,
+    "OVERSUPPLY": 41334.52978223676,
+    "UNDERSUPPLY": 284914.42600971396
+  }
+}

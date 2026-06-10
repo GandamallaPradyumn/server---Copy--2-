@@ -1,0 +1,35 @@
+{
+  "depot": "YADAGIRIGUTTA",
+  "target_date": "2026-05-14",
+  "predicted_depot_pkm": 1818933.5,
+  "total_services": 82,
+  "count_add_slot": 33,
+  "count_cut": 4,
+  "count_no_change": 45,
+  "total_allocated_pkm": 1454238.4039632333,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 61,
+    "OVERSUPPLY": 16,
+    "INEFFICIENT": 5
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 74.4,
+    "OVERSUPPLY": 19.5,
+    "INEFFICIENT": 6.1
+  },
+  "total_revenue": 1697530.4102773676,
+  "total_contribution": 855805.4102773675,
+  "total_planned_kms": 33669.0,
+  "depot_avg_epk": 50.01111806143624,
+  "depot_avg_or": 0.7770860746306413,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 28388.32735236166,
+    "OVERSUPPLY": 241702.52106794386,
+    "UNDERSUPPLY": 1427439.561857062
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -25311.67264763834,
+    "OVERSUPPLY": 87677.52106794385,
+    "UNDERSUPPLY": 793439.5618570618
+  }
+}

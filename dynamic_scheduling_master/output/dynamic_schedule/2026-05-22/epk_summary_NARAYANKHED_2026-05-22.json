@@ -1,0 +1,35 @@
+{
+  "depot": "NARAYANKHED",
+  "target_date": "2026-05-22",
+  "predicted_depot_pkm": 1060121.0,
+  "total_services": 54,
+  "count_add_slot": 14,
+  "count_cut": 0,
+  "count_no_change": 40,
+  "total_allocated_pkm": 879176.8058065707,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 27,
+    "OVERSUPPLY": 14,
+    "INEFFICIENT": 13
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 50.0,
+    "OVERSUPPLY": 25.9,
+    "INEFFICIENT": 24.1
+  },
+  "total_revenue": 1088559.477151499,
+  "total_contribution": 474634.47715149913,
+  "total_planned_kms": 24557.0,
+  "depot_avg_epk": 40.857402851130516,
+  "depot_avg_or": 0.6055564668321034,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 24340.20622174028,
+    "OVERSUPPLY": 259334.88196577743,
+    "UNDERSUPPLY": 804884.3889639814
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -94509.79377825971,
+    "OVERSUPPLY": 96484.88196577741,
+    "UNDERSUPPLY": 472659.3889639814
+  }
+}

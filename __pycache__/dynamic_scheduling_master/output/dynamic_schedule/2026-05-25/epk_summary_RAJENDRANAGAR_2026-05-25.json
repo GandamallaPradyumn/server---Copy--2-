@@ -1,0 +1,35 @@
+{
+  "depot": "RAJENDRANAGAR",
+  "target_date": "2026-05-25",
+  "predicted_depot_pkm": 2057626.625,
+  "total_services": 179,
+  "count_add_slot": 132,
+  "count_cut": 0,
+  "count_no_change": 47,
+  "total_allocated_pkm": 1805655.243158503,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 136,
+    "INEFFICIENT": 40,
+    "OVERSUPPLY": 3
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 76.0,
+    "INEFFICIENT": 22.3,
+    "OVERSUPPLY": 1.7
+  },
+  "total_revenue": 2434547.0478953496,
+  "total_contribution": 1443815.0478953496,
+  "total_planned_kms": 39629.28,
+  "depot_avg_epk": 64.5438369309159,
+  "depot_avg_or": 1.0412161127565742,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 12460.926869218087,
+    "OVERSUPPLY": 23424.312600156987,
+    "UNDERSUPPLY": 2398661.8084259746
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -220020.0731307819,
+    "OVERSUPPLY": 9674.312600156987,
+    "UNDERSUPPLY": 1654160.8084259746
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "depot": "NALGONDA",
+  "target_date": "2026-05-18",
+  "predicted_depot_pkm": 2749167.5,
+  "total_services": 163,
+  "count_add_slot": 40,
+  "count_cut": 1,
+  "count_no_change": 122,
+  "total_allocated_pkm": 2623612.2792716194,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 84,
+    "OVERSUPPLY": 75,
+    "INEFFICIENT": 4
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 51.5,
+    "OVERSUPPLY": 46.0,
+    "INEFFICIENT": 2.5
+  },
+  "total_revenue": 3296056.472712463,
+  "total_contribution": 1642181.4727124625,
+  "total_planned_kms": 66155.0,
+  "depot_avg_epk": 48.89875828071679,
+  "depot_avg_or": 0.719282304413108,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 9577.445163961664,
+    "OVERSUPPLY": 1278870.3495016496,
+    "UNDERSUPPLY": 2007608.6780468512
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -17072.554836038336,
+    "OVERSUPPLY": 534645.3495016495,
+    "UNDERSUPPLY": 1124608.6780468512
+  }
+}

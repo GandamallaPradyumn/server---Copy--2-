@@ -1,0 +1,35 @@
+{
+  "depot": "HYDERABAD-I",
+  "target_date": "2026-04-24",
+  "predicted_depot_pkm": 1785224.25,
+  "total_services": 112,
+  "count_add_slot": 29,
+  "count_cut": 0,
+  "count_no_change": 83,
+  "total_allocated_pkm": 1599315.9269785185,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 51,
+    "OVERSUPPLY": 48,
+    "INEFFICIENT": 13
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 45.5,
+    "OVERSUPPLY": 42.9,
+    "INEFFICIENT": 11.6
+  },
+  "total_revenue": 2379969.7483856236,
+  "total_contribution": 1159248.5083856233,
+  "total_planned_kms": 56941.0,
+  "depot_avg_epk": 43.946048444252696,
+  "depot_avg_or": 0.6318066877978686,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 45823.02308090297,
+    "OVERSUPPLY": 1069531.5580805931,
+    "UNDERSUPPLY": 1264615.167224127
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -117827.93691909703,
+    "OVERSUPPLY": 425564.2580805932,
+    "UNDERSUPPLY": 851512.1872241271
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "depot": "PICKET",
+  "target_date": "2026-05-10",
+  "predicted_depot_pkm": 1205597.5,
+  "total_services": 75,
+  "count_add_slot": 11,
+  "count_cut": 0,
+  "count_no_change": 64,
+  "total_allocated_pkm": 1044723.8957363827,
+  "quadrant_counts": {
+    "OVERSUPPLY": 52,
+    "UNDERSUPPLY": 21,
+    "INEFFICIENT": 2
+  },
+  "quadrant_pcts": {
+    "OVERSUPPLY": 69.3,
+    "UNDERSUPPLY": 28.0,
+    "INEFFICIENT": 2.7
+  },
+  "total_revenue": 1710397.3037593137,
+  "total_contribution": 698622.3037593138,
+  "total_planned_kms": 40471.0,
+  "depot_avg_epk": 43.934607392349996,
+  "depot_avg_or": 0.6672044689903541,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 15857.82151694782,
+    "OVERSUPPLY": 1137584.382494118,
+    "UNDERSUPPLY": 556955.0997482479
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -15242.17848305218,
+    "OVERSUPPLY": 390734.38249411806,
+    "UNDERSUPPLY": 323130.09974824794
+  }
+}

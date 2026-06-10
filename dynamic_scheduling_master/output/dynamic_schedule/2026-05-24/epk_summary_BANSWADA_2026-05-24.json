@@ -1,0 +1,35 @@
+{
+  "depot": "BANSWADA",
+  "target_date": "2026-05-24",
+  "predicted_depot_pkm": 1633033.125,
+  "total_services": 92,
+  "count_add_slot": 19,
+  "count_cut": 0,
+  "count_no_change": 73,
+  "total_allocated_pkm": 1398244.954671185,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 53,
+    "OVERSUPPLY": 31,
+    "INEFFICIENT": 8
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 57.6,
+    "OVERSUPPLY": 33.7,
+    "INEFFICIENT": 8.7
+  },
+  "total_revenue": 1668829.181495407,
+  "total_contribution": 965457.9914954066,
+  "total_planned_kms": 37832.0,
+  "depot_avg_epk": 44.075082653600255,
+  "depot_avg_or": 0.6682352152168914,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 10724.367735648037,
+    "OVERSUPPLY": 454755.0837112141,
+    "UNDERSUPPLY": 1203349.7300485447
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -47339.332264351964,
+    "OVERSUPPLY": 206376.66371121406,
+    "UNDERSUPPLY": 806420.6600485446
+  }
+}

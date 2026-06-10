@@ -1,0 +1,35 @@
+{
+  "depot": "BARKATPURA",
+  "target_date": "2026-05-24",
+  "predicted_depot_pkm": 1558150.375,
+  "total_services": 142,
+  "count_add_slot": 100,
+  "count_cut": 1,
+  "count_no_change": 41,
+  "total_allocated_pkm": 1484801.5273695898,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 100,
+    "INEFFICIENT": 41,
+    "OVERSUPPLY": 1
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 70.4,
+    "INEFFICIENT": 28.9,
+    "OVERSUPPLY": 0.7
+  },
+  "total_revenue": 1979686.904444152,
+  "total_contribution": 1259336.904444152,
+  "total_planned_kms": 28814.0,
+  "depot_avg_epk": 66.34060610495004,
+  "depot_avg_or": 1.0825029767402377,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 5902.693055688192,
+    "OVERSUPPLY": 3915.8458411552388,
+    "UNDERSUPPLY": 1969868.3655473085
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -202822.3069443118,
+    "OVERSUPPLY": 415.84584115523876,
+    "UNDERSUPPLY": 1461743.3655473085
+  }
+}

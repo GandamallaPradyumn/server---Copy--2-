@@ -1,0 +1,35 @@
+{
+  "depot": "MANCHERIAL",
+  "target_date": "2026-05-09",
+  "predicted_depot_pkm": 2282261.5,
+  "total_services": 146,
+  "count_add_slot": 55,
+  "count_cut": 0,
+  "count_no_change": 91,
+  "total_allocated_pkm": 2232824.11098599,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 91,
+    "OVERSUPPLY": 47,
+    "INEFFICIENT": 8
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 62.3,
+    "OVERSUPPLY": 32.2,
+    "INEFFICIENT": 5.5
+  },
+  "total_revenue": 2820463.589176095,
+  "total_contribution": 1276888.5891760956,
+  "total_planned_kms": 61743.0,
+  "depot_avg_epk": 46.046024086148954,
+  "depot_avg_or": 0.7502241213244462,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 37506.19420758479,
+    "OVERSUPPLY": 875113.0555073108,
+    "UNDERSUPPLY": 1907844.3394612002
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -29718.80579241521,
+    "OVERSUPPLY": 285888.0555073107,
+    "UNDERSUPPLY": 1020719.3394612
+  }
+}

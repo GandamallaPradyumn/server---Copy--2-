@@ -1,0 +1,35 @@
+{
+  "depot": "GADWAL",
+  "target_date": "2026-05-21",
+  "predicted_depot_pkm": 2067114.0,
+  "total_services": 104,
+  "count_add_slot": 43,
+  "count_cut": 2,
+  "count_no_change": 59,
+  "total_allocated_pkm": 1925094.4293705844,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 77,
+    "OVERSUPPLY": 23,
+    "INEFFICIENT": 4
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 74.0,
+    "OVERSUPPLY": 22.1,
+    "INEFFICIENT": 3.8
+  },
+  "total_revenue": 2283399.0597871747,
+  "total_contribution": 1172549.0597871747,
+  "total_planned_kms": 44434.0,
+  "depot_avg_epk": 51.26419458694188,
+  "depot_avg_or": 0.8126523411962208,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 8171.9577770309925,
+    "OVERSUPPLY": 427119.26176369033,
+    "UNDERSUPPLY": 1848107.8402464534
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -32928.04222296901,
+    "OVERSUPPLY": 153419.26176369036,
+    "UNDERSUPPLY": 1052057.8402464534
+  }
+}

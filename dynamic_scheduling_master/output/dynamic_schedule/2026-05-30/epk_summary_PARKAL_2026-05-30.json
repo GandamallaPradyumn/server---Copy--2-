@@ -1,0 +1,90 @@
+{
+  "depot": "PARKAL",
+  "target_date": "2026-05-30",
+  "predicted_depot_pkm": 1238791.0,
+  "total_services": 79,
+  "count_add_slot": 0,
+  "count_cut": 4,
+  "count_add_candidates_no_spare": 0,
+  "count_no_change": 75,
+  "total_allocated_pkm": 1060735.4890643926,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 38,
+    "OVERSUPPLY": 22,
+    "INEFFICIENT": 19
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 48.1,
+    "OVERSUPPLY": 27.8,
+    "INEFFICIENT": 24.1
+  },
+  "total_revenue": 1246719.069080954,
+  "total_contribution": 519703.859080954,
+  "total_planned_kms": 34127.0,
+  "depot_avg_epk": 37.10262176177801,
+  "depot_avg_or": 0.5913849479393966,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 42522.38478507749,
+    "OVERSUPPLY": 327545.05595536786,
+    "UNDERSUPPLY": 876651.6283405087
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -111209.3152149225,
+    "OVERSUPPLY": 114804.21595536784,
+    "UNDERSUPPLY": 516108.95834050863
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1254059.7731451557,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 25,
+      "planned": 24,
+      "cut": 0,
+      "maintenance": 2,
+      "spare": -1,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 30,
+      "planned": 27,
+      "cut": 4,
+      "maintenance": 2,
+      "spare": 5,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PE": {
+      "available": 6,
+      "planned": 6,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PO": {
+      "available": 17,
+      "planned": 17,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": -1,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "SL": {
+      "available": 8,
+      "planned": 5,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 2,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

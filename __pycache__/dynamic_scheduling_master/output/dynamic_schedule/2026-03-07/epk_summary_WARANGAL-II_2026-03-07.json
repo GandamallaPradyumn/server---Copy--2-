@@ -1,0 +1,35 @@
+{
+  "depot": "WARANGAL-II",
+  "target_date": "2026-03-07",
+  "predicted_depot_pkm": 2904664.75,
+  "total_services": 158,
+  "count_add_slot": 44,
+  "count_cut": 4,
+  "count_no_change": 110,
+  "total_allocated_pkm": 2795375.717815657,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 86,
+    "INEFFICIENT": 42,
+    "OVERSUPPLY": 30
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 54.4,
+    "INEFFICIENT": 26.6,
+    "OVERSUPPLY": 19.0
+  },
+  "total_revenue": 3681322.5808994947,
+  "total_contribution": 727962.0208994953,
+  "total_planned_kms": 75884.0,
+  "depot_avg_epk": 48.74453618552816,
+  "depot_avg_or": 0.7306579810145385,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 706213.8020170274,
+    "OVERSUPPLY": 644447.86642595,
+    "UNDERSUPPLY": 2330660.9124565176
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -168845.6979829726,
+    "OVERSUPPLY": 62346.42642595,
+    "UNDERSUPPLY": 834461.2924565177
+  }
+}

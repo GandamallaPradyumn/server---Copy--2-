@@ -1,0 +1,35 @@
+{
+  "depot": "MADHIRA",
+  "target_date": "2026-05-27",
+  "predicted_depot_pkm": 1160250.0,
+  "total_services": 62,
+  "count_add_slot": 15,
+  "count_cut": 2,
+  "count_no_change": 45,
+  "total_allocated_pkm": 1056276.814391239,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 37,
+    "OVERSUPPLY": 21,
+    "INEFFICIENT": 4
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 59.7,
+    "OVERSUPPLY": 33.9,
+    "INEFFICIENT": 6.5
+  },
+  "total_revenue": 1361005.1176714597,
+  "total_contribution": 601555.11767146,
+  "total_planned_kms": 30378.0,
+  "depot_avg_epk": 44.22189138318339,
+  "depot_avg_or": 0.7234735040654878,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 33960.75617789653,
+    "OVERSUPPLY": 389908.9250226048,
+    "UNDERSUPPLY": 937135.4364709585
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -2364.2438221034654,
+    "OVERSUPPLY": 114833.92502260485,
+    "UNDERSUPPLY": 489085.4364709585
+  }
+}

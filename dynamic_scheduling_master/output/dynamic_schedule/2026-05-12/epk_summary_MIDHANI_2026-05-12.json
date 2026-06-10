@@ -1,0 +1,35 @@
+{
+  "depot": "MIDHANI",
+  "target_date": "2026-05-12",
+  "predicted_depot_pkm": 1337656.625,
+  "total_services": 144,
+  "count_add_slot": 107,
+  "count_cut": 0,
+  "count_no_change": 37,
+  "total_allocated_pkm": 1169825.386575943,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 116,
+    "INEFFICIENT": 23,
+    "OVERSUPPLY": 5
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 80.6,
+    "INEFFICIENT": 16.0,
+    "OVERSUPPLY": 3.5
+  },
+  "total_revenue": 1604460.6333150915,
+  "total_contribution": 931979.1333150916,
+  "total_planned_kms": 26899.260000000002,
+  "depot_avg_epk": 62.722671521571705,
+  "depot_avg_or": 0.9955293179129008,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 17072.5954889419,
+    "OVERSUPPLY": 28900.565090431628,
+    "UNDERSUPPLY": 1558487.4727357181
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -120302.40451105809,
+    "OVERSUPPLY": 11125.565090431628,
+    "UNDERSUPPLY": 1041155.9727357181
+  }
+}

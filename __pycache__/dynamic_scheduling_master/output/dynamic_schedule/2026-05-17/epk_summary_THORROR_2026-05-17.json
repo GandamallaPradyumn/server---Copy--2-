@@ -1,0 +1,35 @@
+{
+  "depot": "THORROR",
+  "target_date": "2026-05-17",
+  "predicted_depot_pkm": 1927224.875,
+  "total_services": 94,
+  "count_add_slot": 53,
+  "count_cut": 4,
+  "count_no_change": 37,
+  "total_allocated_pkm": 1786744.837960625,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 75,
+    "OVERSUPPLY": 15,
+    "INEFFICIENT": 4
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 79.8,
+    "OVERSUPPLY": 16.0,
+    "INEFFICIENT": 4.3
+  },
+  "total_revenue": 2232794.814851747,
+  "total_contribution": 1295064.044851747,
+  "total_planned_kms": 40942.0,
+  "depot_avg_epk": 54.55805081339658,
+  "depot_avg_or": 0.8634587213051298,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 11943.655575815106,
+    "OVERSUPPLY": 249024.12540440483,
+    "UNDERSUPPLY": 1971827.0338715275
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -22543.524424184892,
+    "OVERSUPPLY": 117284.45540440484,
+    "UNDERSUPPLY": 1200323.1138715274
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "depot": "ACHAMPET",
+  "target_date": "2026-05-19",
+  "predicted_depot_pkm": 1739515.75,
+  "total_services": 83,
+  "count_add_slot": 42,
+  "count_cut": 0,
+  "count_no_change": 41,
+  "total_allocated_pkm": 1651429.2600018603,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 68,
+    "OVERSUPPLY": 12,
+    "INEFFICIENT": 3
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 81.9,
+    "OVERSUPPLY": 14.5,
+    "INEFFICIENT": 3.6
+  },
+  "total_revenue": 1984338.4741465712,
+  "total_contribution": 1080938.4741465715,
+  "total_planned_kms": 36136.0,
+  "depot_avg_epk": 55.06478873769475,
+  "depot_avg_or": 0.8214850097874332,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 14454.670069857431,
+    "OVERSUPPLY": 204561.77456097398,
+    "UNDERSUPPLY": 1765322.02951574
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -23295.32993014257,
+    "OVERSUPPLY": 70161.77456097398,
+    "UNDERSUPPLY": 1034072.02951574
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "depot": "HUZURABAD",
+  "target_date": "2026-05-10",
+  "predicted_depot_pkm": 1269067.125,
+  "total_services": 67,
+  "count_add_slot": 37,
+  "count_cut": 0,
+  "count_no_change": 30,
+  "total_allocated_pkm": 1208569.0904852427,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 53,
+    "OVERSUPPLY": 12,
+    "INEFFICIENT": 2
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 79.1,
+    "OVERSUPPLY": 17.9,
+    "INEFFICIENT": 3.0
+  },
+  "total_revenue": 1416100.818563705,
+  "total_contribution": 705500.8185637051,
+  "total_planned_kms": 28424.0,
+  "depot_avg_epk": 49.83278384284497,
+  "depot_avg_or": 0.8367587376874694,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 1934.4651770319228,
+    "OVERSUPPLY": 201319.64131034524,
+    "UNDERSUPPLY": 1212846.712076328
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -21165.534822968075,
+    "OVERSUPPLY": 60194.64131034524,
+    "UNDERSUPPLY": 666471.7120763279
+  }
+}

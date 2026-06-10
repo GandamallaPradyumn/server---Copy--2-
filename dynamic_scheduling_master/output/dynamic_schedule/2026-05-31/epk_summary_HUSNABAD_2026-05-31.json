@@ -1,0 +1,90 @@
+{
+  "depot": "HUSNABAD",
+  "target_date": "2026-05-31",
+  "predicted_depot_pkm": 1100274.5,
+  "total_services": 66,
+  "count_add_slot": 0,
+  "count_cut": 4,
+  "count_add_candidates_no_spare": 0,
+  "count_no_change": 62,
+  "total_allocated_pkm": 1068255.8430162559,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 47,
+    "OVERSUPPLY": 13,
+    "INEFFICIENT": 6
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 71.2,
+    "OVERSUPPLY": 19.7,
+    "INEFFICIENT": 9.1
+  },
+  "total_revenue": 1249192.5899826023,
+  "total_contribution": 597917.5899826026,
+  "total_planned_kms": 26051.0,
+  "depot_avg_epk": 47.53650454256446,
+  "depot_avg_or": 0.7623086170026144,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 26782.0634838216,
+    "OVERSUPPLY": 195636.7330277612,
+    "UNDERSUPPLY": 1026773.7934710197
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -27517.9365161784,
+    "OVERSUPPLY": 60411.733027761205,
+    "UNDERSUPPLY": 565023.7934710197
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1069675.1001142182,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 16,
+      "planned": 14,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "HT": {
+      "available": 4,
+      "planned": 3,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 28,
+      "planned": 25,
+      "cut": 4,
+      "maintenance": 2,
+      "spare": 5,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PE": {
+      "available": 11,
+      "planned": 10,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PO": {
+      "available": 16,
+      "planned": 14,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "depot": "JANGAON",
+  "target_date": "2026-06-01",
+  "predicted_depot_pkm": 2179344.0,
+  "total_services": 115,
+  "count_add_slot": 0,
+  "count_cut": 1,
+  "count_add_candidates_no_spare": 0,
+  "count_no_change": 114,
+  "total_allocated_pkm": 1970930.6376899877,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 82,
+    "OVERSUPPLY": 18,
+    "INEFFICIENT": 15
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 71.3,
+    "OVERSUPPLY": 15.7,
+    "INEFFICIENT": 13.0
+  },
+  "total_revenue": 2253814.4785349886,
+  "total_contribution": 1468936.7985349887,
+  "total_planned_kms": 49455.0,
+  "depot_avg_epk": 46.11362973338168,
+  "depot_avg_or": 0.7799751180542069,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 0.0,
+    "OVERSUPPLY": 280542.9848743054,
+    "UNDERSUPPLY": 1973271.4936606833
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -123430.6,
+    "OVERSUPPLY": 159115.72487430536,
+    "UNDERSUPPLY": 1433251.6736606832
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 2231616.0230139196,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 27,
+      "planned": 24.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 2.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 43,
+      "planned": 40.0,
+      "cut": 1.0,
+      "maintenance": 1,
+      "spare": 3.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PE": {
+      "available": 5,
+      "planned": 5.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PO": {
+      "available": 34,
+      "planned": 34.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": -1.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "SL": {
+      "available": 9,
+      "planned": 12.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": -3.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

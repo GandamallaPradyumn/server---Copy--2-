@@ -1,0 +1,90 @@
+{
+  "depot": "BHUPALAPALLAY",
+  "target_date": "2026-05-29",
+  "predicted_depot_pkm": 1477679.875,
+  "total_services": 86,
+  "count_add_slot": 0,
+  "count_cut": 1,
+  "count_add_candidates_no_spare": 0,
+  "count_no_change": 85,
+  "total_allocated_pkm": 1392985.3768188907,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 52,
+    "OVERSUPPLY": 23,
+    "INEFFICIENT": 11
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 60.5,
+    "OVERSUPPLY": 26.7,
+    "INEFFICIENT": 12.8
+  },
+  "total_revenue": 1751002.0583054023,
+  "total_contribution": 913950.7183054024,
+  "total_planned_kms": 40104.0,
+  "depot_avg_epk": 43.713630562406536,
+  "depot_avg_or": 0.6826474556950359,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 42720.19554990295,
+    "OVERSUPPLY": 417884.87860340305,
+    "UNDERSUPPLY": 1290396.9841520963
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -59017.06445009705,
+    "OVERSUPPLY": 188407.31860340305,
+    "UNDERSUPPLY": 784560.4641520964
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1406359.6652353685,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 32,
+      "planned": 32,
+      "cut": 1,
+      "maintenance": 3,
+      "spare": -2,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "HT": {
+      "available": 11,
+      "planned": 11,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": -1,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 23,
+      "planned": 19,
+      "cut": 0,
+      "maintenance": 2,
+      "spare": 2,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PE": {
+      "available": 15,
+      "planned": 15,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": -1,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PO": {
+      "available": 9,
+      "planned": 9,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": -1,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

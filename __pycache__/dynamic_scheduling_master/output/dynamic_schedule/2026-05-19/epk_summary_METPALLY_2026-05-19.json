@@ -1,0 +1,35 @@
+{
+  "depot": "METPALLY",
+  "target_date": "2026-05-19",
+  "predicted_depot_pkm": 1132887.75,
+  "total_services": 54,
+  "count_add_slot": 33,
+  "count_cut": 2,
+  "count_no_change": 19,
+  "total_allocated_pkm": 1103944.45951577,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 45,
+    "OVERSUPPLY": 7,
+    "INEFFICIENT": 2
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 83.3,
+    "OVERSUPPLY": 13.0,
+    "INEFFICIENT": 3.7
+  },
+  "total_revenue": 1358811.1280779536,
+  "total_contribution": 742511.1280779535,
+  "total_planned_kms": 24652.0,
+  "depot_avg_epk": 55.32411560799031,
+  "depot_avg_or": 0.8788597134781159,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 7065.7343911196895,
+    "OVERSUPPLY": 178210.08061531538,
+    "UNDERSUPPLY": 1173535.3130715184
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -9934.265608880312,
+    "OVERSUPPLY": 68710.08061531538,
+    "UNDERSUPPLY": 683735.3130715186
+  }
+}

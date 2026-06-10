@@ -1,0 +1,35 @@
+{
+  "depot": "MEDAK",
+  "target_date": "2026-05-27",
+  "predicted_depot_pkm": 1488765.25,
+  "total_services": 83,
+  "count_add_slot": 34,
+  "count_cut": 9,
+  "count_no_change": 40,
+  "total_allocated_pkm": 1217556.919456377,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 54,
+    "INEFFICIENT": 16,
+    "OVERSUPPLY": 13
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 65.1,
+    "INEFFICIENT": 19.3,
+    "OVERSUPPLY": 15.7
+  },
+  "total_revenue": 1352642.883748382,
+  "total_contribution": 549492.8837483821,
+  "total_planned_kms": 32126.0,
+  "depot_avg_epk": 41.1900641222858,
+  "depot_avg_or": 0.6818694032945263,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 41532.69422547472,
+    "OVERSUPPLY": 209942.33946270397,
+    "UNDERSUPPLY": 1101167.8500602033
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -99717.30577452529,
+    "OVERSUPPLY": 70342.33946270395,
+    "UNDERSUPPLY": 578867.8500602033
+  }
+}

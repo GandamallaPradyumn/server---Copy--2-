@@ -1,0 +1,35 @@
+{
+  "depot": "BADRACHALAM",
+  "target_date": "2026-05-09",
+  "predicted_depot_pkm": 1816201.625,
+  "total_services": 102,
+  "count_add_slot": 33,
+  "count_cut": 5,
+  "count_no_change": 64,
+  "total_allocated_pkm": 1696981.9011242276,
+  "quadrant_counts": {
+    "OVERSUPPLY": 47,
+    "UNDERSUPPLY": 46,
+    "INEFFICIENT": 9
+  },
+  "quadrant_pcts": {
+    "OVERSUPPLY": 46.1,
+    "UNDERSUPPLY": 45.1,
+    "INEFFICIENT": 8.8
+  },
+  "total_revenue": 2353923.0370605793,
+  "total_contribution": 1039223.0370605788,
+  "total_planned_kms": 52588.0,
+  "depot_avg_epk": 46.13461677238575,
+  "depot_avg_or": 0.7140206976764221,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 44785.58076411447,
+    "OVERSUPPLY": 1073105.2837632,
+    "UNDERSUPPLY": 1236032.1725332644
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -77414.41923588554,
+    "OVERSUPPLY": 389505.28376320004,
+    "UNDERSUPPLY": 727132.1725332643
+  }
+}

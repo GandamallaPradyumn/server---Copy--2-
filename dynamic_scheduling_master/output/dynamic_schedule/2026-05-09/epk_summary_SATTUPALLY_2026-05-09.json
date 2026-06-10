@@ -1,0 +1,35 @@
+{
+  "depot": "SATTUPALLY",
+  "target_date": "2026-05-09",
+  "predicted_depot_pkm": 1830454.25,
+  "total_services": 105,
+  "count_add_slot": 35,
+  "count_cut": 2,
+  "count_no_change": 68,
+  "total_allocated_pkm": 1636551.2121880776,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 56,
+    "OVERSUPPLY": 40,
+    "INEFFICIENT": 9
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 53.3,
+    "OVERSUPPLY": 38.1,
+    "INEFFICIENT": 8.6
+  },
+  "total_revenue": 2148961.7508274885,
+  "total_contribution": 948986.7508274888,
+  "total_planned_kms": 47999.0,
+  "depot_avg_epk": 45.43305940802869,
+  "depot_avg_or": 0.7288866392476987,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 59744.54330186604,
+    "OVERSUPPLY": 728660.0883866453,
+    "UNDERSUPPLY": 1360557.1191389775
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -54730.45669813396,
+    "OVERSUPPLY": 231560.0883866453,
+    "UNDERSUPPLY": 772157.1191389775
+  }
+}

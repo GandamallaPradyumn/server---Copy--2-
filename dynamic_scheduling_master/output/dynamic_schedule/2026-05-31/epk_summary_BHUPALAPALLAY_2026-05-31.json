@@ -1,0 +1,90 @@
+{
+  "depot": "BHUPALAPALLAY",
+  "target_date": "2026-05-31",
+  "predicted_depot_pkm": 1469217.875,
+  "total_services": 86,
+  "count_add_slot": 0,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 0,
+  "count_no_change": 86,
+  "total_allocated_pkm": 1368521.2450830126,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 50,
+    "OVERSUPPLY": 25,
+    "INEFFICIENT": 11
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 58.1,
+    "OVERSUPPLY": 29.1,
+    "INEFFICIENT": 12.8
+  },
+  "total_revenue": 1722946.2293565683,
+  "total_contribution": 885894.8893565681,
+  "total_planned_kms": 40104.0,
+  "depot_avg_epk": 42.89977344729704,
+  "depot_avg_or": 0.6687899021874139,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 17136.92665020517,
+    "OVERSUPPLY": 465341.76145713596,
+    "UNDERSUPPLY": 1240467.5412492272
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -76661.05334979482,
+    "OVERSUPPLY": 211707.94145713595,
+    "UNDERSUPPLY": 750848.0012492272
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1409774.2892486579,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 32,
+      "planned": 32,
+      "cut": 0,
+      "maintenance": 3,
+      "spare": -3,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "HT": {
+      "available": 11,
+      "planned": 11,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": -1,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 23,
+      "planned": 19,
+      "cut": 0,
+      "maintenance": 2,
+      "spare": 2,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PE": {
+      "available": 15,
+      "planned": 15,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": -1,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PO": {
+      "available": 9,
+      "planned": 9,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": -1,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "depot": "MEHDIPATNAM",
+  "target_date": "2026-05-15",
+  "predicted_depot_pkm": 1886797.0,
+  "total_services": 222,
+  "count_add_slot": 154,
+  "count_cut": 0,
+  "count_no_change": 68,
+  "total_allocated_pkm": 1769264.5897641578,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 177,
+    "INEFFICIENT": 32,
+    "OVERSUPPLY": 13
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 79.7,
+    "INEFFICIENT": 14.4,
+    "OVERSUPPLY": 5.9
+  },
+  "total_revenue": 2460169.1386870444,
+  "total_contribution": 1391819.1386870444,
+  "total_planned_kms": 42734.0,
+  "depot_avg_epk": 59.854575763034575,
+  "depot_avg_or": 0.9344581572663777,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 9021.13309829572,
+    "OVERSUPPLY": 83900.73406509512,
+    "UNDERSUPPLY": 2367247.2715236535
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -162453.86690170428,
+    "OVERSUPPLY": 33350.73406509512,
+    "UNDERSUPPLY": 1520922.2715236538
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "depot": "SANGAREDDY",
+  "target_date": "2026-05-19",
+  "predicted_depot_pkm": 1705438.875,
+  "total_services": 93,
+  "count_add_slot": 29,
+  "count_cut": 6,
+  "count_no_change": 58,
+  "total_allocated_pkm": 1353246.4926924005,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 51,
+    "OVERSUPPLY": 24,
+    "INEFFICIENT": 18
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 54.8,
+    "OVERSUPPLY": 25.8,
+    "INEFFICIENT": 19.4
+  },
+  "total_revenue": 1632353.4436876618,
+  "total_contribution": 690428.4436876616,
+  "total_planned_kms": 37677.0,
+  "depot_avg_epk": 42.35236691863782,
+  "depot_avg_or": 0.6485581229250931,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 30863.353566835467,
+    "OVERSUPPLY": 431479.09186338104,
+    "UNDERSUPPLY": 1170010.9982574452
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -124236.64643316454,
+    "OVERSUPPLY": 148079.09186338107,
+    "UNDERSUPPLY": 666585.9982574453
+  }
+}

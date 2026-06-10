@@ -1,0 +1,35 @@
+{
+  "depot": "SIDDIPET",
+  "target_date": "2026-05-22",
+  "predicted_depot_pkm": 1885202.25,
+  "total_services": 119,
+  "count_add_slot": 56,
+  "count_cut": 10,
+  "count_no_change": 53,
+  "total_allocated_pkm": 1787819.4557792654,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 77,
+    "INEFFICIENT": 23,
+    "OVERSUPPLY": 19
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 64.7,
+    "INEFFICIENT": 19.3,
+    "OVERSUPPLY": 16.0
+  },
+  "total_revenue": 2134466.599576667,
+  "total_contribution": 878541.5995766666,
+  "total_planned_kms": 50237.0,
+  "depot_avg_epk": 43.24955849980068,
+  "depot_avg_or": 0.7219991238727651,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 96916.8070997832,
+    "OVERSUPPLY": 265291.689340531,
+    "UNDERSUPPLY": 1772258.1031363523
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -160733.19290021682,
+    "OVERSUPPLY": 64266.68934053103,
+    "UNDERSUPPLY": 975008.1031363523
+  }
+}

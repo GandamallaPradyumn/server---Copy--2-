@@ -1,0 +1,35 @@
+{
+  "depot": "KORUTLA",
+  "target_date": "2026-05-20",
+  "predicted_depot_pkm": 1270101.75,
+  "total_services": 61,
+  "count_add_slot": 39,
+  "count_cut": 0,
+  "count_no_change": 22,
+  "total_allocated_pkm": 1216659.1396232918,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 49,
+    "OVERSUPPLY": 11,
+    "INEFFICIENT": 1
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 80.3,
+    "OVERSUPPLY": 18.0,
+    "INEFFICIENT": 1.6
+  },
+  "total_revenue": 1531849.0070669493,
+  "total_contribution": 813649.0070669496,
+  "total_planned_kms": 28728.0,
+  "depot_avg_epk": 55.37375024864735,
+  "depot_avg_or": 0.9138533194681622,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 0.0,
+    "OVERSUPPLY": 294864.8811546695,
+    "UNDERSUPPLY": 1236984.12591228
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -11250.0,
+    "OVERSUPPLY": 109364.88115466952,
+    "UNDERSUPPLY": 715534.12591228
+  }
+}

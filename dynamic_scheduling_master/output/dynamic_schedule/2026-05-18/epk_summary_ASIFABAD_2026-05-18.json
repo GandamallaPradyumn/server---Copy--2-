@@ -1,0 +1,35 @@
+{
+  "depot": "ASIFABAD",
+  "target_date": "2026-05-18",
+  "predicted_depot_pkm": 1616863.125,
+  "total_services": 76,
+  "count_add_slot": 50,
+  "count_cut": 1,
+  "count_no_change": 25,
+  "total_allocated_pkm": 1493709.6058369654,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 53,
+    "OVERSUPPLY": 14,
+    "INEFFICIENT": 9
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 69.7,
+    "OVERSUPPLY": 18.4,
+    "INEFFICIENT": 11.8
+  },
+  "total_revenue": 1850107.7541387065,
+  "total_contribution": 1010207.7541387065,
+  "total_planned_kms": 33596.0,
+  "depot_avg_epk": 55.14778185042596,
+  "depot_avg_or": 0.8691724118681636,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 26126.278400458672,
+    "OVERSUPPLY": 308620.1494715069,
+    "UNDERSUPPLY": 1515361.326266741
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -52123.72159954133,
+    "OVERSUPPLY": 118170.14947150685,
+    "UNDERSUPPLY": 944161.3262667409
+  }
+}

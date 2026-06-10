@@ -1,0 +1,35 @@
+{
+  "depot": "PARGI",
+  "target_date": "2026-05-22",
+  "predicted_depot_pkm": 1594067.0,
+  "total_services": 78,
+  "count_add_slot": 43,
+  "count_cut": 1,
+  "count_no_change": 34,
+  "total_allocated_pkm": 1469045.1122498184,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 64,
+    "OVERSUPPLY": 13,
+    "INEFFICIENT": 1
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 82.1,
+    "OVERSUPPLY": 16.7,
+    "INEFFICIENT": 1.3
+  },
+  "total_revenue": 1694514.6762061224,
+  "total_contribution": 882889.6762061222,
+  "total_planned_kms": 32465.0,
+  "depot_avg_epk": 52.34399893465196,
+  "depot_avg_or": 0.8629015838920344,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 2840.9582054098496,
+    "OVERSUPPLY": 221291.00084898405,
+    "UNDERSUPPLY": 1470382.7171517282
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -5359.04179459015,
+    "OVERSUPPLY": 75541.00084898405,
+    "UNDERSUPPLY": 812707.7171517282
+  }
+}

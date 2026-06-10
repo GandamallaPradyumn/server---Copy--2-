@@ -1,0 +1,35 @@
+{
+  "depot": "CHENGICHERLA",
+  "target_date": "2026-05-19",
+  "predicted_depot_pkm": 1653034.0,
+  "total_services": 192,
+  "count_add_slot": 146,
+  "count_cut": 0,
+  "count_no_change": 46,
+  "total_allocated_pkm": 1516693.122354331,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 165,
+    "OVERSUPPLY": 26,
+    "INEFFICIENT": 1
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 85.9,
+    "OVERSUPPLY": 13.5,
+    "INEFFICIENT": 0.5
+  },
+  "total_revenue": 2062317.434568476,
+  "total_contribution": 1155599.934568476,
+  "total_planned_kms": 36268.7,
+  "depot_avg_epk": 58.566417091833976,
+  "depot_avg_or": 0.9692624717541257,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 7156.6674925724,
+    "OVERSUPPLY": 219381.5308379242,
+    "UNDERSUPPLY": 1835779.2362379793
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -543.3325074275999,
+    "OVERSUPPLY": 64081.530837924205,
+    "UNDERSUPPLY": 1092061.7362379793
+  }
+}

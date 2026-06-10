@@ -1,0 +1,35 @@
+{
+  "depot": "KARIMNAGAR-I",
+  "target_date": "2026-03-09",
+  "predicted_depot_pkm": 1778054.875,
+  "total_services": 108,
+  "count_add_slot": 40,
+  "count_cut": 2,
+  "count_no_change": 66,
+  "total_allocated_pkm": 1697495.1386603874,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 68,
+    "OVERSUPPLY": 34,
+    "INEFFICIENT": 6
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 63.0,
+    "OVERSUPPLY": 31.5,
+    "INEFFICIENT": 5.6
+  },
+  "total_revenue": 2136927.1585464478,
+  "total_contribution": 999395.3985464473,
+  "total_planned_kms": 47350.0,
+  "depot_avg_epk": 45.9059544695159,
+  "depot_avg_or": 0.7409231621965294,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 19645.00254114031,
+    "OVERSUPPLY": 657297.9001439319,
+    "UNDERSUPPLY": 1459984.255861375
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -36252.517458859686,
+    "OVERSUPPLY": 269738.4401439319,
+    "UNDERSUPPLY": 765909.4758613751
+  }
+}

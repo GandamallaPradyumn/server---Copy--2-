@@ -1,0 +1,110 @@
+{
+  "depot": "MIDHANI",
+  "target_date": "2026-05-30",
+  "predicted_depot_pkm": 1274574.125,
+  "total_services": 144,
+  "count_add_slot": 2,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 36,
+  "count_no_change": 106,
+  "total_allocated_pkm": 1196867.3775123456,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 115,
+    "INEFFICIENT": 23,
+    "OVERSUPPLY": 6
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 79.9,
+    "INEFFICIENT": 16.0,
+    "OVERSUPPLY": 4.2
+  },
+  "total_revenue": 1639687.6789116727,
+  "total_contribution": 967206.1789116727,
+  "total_planned_kms": 26899.260000000002,
+  "depot_avg_epk": 64.17620001288952,
+  "depot_avg_or": 1.0198262278637575,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 0.0,
+    "OVERSUPPLY": 31509.02685093219,
+    "UNDERSUPPLY": 1608178.6520607406
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -137375.0,
+    "OVERSUPPLY": 10384.02685093219,
+    "UNDERSUPPLY": 1094197.1520607406
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1182470.227264141,
+  "fleet_breakdown": {
+    "CO": {
+      "available": 59,
+      "planned": 53,
+      "cut": 0,
+      "maintenance": 5,
+      "spare": 1,
+      "estimated": true,
+      "added": 1,
+      "to_add": 16
+    },
+    "MO": {
+      "available": 6,
+      "planned": 5,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PM": {
+      "available": 4,
+      "planned": 3,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PS": {
+      "available": 3,
+      "planned": 2,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "SN": {
+      "available": 58,
+      "planned": 52,
+      "cut": 0,
+      "maintenance": 5,
+      "spare": 1,
+      "estimated": true,
+      "added": 1,
+      "to_add": 19
+    },
+    "SU": {
+      "available": 19,
+      "planned": 17,
+      "cut": 0,
+      "maintenance": 2,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 3
+    },
+    "VC": {
+      "available": 14,
+      "planned": 12,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

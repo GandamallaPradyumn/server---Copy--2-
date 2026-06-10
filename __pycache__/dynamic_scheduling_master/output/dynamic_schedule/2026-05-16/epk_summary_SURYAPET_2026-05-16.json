@@ -1,0 +1,35 @@
+{
+  "depot": "SURYAPET",
+  "target_date": "2026-05-16",
+  "predicted_depot_pkm": 2721830.5,
+  "total_services": 156,
+  "count_add_slot": 12,
+  "count_cut": 2,
+  "count_no_change": 142,
+  "total_allocated_pkm": 2580219.188683383,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 73,
+    "OVERSUPPLY": 72,
+    "INEFFICIENT": 11
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 46.8,
+    "OVERSUPPLY": 46.2,
+    "INEFFICIENT": 7.1
+  },
+  "total_revenue": 3182179.6850214386,
+  "total_contribution": 1436104.6850214386,
+  "total_planned_kms": 69843.0,
+  "depot_avg_epk": 45.06782876549237,
+  "depot_avg_or": 0.6664035466880646,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 98972.08126860498,
+    "OVERSUPPLY": 1259315.692442281,
+    "UNDERSUPPLY": 1823891.9113105529
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -29877.918731395024,
+    "OVERSUPPLY": 483665.6924422808,
+    "UNDERSUPPLY": 982316.9113105529
+  }
+}

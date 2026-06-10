@@ -1,0 +1,35 @@
+{
+  "depot": "BHEL",
+  "target_date": "2026-05-16",
+  "predicted_depot_pkm": 1473064.5,
+  "total_services": 78,
+  "count_add_slot": 3,
+  "count_cut": 0,
+  "count_no_change": 75,
+  "total_allocated_pkm": 1262595.436408108,
+  "quadrant_counts": {
+    "OVERSUPPLY": 41,
+    "UNDERSUPPLY": 31,
+    "INEFFICIENT": 6
+  },
+  "quadrant_pcts": {
+    "OVERSUPPLY": 52.6,
+    "UNDERSUPPLY": 39.7,
+    "INEFFICIENT": 7.7
+  },
+  "total_revenue": 2639238.7459941823,
+  "total_contribution": 1218463.7459941828,
+  "total_planned_kms": 56831.0,
+  "depot_avg_epk": 45.19594740179641,
+  "depot_avg_or": 0.6159097342042427,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 12043.725265546596,
+    "OVERSUPPLY": 1344257.770158255,
+    "UNDERSUPPLY": 1282937.2505703813
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -87281.2747344534,
+    "OVERSUPPLY": 594707.770158255,
+    "UNDERSUPPLY": 711037.2505703812
+  }
+}

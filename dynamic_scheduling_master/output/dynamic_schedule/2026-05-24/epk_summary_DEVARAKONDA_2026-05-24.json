@@ -1,0 +1,35 @@
+{
+  "depot": "DEVARAKONDA",
+  "target_date": "2026-05-24",
+  "predicted_depot_pkm": 2132036.75,
+  "total_services": 100,
+  "count_add_slot": 43,
+  "count_cut": 0,
+  "count_no_change": 57,
+  "total_allocated_pkm": 1944722.3732975253,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 78,
+    "OVERSUPPLY": 18,
+    "INEFFICIENT": 4
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 78.0,
+    "OVERSUPPLY": 18.0,
+    "INEFFICIENT": 4.0
+  },
+  "total_revenue": 2381695.1280928943,
+  "total_contribution": 1249070.1280928948,
+  "total_planned_kms": 45305.0,
+  "depot_avg_epk": 53.94723193067245,
+  "depot_avg_or": 0.8031496617540277,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 47776.34120500788,
+    "OVERSUPPLY": 327282.3016706246,
+    "UNDERSUPPLY": 2006636.485217262
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -39023.65879499212,
+    "OVERSUPPLY": 112507.30167062457,
+    "UNDERSUPPLY": 1175586.485217262
+  }
+}

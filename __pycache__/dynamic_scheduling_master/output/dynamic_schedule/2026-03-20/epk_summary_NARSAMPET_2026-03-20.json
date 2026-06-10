@@ -1,0 +1,35 @@
+{
+  "depot": "NARSAMPET",
+  "target_date": "2026-03-20",
+  "predicted_depot_pkm": 1941791.375,
+  "total_services": 94,
+  "count_add_slot": 63,
+  "count_cut": 5,
+  "count_no_change": 26,
+  "total_allocated_pkm": 1861378.1724762514,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 75,
+    "OVERSUPPLY": 13,
+    "INEFFICIENT": 6
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 79.8,
+    "OVERSUPPLY": 13.8,
+    "INEFFICIENT": 6.4
+  },
+  "total_revenue": 2220062.470362584,
+  "total_contribution": 1348170.2703625849,
+  "total_planned_kms": 40599.0,
+  "depot_avg_epk": 54.83635162846074,
+  "depot_avg_or": 0.9080526550608773,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 23426.02224130061,
+    "OVERSUPPLY": 205741.2913154907,
+    "UNDERSUPPLY": 1990895.1568057933
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -23513.177758699392,
+    "OVERSUPPLY": 79830.55131549068,
+    "UNDERSUPPLY": 1291852.8968057933
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "depot": "HAYATHNAGAR-II",
+  "target_date": "2026-05-30",
+  "predicted_depot_pkm": 1195563.25,
+  "total_services": 169,
+  "count_add_slot": 13,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 79,
+  "count_no_change": 77,
+  "total_allocated_pkm": 1146889.9137220273,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 159,
+    "INEFFICIENT": 6,
+    "OVERSUPPLY": 4
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 94.1,
+    "INEFFICIENT": 3.6,
+    "OVERSUPPLY": 2.4
+  },
+  "total_revenue": 1800616.9932706808,
+  "total_contribution": 1132824.4932706808,
+  "total_planned_kms": 26711.699999999997,
+  "depot_avg_epk": 68.54652104006347,
+  "depot_avg_or": 1.2474351426054073,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 5078.500148067811,
+    "OVERSUPPLY": 19581.114673190743,
+    "UNDERSUPPLY": 1775957.378449422
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -30932.74985193219,
+    "OVERSUPPLY": 5594.614673190742,
+    "UNDERSUPPLY": 1158162.628449422
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1082442.0615326539,
+  "fleet_breakdown": {
+    "EM": {
+      "available": 186,
+      "planned": 169,
+      "cut": 0,
+      "maintenance": 4,
+      "spare": 13,
+      "estimated": true,
+      "added": 13,
+      "to_add": 92
+    }
+  }
+}

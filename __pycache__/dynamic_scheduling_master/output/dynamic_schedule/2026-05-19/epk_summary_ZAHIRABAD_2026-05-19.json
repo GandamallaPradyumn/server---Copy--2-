@@ -1,0 +1,35 @@
+{
+  "depot": "ZAHIRABAD",
+  "target_date": "2026-05-19",
+  "predicted_depot_pkm": 1612545.125,
+  "total_services": 93,
+  "count_add_slot": 35,
+  "count_cut": 2,
+  "count_no_change": 56,
+  "total_allocated_pkm": 1316745.978448963,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 45,
+    "OVERSUPPLY": 24,
+    "INEFFICIENT": 24
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 48.4,
+    "OVERSUPPLY": 25.8,
+    "INEFFICIENT": 25.8
+  },
+  "total_revenue": 1617621.1901613963,
+  "total_contribution": 648821.1901613963,
+  "total_planned_kms": 38752.0,
+  "depot_avg_epk": 41.656689067571634,
+  "depot_avg_or": 0.6624458068375184,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 88523.21890986628,
+    "OVERSUPPLY": 441387.3176282601,
+    "UNDERSUPPLY": 1087710.6536232699
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -138176.7810901337,
+    "OVERSUPPLY": 140212.3176282601,
+    "UNDERSUPPLY": 646785.6536232698
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "depot": "FALAKNUMA",
+  "target_date": "2026-05-23",
+  "predicted_depot_pkm": 1546234.625,
+  "total_services": 148,
+  "count_add_slot": 116,
+  "count_cut": 0,
+  "count_no_change": 32,
+  "total_allocated_pkm": 1407070.8147155887,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 116,
+    "INEFFICIENT": 29,
+    "OVERSUPPLY": 3
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 78.4,
+    "INEFFICIENT": 19.6,
+    "OVERSUPPLY": 2.0
+  },
+  "total_revenue": 1873263.0575192566,
+  "total_contribution": 1173113.0575192566,
+  "total_planned_kms": 28006.0,
+  "depot_avg_epk": 64.22835648848651,
+  "depot_avg_or": 1.0454192257459645,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 3263.5647763750967,
+    "OVERSUPPLY": 14238.181279734596,
+    "UNDERSUPPLY": 1855761.3114631467
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -100161.4352236249,
+    "OVERSUPPLY": 3838.1812797345956,
+    "UNDERSUPPLY": 1269436.3114631467
+  }
+}

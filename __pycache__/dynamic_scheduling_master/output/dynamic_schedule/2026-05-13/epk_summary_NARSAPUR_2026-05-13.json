@@ -1,0 +1,35 @@
+{
+  "depot": "NARSAPUR",
+  "target_date": "2026-05-13",
+  "predicted_depot_pkm": 657776.0,
+  "total_services": 35,
+  "count_add_slot": 19,
+  "count_cut": 2,
+  "count_no_change": 14,
+  "total_allocated_pkm": 636517.4599426793,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 22,
+    "INEFFICIENT": 7,
+    "OVERSUPPLY": 6
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 62.9,
+    "INEFFICIENT": 20.0,
+    "OVERSUPPLY": 17.1
+  },
+  "total_revenue": 715604.0145584133,
+  "total_contribution": 382254.01455841324,
+  "total_planned_kms": 13334.0,
+  "depot_avg_epk": 51.68697915925861,
+  "depot_avg_or": 0.8121961975495722,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 11510.568898721054,
+    "OVERSUPPLY": 91233.12357782749,
+    "UNDERSUPPLY": 612860.3220818647
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -44814.43110127895,
+    "OVERSUPPLY": 33858.123577827486,
+    "UNDERSUPPLY": 393210.32208186475
+  }
+}

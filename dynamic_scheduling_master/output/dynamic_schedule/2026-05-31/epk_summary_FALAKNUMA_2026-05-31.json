@@ -1,0 +1,130 @@
+{
+  "depot": "FALAKNUMA",
+  "target_date": "2026-05-31",
+  "predicted_depot_pkm": 1304197.0,
+  "total_services": 148,
+  "count_add_slot": 0,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 21,
+  "count_no_change": 127,
+  "total_allocated_pkm": 1229462.0661672242,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 107,
+    "INEFFICIENT": 30,
+    "OVERSUPPLY": 11
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 72.3,
+    "INEFFICIENT": 20.3,
+    "OVERSUPPLY": 7.4
+  },
+  "total_revenue": 1636548.3292815879,
+  "total_contribution": 936398.3292815879,
+  "total_planned_kms": 28006.0,
+  "depot_avg_epk": 56.00657827296925,
+  "depot_avg_or": 0.9112704005493452,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 9690.281660456698,
+    "OVERSUPPLY": 65605.21079676479,
+    "UNDERSUPPLY": 1561252.8368243664
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -97509.7183395433,
+    "OVERSUPPLY": 16730.21079676479,
+    "UNDERSUPPLY": 1017177.8368243664
+  },
+  "maintenance_pct": 0.12,
+  "pkm_90d_avg": 1406405.80357587,
+  "fleet_breakdown": {
+    "CO": {
+      "available": 79,
+      "planned": 71,
+      "cut": 0,
+      "maintenance": 9,
+      "spare": -1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 9
+    },
+    "FS": {
+      "available": 14,
+      "planned": 12,
+      "cut": 0,
+      "maintenance": 2,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 6
+    },
+    "MA": {
+      "available": 2,
+      "planned": 1,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "ME": {
+      "available": 10,
+      "planned": 9,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "MO": {
+      "available": 14,
+      "planned": 12,
+      "cut": 0,
+      "maintenance": 2,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PM": {
+      "available": 6,
+      "planned": 5,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "SN": {
+      "available": 9,
+      "planned": 8,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "SU": {
+      "available": 17,
+      "planned": 15,
+      "cut": 0,
+      "maintenance": 2,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 6
+    },
+    "VC": {
+      "available": 17,
+      "planned": 15,
+      "cut": 0,
+      "maintenance": 2,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "depot": "MUSHIRABAD",
+  "target_date": "2026-05-09",
+  "predicted_depot_pkm": 1553747.25,
+  "total_services": 201,
+  "count_add_slot": 163,
+  "count_cut": 0,
+  "count_no_change": 38,
+  "total_allocated_pkm": 1499705.457952138,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 169,
+    "INEFFICIENT": 27,
+    "OVERSUPPLY": 5
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 84.1,
+    "INEFFICIENT": 13.4,
+    "OVERSUPPLY": 2.5
+  },
+  "total_revenue": 2136518.7283806764,
+  "total_contribution": 1346968.7283806764,
+  "total_planned_kms": 31582.0,
+  "depot_avg_epk": 70.34352569882142,
+  "depot_avg_or": 1.0796171936352084,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 32943.481378057295,
+    "OVERSUPPLY": 25684.742664324407,
+    "UNDERSUPPLY": 2077890.5043382947
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -96381.5186219427,
+    "OVERSUPPLY": 7609.742664324407,
+    "UNDERSUPPLY": 1435740.5043382947
+  }
+}

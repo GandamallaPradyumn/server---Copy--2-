@@ -1,0 +1,110 @@
+{
+  "depot": "VEMULAWADA",
+  "target_date": "2026-05-31",
+  "predicted_depot_pkm": 1269587.625,
+  "total_services": 74,
+  "count_add_slot": 0,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 2,
+  "count_no_change": 72,
+  "total_allocated_pkm": 1235846.1049106694,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 48,
+    "OVERSUPPLY": 20,
+    "INEFFICIENT": 6
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 64.9,
+    "OVERSUPPLY": 27.0,
+    "INEFFICIENT": 8.1
+  },
+  "total_revenue": 1524008.706037958,
+  "total_contribution": 696208.7060379583,
+  "total_planned_kms": 33112.0,
+  "depot_avg_epk": 46.16492320292306,
+  "depot_avg_or": 0.7686191905221933,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 8970.056654796708,
+    "OVERSUPPLY": 337628.5008356273,
+    "UNDERSUPPLY": 1177410.1485475341
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -54929.94334520329,
+    "OVERSUPPLY": 99828.50083562733,
+    "UNDERSUPPLY": 651310.1485475341
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1272647.478443423,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 16,
+      "planned": 14,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "HT": {
+      "available": 2,
+      "planned": 1,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "IH": {
+      "available": 2,
+      "planned": 1,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 18,
+      "planned": 16,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PE": {
+      "available": 7,
+      "planned": 6,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PO": {
+      "available": 19,
+      "planned": 17,
+      "cut": 0,
+      "maintenance": 2,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "SL": {
+      "available": 21,
+      "planned": 19,
+      "cut": 0,
+      "maintenance": 2,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 2
+    }
+  }
+}

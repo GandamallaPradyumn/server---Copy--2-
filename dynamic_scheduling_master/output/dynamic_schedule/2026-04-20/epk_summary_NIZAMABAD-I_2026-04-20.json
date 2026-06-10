@@ -1,0 +1,35 @@
+{
+  "depot": "NIZAMABAD-I",
+  "target_date": "2026-04-20",
+  "predicted_depot_pkm": 1883762.875,
+  "total_services": 125,
+  "count_add_slot": 32,
+  "count_cut": 0,
+  "count_no_change": 93,
+  "total_allocated_pkm": 1531972.8534486226,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 59,
+    "OVERSUPPLY": 51,
+    "INEFFICIENT": 15
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 47.2,
+    "OVERSUPPLY": 40.8,
+    "INEFFICIENT": 12.0
+  },
+  "total_revenue": 2039637.0025961364,
+  "total_contribution": 1051913.0225961367,
+  "total_planned_kms": 51753.0,
+  "depot_avg_epk": 41.87697525363464,
+  "depot_avg_or": 0.6450592600904597,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 8614.915464582777,
+    "OVERSUPPLY": 823867.5431101568,
+    "UNDERSUPPLY": 1207154.5440213971
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -153610.26453541723,
+    "OVERSUPPLY": 421597.26311015675,
+    "UNDERSUPPLY": 783926.0240213971
+  }
+}

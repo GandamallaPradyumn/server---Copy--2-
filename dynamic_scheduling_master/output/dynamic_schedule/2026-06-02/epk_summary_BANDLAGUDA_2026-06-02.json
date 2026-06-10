@@ -1,0 +1,100 @@
+{
+  "depot": "BANDLAGUDA",
+  "target_date": "2026-06-02",
+  "predicted_depot_pkm": 1330431.125,
+  "total_services": 148,
+  "count_add_slot": 1,
+  "count_cut": 1,
+  "count_add_candidates_no_spare": 51,
+  "count_no_change": 95,
+  "total_allocated_pkm": 1311364.0026632578,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 138,
+    "INEFFICIENT": 7,
+    "OVERSUPPLY": 3
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 93.2,
+    "INEFFICIENT": 4.7,
+    "OVERSUPPLY": 2.0
+  },
+  "total_revenue": 1789567.7489367095,
+  "total_contribution": 1139202.7489367095,
+  "total_planned_kms": 26014.6,
+  "depot_avg_epk": 70.69128795600176,
+  "depot_avg_or": 1.1277828506530612,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 1685.8561089828213,
+    "OVERSUPPLY": 16273.44563321946,
+    "UNDERSUPPLY": 1771608.447194507
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -49089.14389101718,
+    "OVERSUPPLY": 5598.445633219461,
+    "UNDERSUPPLY": 1182693.447194507
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1288050.4423533592,
+  "fleet_breakdown": {
+    "CO": {
+      "available": 33,
+      "planned": 30.0,
+      "cut": 0.5,
+      "maintenance": 3,
+      "spare": 0.5,
+      "estimated": true,
+      "added": 0,
+      "to_add": 33
+    },
+    "FS": {
+      "available": 22,
+      "planned": 20.0,
+      "cut": 0.0,
+      "maintenance": 2,
+      "spare": 0.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 10
+    },
+    "ME": {
+      "available": 10,
+      "planned": 8.5,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 0.5,
+      "estimated": true,
+      "added": 0,
+      "to_add": 4
+    },
+    "PS": {
+      "available": 6,
+      "planned": 5.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "SU": {
+      "available": 24,
+      "planned": 21.0,
+      "cut": 0.0,
+      "maintenance": 2,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 1,
+      "to_add": 5
+    },
+    "VR": {
+      "available": 6,
+      "planned": 5.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "depot": "MANTHANI",
+  "target_date": "2026-05-21",
+  "predicted_depot_pkm": 997841.75,
+  "total_services": 50,
+  "count_add_slot": 20,
+  "count_cut": 2,
+  "count_no_change": 28,
+  "total_allocated_pkm": 887277.075322183,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 31,
+    "OVERSUPPLY": 15,
+    "INEFFICIENT": 4
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 62.0,
+    "OVERSUPPLY": 30.0,
+    "INEFFICIENT": 8.0
+  },
+  "total_revenue": 1125596.3111822258,
+  "total_contribution": 542046.3111822257,
+  "total_planned_kms": 23342.0,
+  "depot_avg_epk": 47.932351710429884,
+  "depot_avg_or": 0.7641771738353941,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 7566.515635671436,
+    "OVERSUPPLY": 258972.98419823105,
+    "UNDERSUPPLY": 859056.8113483234
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -34083.484364328564,
+    "OVERSUPPLY": 76922.98419823105,
+    "UNDERSUPPLY": 499206.81134832336
+  }
+}

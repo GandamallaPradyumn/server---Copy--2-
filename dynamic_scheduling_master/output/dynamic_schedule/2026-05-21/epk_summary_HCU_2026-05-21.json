@@ -1,0 +1,35 @@
+{
+  "depot": "HCU",
+  "target_date": "2026-05-21",
+  "predicted_depot_pkm": 1400277.375,
+  "total_services": 138,
+  "count_add_slot": 120,
+  "count_cut": 0,
+  "count_no_change": 18,
+  "total_allocated_pkm": 1314179.7131900808,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 124,
+    "INEFFICIENT": 9,
+    "OVERSUPPLY": 5
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 89.9,
+    "INEFFICIENT": 6.5,
+    "OVERSUPPLY": 3.6
+  },
+  "total_revenue": 1822708.0641028802,
+  "total_contribution": 1115010.3141028802,
+  "total_planned_kms": 28307.910000000003,
+  "depot_avg_epk": 63.67577185444428,
+  "depot_avg_or": 1.3430290994286314,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 14240.611288981429,
+    "OVERSUPPLY": 28753.603110665746,
+    "UNDERSUPPLY": 1779713.8497032332
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -23479.38871101857,
+    "OVERSUPPLY": 5555.8531106657465,
+    "UNDERSUPPLY": 1132933.8497032332
+  }
+}

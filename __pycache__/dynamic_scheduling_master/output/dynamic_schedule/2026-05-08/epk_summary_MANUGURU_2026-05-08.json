@@ -1,0 +1,35 @@
+{
+  "depot": "MANUGURU",
+  "target_date": "2026-05-08",
+  "predicted_depot_pkm": 1475589.0,
+  "total_services": 81,
+  "count_add_slot": 30,
+  "count_cut": 1,
+  "count_no_change": 50,
+  "total_allocated_pkm": 1337784.5295498485,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 44,
+    "OVERSUPPLY": 29,
+    "INEFFICIENT": 8
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 54.3,
+    "OVERSUPPLY": 35.8,
+    "INEFFICIENT": 9.9
+  },
+  "total_revenue": 1734944.6302608522,
+  "total_contribution": 728294.630260852,
+  "total_planned_kms": 40266.0,
+  "depot_avg_epk": 46.62574653591994,
+  "depot_avg_or": 0.6952296712997089,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 42010.203548387675,
+    "OVERSUPPLY": 612935.5031905603,
+    "UNDERSUPPLY": 1079998.923521904
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -81764.79645161232,
+    "OVERSUPPLY": 176710.5031905603,
+    "UNDERSUPPLY": 633348.9235219042
+  }
+}

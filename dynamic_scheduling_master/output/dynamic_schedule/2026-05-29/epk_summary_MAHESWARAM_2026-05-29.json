@@ -1,0 +1,96 @@
+{
+  "depot": "MAHESWARAM",
+  "target_date": "2026-05-29",
+  "predicted_depot_pkm": 1242717.875,
+  "total_services": 80,
+  "count_add_slot": 5,
+  "count_cut": 1,
+  "count_add_candidates_no_spare": 0,
+  "count_no_change": 74,
+  "total_allocated_pkm": 1206219.0559584224,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 68,
+    "OVERSUPPLY": 12
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 85.0,
+    "OVERSUPPLY": 15.0
+  },
+  "total_revenue": 1581303.075971663,
+  "total_contribution": 945305.075971663,
+  "total_planned_kms": 25439.920000000002,
+  "depot_avg_epk": 60.2487368271061,
+  "depot_avg_or": 0.9992771432572074,
+  "revenue_by_quadrant": {
+    "OVERSUPPLY": 94151.27649316308,
+    "UNDERSUPPLY": 1487151.7994785
+  },
+  "contribution_by_quadrant": {
+    "OVERSUPPLY": 24951.276493163074,
+    "UNDERSUPPLY": 920353.7994785
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 857466.3985798974,
+  "fleet_breakdown": {
+    "CO": {
+      "available": 2,
+      "planned": 1,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "MO": {
+      "available": 62,
+      "planned": 56,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 5,
+      "estimated": true,
+      "added": 5,
+      "to_add": 5
+    },
+    "PM": {
+      "available": 11,
+      "planned": 10,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PS": {
+      "available": 3,
+      "planned": 2,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "SN": {
+      "available": 2,
+      "planned": 1,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "SU": {
+      "available": 11,
+      "planned": 10,
+      "cut": 1,
+      "maintenance": 0,
+      "spare": 2,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

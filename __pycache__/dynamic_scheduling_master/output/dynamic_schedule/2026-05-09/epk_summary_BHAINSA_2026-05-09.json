@@ -1,0 +1,35 @@
+{
+  "depot": "BHAINSA",
+  "target_date": "2026-05-09",
+  "predicted_depot_pkm": 1411453.375,
+  "total_services": 73,
+  "count_add_slot": 50,
+  "count_cut": 0,
+  "count_no_change": 23,
+  "total_allocated_pkm": 1351700.340457234,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 56,
+    "OVERSUPPLY": 9,
+    "INEFFICIENT": 8
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 76.7,
+    "OVERSUPPLY": 12.3,
+    "INEFFICIENT": 11.0
+  },
+  "total_revenue": 1510196.3943595737,
+  "total_contribution": 780696.3943595738,
+  "total_planned_kms": 29180.0,
+  "depot_avg_epk": 51.66331598212706,
+  "depot_avg_or": 0.8651208059367836,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 43299.52794820998,
+    "OVERSUPPLY": 138195.29496384374,
+    "UNDERSUPPLY": 1328701.57144752
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -31050.47205179002,
+    "OVERSUPPLY": 44445.294963843735,
+    "UNDERSUPPLY": 767301.57144752
+  }
+}

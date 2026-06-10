@@ -1,0 +1,35 @@
+{
+  "depot": "KHAMMAM",
+  "target_date": "2026-05-17",
+  "predicted_depot_pkm": 2322937.75,
+  "total_services": 147,
+  "count_add_slot": 37,
+  "count_cut": 2,
+  "count_no_change": 108,
+  "total_allocated_pkm": 2023079.1817914122,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 78,
+    "OVERSUPPLY": 51,
+    "INEFFICIENT": 18
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 53.1,
+    "OVERSUPPLY": 34.7,
+    "INEFFICIENT": 12.2
+  },
+  "total_revenue": 2751473.44976835,
+  "total_contribution": 1157373.44976835,
+  "total_planned_kms": 63764.0,
+  "depot_avg_epk": 43.68979154310973,
+  "depot_avg_or": 0.6869318458755574,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 97574.45427218551,
+    "OVERSUPPLY": 916965.8762376108,
+    "UNDERSUPPLY": 1736933.1192585535
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -121225.54572781449,
+    "OVERSUPPLY": 360865.8762376109,
+    "UNDERSUPPLY": 917733.1192585535
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "depot": "NAGARKURNOOL",
+  "target_date": "2026-05-26",
+  "predicted_depot_pkm": 1601879.375,
+  "total_services": 79,
+  "count_add_slot": 56,
+  "count_cut": 0,
+  "count_no_change": 23,
+  "total_allocated_pkm": 1542813.8596967414,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 66,
+    "OVERSUPPLY": 8,
+    "INEFFICIENT": 5
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 83.5,
+    "OVERSUPPLY": 10.1,
+    "INEFFICIENT": 6.3
+  },
+  "total_revenue": 1762683.4117475601,
+  "total_contribution": 929283.4117475603,
+  "total_planned_kms": 33336.0,
+  "depot_avg_epk": 52.81311326330786,
+  "depot_avg_or": 0.8831924024110434,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 29336.411054922566,
+    "OVERSUPPLY": 175478.85815902828,
+    "UNDERSUPPLY": 1557868.1425336094
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -11363.588945077434,
+    "OVERSUPPLY": 62728.85815902827,
+    "UNDERSUPPLY": 877918.1425336094
+  }
+}

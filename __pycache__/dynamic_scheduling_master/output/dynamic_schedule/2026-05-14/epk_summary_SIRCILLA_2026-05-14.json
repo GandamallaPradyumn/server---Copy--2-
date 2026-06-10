@@ -1,0 +1,35 @@
+{
+  "depot": "SIRCILLA",
+  "target_date": "2026-05-14",
+  "predicted_depot_pkm": 1194111.75,
+  "total_services": 65,
+  "count_add_slot": 30,
+  "count_cut": 2,
+  "count_no_change": 33,
+  "total_allocated_pkm": 1093636.3593141783,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 45,
+    "OVERSUPPLY": 15,
+    "INEFFICIENT": 5
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 69.2,
+    "OVERSUPPLY": 23.1,
+    "INEFFICIENT": 7.7
+  },
+  "total_revenue": 1341338.910031616,
+  "total_contribution": 635513.9100316162,
+  "total_planned_kms": 28233.0,
+  "depot_avg_epk": 47.74082084403898,
+  "depot_avg_or": 0.7760928964131408,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 19806.733007411483,
+    "OVERSUPPLY": 220929.14081724163,
+    "UNDERSUPPLY": 1100603.036206963
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -31668.266992588517,
+    "OVERSUPPLY": 45554.14081724163,
+    "UNDERSUPPLY": 621628.0362069631
+  }
+}

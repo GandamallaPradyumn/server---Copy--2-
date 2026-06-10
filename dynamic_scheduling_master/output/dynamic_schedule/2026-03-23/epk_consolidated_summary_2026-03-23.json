@@ -1,0 +1,702 @@
+{
+  "ARMOOR": {
+    "depot": "ARMOOR",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 1492102.25,
+    "total_services": 90,
+    "count_add_slot": 34,
+    "count_cut": 2,
+    "count_no_change": 54,
+    "total_allocated_pkm": 1344481.7907465177,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 54,
+      "OVERSUPPLY": 29,
+      "INEFFICIENT": 7
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 60.0,
+      "OVERSUPPLY": 32.2,
+      "INEFFICIENT": 7.8
+    },
+    "total_revenue": 1655551.3690854965,
+    "total_contribution": 974582.1690854966,
+    "total_planned_kms": 36987.0,
+    "depot_avg_epk": 45.68093718406851,
+    "depot_avg_or": 0.7441740456236532,
+    "revenue_by_quadrant": {
+      "INEFFICIENT": 24567.324064557546,
+      "OVERSUPPLY": 460973.53714407876,
+      "UNDERSUPPLY": 1170010.5078768602
+    },
+    "contribution_by_quadrant": {
+      "INEFFICIENT": -25692.995935442454,
+      "OVERSUPPLY": 199577.4771440788,
+      "UNDERSUPPLY": 800697.6878768601
+    }
+  },
+  "BANSWADA": {
+    "depot": "BANSWADA",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 1706185.75,
+    "total_services": 92,
+    "count_add_slot": 48,
+    "count_cut": 0,
+    "count_no_change": 44,
+    "total_allocated_pkm": 1608077.5835180953,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 67,
+      "OVERSUPPLY": 19,
+      "INEFFICIENT": 6
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 72.8,
+      "OVERSUPPLY": 20.7,
+      "INEFFICIENT": 6.5
+    },
+    "total_revenue": 1931679.9303893582,
+    "total_contribution": 1228308.7403893583,
+    "total_planned_kms": 37832.0,
+    "depot_avg_epk": 50.06392874417868,
+    "depot_avg_or": 0.8064780420302285,
+    "revenue_by_quadrant": {
+      "INEFFICIENT": 6090.306992068887,
+      "OVERSUPPLY": 227476.02709352813,
+      "UNDERSUPPLY": 1698113.5963037612
+    },
+    "contribution_by_quadrant": {
+      "INEFFICIENT": -38624.343007931115,
+      "OVERSUPPLY": 97256.24709352812,
+      "UNDERSUPPLY": 1169676.8363037612
+    }
+  },
+  "BHUPALAPALLAY": {
+    "depot": "BHUPALAPALLAY",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 1648697.875,
+    "total_services": 86,
+    "count_add_slot": 42,
+    "count_cut": 0,
+    "count_no_change": 44,
+    "total_allocated_pkm": 1602810.9783808766,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 62,
+      "OVERSUPPLY": 17,
+      "INEFFICIENT": 7
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 72.1,
+      "OVERSUPPLY": 19.8,
+      "INEFFICIENT": 8.1
+    },
+    "total_revenue": 2024409.595778308,
+    "total_contribution": 1187693.215778308,
+    "total_planned_kms": 40068.0,
+    "depot_avg_epk": 50.231613466407126,
+    "depot_avg_or": 0.7977055991737948,
+    "revenue_by_quadrant": {
+      "INEFFICIENT": 26927.54343463016,
+      "OVERSUPPLY": 281202.8093013017,
+      "UNDERSUPPLY": 1716279.2430423764
+    },
+    "contribution_by_quadrant": {
+      "INEFFICIENT": -35172.776565369844,
+      "OVERSUPPLY": 133233.5093013017,
+      "UNDERSUPPLY": 1089632.4830423763
+    }
+  },
+  "BODHAN": {
+    "depot": "BODHAN",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 1866605.625,
+    "total_services": 101,
+    "count_add_slot": 49,
+    "count_cut": 1,
+    "count_no_change": 51,
+    "total_allocated_pkm": 1692129.2752806908,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 65,
+      "OVERSUPPLY": 27,
+      "INEFFICIENT": 9
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 64.4,
+      "OVERSUPPLY": 26.7,
+      "INEFFICIENT": 8.9
+    },
+    "total_revenue": 2135789.1536002383,
+    "total_contribution": 1199800.7936002384,
+    "total_planned_kms": 49952.0,
+    "depot_avg_epk": 46.9615791937464,
+    "depot_avg_or": 0.7709652684191226,
+    "revenue_by_quadrant": {
+      "INEFFICIENT": 43328.91458495144,
+      "OVERSUPPLY": 617417.4549330936,
+      "UNDERSUPPLY": 1475042.7840821936
+    },
+    "contribution_by_quadrant": {
+      "INEFFICIENT": -90790.13541504856,
+      "OVERSUPPLY": 278267.57493309357,
+      "UNDERSUPPLY": 1012323.3540821936
+    }
+  },
+  "CONTONMENT": {
+    "depot": "CONTONMENT",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 1883522.25,
+    "total_services": 280,
+    "count_add_slot": 141,
+    "count_cut": 0,
+    "count_no_change": 139,
+    "total_allocated_pkm": 1687259.678034712,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 168,
+      "OVERSUPPLY": 79,
+      "INEFFICIENT": 32,
+      "SOCIAL_OBLIGATION": 1
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 60.0,
+      "OVERSUPPLY": 28.2,
+      "INEFFICIENT": 11.4,
+      "SOCIAL_OBLIGATION": 0.4
+    },
+    "total_revenue": 2627971.919604821,
+    "total_contribution": 1166773.2346048215,
+    "total_planned_kms": 46119.0,
+    "depot_avg_epk": 60.359212793356825,
+    "depot_avg_or": 0.8821735781092728,
+    "revenue_by_quadrant": {
+      "INEFFICIENT": 98405.58790847653,
+      "OVERSUPPLY": 573322.9981642986,
+      "SOCIAL_OBLIGATION": 6644.306071917377,
+      "UNDERSUPPLY": 1949599.027460129
+    },
+    "contribution_by_quadrant": {
+      "INEFFICIENT": -193245.31709152347,
+      "OVERSUPPLY": 181205.25816429858,
+      "SOCIAL_OBLIGATION": -361.59392808262237,
+      "UNDERSUPPLY": 1179174.8874601289
+    }
+  },
+  "HAKIMPET": {
+    "depot": "HAKIMPET",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 1456176.0,
+    "total_services": 147,
+    "count_add_slot": 45,
+    "count_cut": 0,
+    "count_no_change": 102,
+    "total_allocated_pkm": 1391614.605743202,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 119,
+      "OVERSUPPLY": 28
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 81.0,
+      "OVERSUPPLY": 19.0
+    },
+    "total_revenue": 1873358.6785334295,
+    "total_contribution": 1064623.3685334297,
+    "total_planned_kms": 30757.0,
+    "depot_avg_epk": 61.265771836121104,
+    "depot_avg_or": 0.8290549886073487,
+    "revenue_by_quadrant": {
+      "OVERSUPPLY": 297239.811805445,
+      "UNDERSUPPLY": 1576118.8667279845
+    },
+    "contribution_by_quadrant": {
+      "OVERSUPPLY": 141899.101805445,
+      "UNDERSUPPLY": 922724.2667279844
+    }
+  },
+  "HANAMKONDA": {
+    "depot": "HANAMKONDA",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 2267891.0,
+    "total_services": 169,
+    "count_add_slot": 68,
+    "count_cut": 0,
+    "count_no_change": 101,
+    "total_allocated_pkm": 2160800.913918068,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 105,
+      "OVERSUPPLY": 56,
+      "INEFFICIENT": 7,
+      "SOCIAL_OBLIGATION": 1
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 62.1,
+      "OVERSUPPLY": 33.1,
+      "INEFFICIENT": 4.1,
+      "SOCIAL_OBLIGATION": 0.6
+    },
+    "total_revenue": 2664304.5532564647,
+    "total_contribution": 1171762.0432564649,
+    "total_planned_kms": 53984.0,
+    "depot_avg_epk": 55.474836890349444,
+    "depot_avg_or": 0.7902553283071384,
+    "revenue_by_quadrant": {
+      "INEFFICIENT": 75395.70876372604,
+      "OVERSUPPLY": 845341.7469220487,
+      "SOCIAL_OBLIGATION": 15500.91046795057,
+      "UNDERSUPPLY": 1728066.1871027395
+    },
+    "contribution_by_quadrant": {
+      "INEFFICIENT": -18390.09123627397,
+      "OVERSUPPLY": 401332.17692204873,
+      "SOCIAL_OBLIGATION": -303.4795320494304,
+      "UNDERSUPPLY": 789123.4371027395
+    }
+  },
+  "HYDERABAD-I": {
+    "depot": "HYDERABAD-I",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 1939979.75,
+    "total_services": 112,
+    "count_add_slot": 50,
+    "count_cut": 2,
+    "count_no_change": 60,
+    "total_allocated_pkm": 1839463.6978561934,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 64,
+      "OVERSUPPLY": 44,
+      "INEFFICIENT": 4
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 57.1,
+      "OVERSUPPLY": 39.3,
+      "INEFFICIENT": 3.6
+    },
+    "total_revenue": 2693056.0241051693,
+    "total_contribution": 1472334.7841051694,
+    "total_planned_kms": 56941.0,
+    "depot_avg_epk": 50.73226378442173,
+    "depot_avg_or": 0.780187399407423,
+    "revenue_by_quadrant": {
+      "INEFFICIENT": 57670.073834906056,
+      "OVERSUPPLY": 961741.6930295227,
+      "UNDERSUPPLY": 1673644.2572407406
+    },
+    "contribution_by_quadrant": {
+      "INEFFICIENT": -17162.666165093935,
+      "OVERSUPPLY": 346967.23302952264,
+      "UNDERSUPPLY": 1142530.2172407405
+    }
+  },
+  "HYDERABAD-II": {
+    "depot": "HYDERABAD-II",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 1683949.75,
+    "total_services": 94,
+    "count_add_slot": 50,
+    "count_cut": 0,
+    "count_no_change": 44,
+    "total_allocated_pkm": 1637713.8960071793,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 63,
+      "OVERSUPPLY": 29,
+      "INEFFICIENT": 2
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 67.0,
+      "OVERSUPPLY": 30.9,
+      "INEFFICIENT": 2.1
+    },
+    "total_revenue": 2238056.7178208902,
+    "total_contribution": 1414355.2178208902,
+    "total_planned_kms": 44645.0,
+    "depot_avg_epk": 53.64755738984064,
+    "depot_avg_or": 0.8539854022297508,
+    "revenue_by_quadrant": {
+      "INEFFICIENT": 29035.48967306038,
+      "OVERSUPPLY": 579620.5814408698,
+      "UNDERSUPPLY": 1629400.6467069604
+    },
+    "contribution_by_quadrant": {
+      "INEFFICIENT": -2457.7103269396157,
+      "OVERSUPPLY": 263844.1614408698,
+      "UNDERSUPPLY": 1152968.7667069603
+    }
+  },
+  "IBRAHIMPATNAM": {
+    "depot": "IBRAHIMPATNAM",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 2088003.125,
+    "total_services": 189,
+    "count_add_slot": 81,
+    "count_cut": 0,
+    "count_no_change": 108,
+    "total_allocated_pkm": 2005047.8974883081,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 140,
+      "OVERSUPPLY": 49
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 74.1,
+      "OVERSUPPLY": 25.9
+    },
+    "total_revenue": 2682771.1204555305,
+    "total_contribution": 1803706.3404555304,
+    "total_planned_kms": 44803.0,
+    "depot_avg_epk": 61.43558572928632,
+    "depot_avg_or": 0.8166919974262468,
+    "revenue_by_quadrant": {
+      "OVERSUPPLY": 540064.977702097,
+      "UNDERSUPPLY": 2142706.1427534334
+    },
+    "contribution_by_quadrant": {
+      "OVERSUPPLY": 285231.377702097,
+      "UNDERSUPPLY": 1518474.9627534335
+    }
+  },
+  "JANGAON": {
+    "depot": "JANGAON",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 2481577.0,
+    "total_services": 115,
+    "count_add_slot": 70,
+    "count_cut": 1,
+    "count_no_change": 44,
+    "total_allocated_pkm": 2296333.366254933,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 102,
+      "OVERSUPPLY": 10,
+      "INEFFICIENT": 3
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 88.7,
+      "OVERSUPPLY": 8.7,
+      "INEFFICIENT": 2.6
+    },
+    "total_revenue": 2660880.6303329826,
+    "total_contribution": 1876002.9503329836,
+    "total_planned_kms": 49455.0,
+    "depot_avg_epk": 53.80967132179815,
+    "depot_avg_or": 0.8980074126668895,
+    "revenue_by_quadrant": {
+      "INEFFICIENT": 12467.654171467699,
+      "OVERSUPPLY": 178640.11348221984,
+      "UNDERSUPPLY": 2469772.862679296
+    },
+    "contribution_by_quadrant": {
+      "INEFFICIENT": -8083.625828532304,
+      "OVERSUPPLY": 95527.92348221982,
+      "UNDERSUPPLY": 1788558.652679296
+    }
+  },
+  "KARIMNAGAR-I": {
+    "depot": "KARIMNAGAR-I",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 1860089.375,
+    "total_services": 108,
+    "count_add_slot": 45,
+    "count_cut": 2,
+    "count_no_change": 61,
+    "total_allocated_pkm": 1761516.7600278303,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 69,
+      "OVERSUPPLY": 35,
+      "INEFFICIENT": 4
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 63.9,
+      "OVERSUPPLY": 32.4,
+      "INEFFICIENT": 3.7
+    },
+    "total_revenue": 2201055.7194035156,
+    "total_contribution": 1063523.959403516,
+    "total_planned_kms": 47350.0,
+    "depot_avg_epk": 47.79812379923765,
+    "depot_avg_or": 0.7711576975760507,
+    "revenue_by_quadrant": {
+      "INEFFICIENT": 42604.536485326564,
+      "OVERSUPPLY": 666899.3248090686,
+      "UNDERSUPPLY": 1491551.8581091207
+    },
+    "contribution_by_quadrant": {
+      "INEFFICIENT": -24531.063514673435,
+      "OVERSUPPLY": 308068.84480906866,
+      "UNDERSUPPLY": 779986.1781091209
+    }
+  },
+  "KUKATPALLY": {
+    "depot": "KUKATPALLY",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 1774190.75,
+    "total_services": 204,
+    "count_add_slot": 94,
+    "count_cut": 0,
+    "count_no_change": 110,
+    "total_allocated_pkm": 1670514.21265348,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 139,
+      "OVERSUPPLY": 57,
+      "INEFFICIENT": 8
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 68.1,
+      "OVERSUPPLY": 27.9,
+      "INEFFICIENT": 3.9
+    },
+    "total_revenue": 2284051.169019605,
+    "total_contribution": 1492802.669019605,
+    "total_planned_kms": 38029.0,
+    "depot_avg_epk": 60.54515698655245,
+    "depot_avg_or": 0.8235920373198077,
+    "revenue_by_quadrant": {
+      "INEFFICIENT": 22526.38521586106,
+      "OVERSUPPLY": 368260.81777031056,
+      "UNDERSUPPLY": 1893263.9660334333
+    },
+    "contribution_by_quadrant": {
+      "INEFFICIENT": -19181.81478413894,
+      "OVERSUPPLY": 178173.31777031053,
+      "UNDERSUPPLY": 1333811.1660334333
+    }
+  },
+  "MAHABOOBABAD": {
+    "depot": "MAHABOOBABAD",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 1468095.0,
+    "total_services": 76,
+    "count_add_slot": 48,
+    "count_cut": 3,
+    "count_no_change": 25,
+    "total_allocated_pkm": 1407175.53881522,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 61,
+      "OVERSUPPLY": 11,
+      "INEFFICIENT": 4
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 80.3,
+      "OVERSUPPLY": 14.5,
+      "INEFFICIENT": 5.3
+    },
+    "total_revenue": 1630386.61322773,
+    "total_contribution": 1071898.8232277299,
+    "total_planned_kms": 31066.0,
+    "depot_avg_epk": 51.841982884590486,
+    "depot_avg_or": 0.8627250418476959,
+    "revenue_by_quadrant": {
+      "INEFFICIENT": 2873.355437953078,
+      "OVERSUPPLY": 161438.45033836144,
+      "UNDERSUPPLY": 1466074.8074514153
+    },
+    "contribution_by_quadrant": {
+      "INEFFICIENT": -23029.94456204692,
+      "OVERSUPPLY": 76478.54033836143,
+      "UNDERSUPPLY": 1018450.2274514154
+    }
+  },
+  "NARSAMPET": {
+    "depot": "NARSAMPET",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 2025807.875,
+    "total_services": 94,
+    "count_add_slot": 65,
+    "count_cut": 4,
+    "count_no_change": 25,
+    "total_allocated_pkm": 1957477.802439075,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 76,
+      "OVERSUPPLY": 12,
+      "INEFFICIENT": 6
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 80.9,
+      "OVERSUPPLY": 12.8,
+      "INEFFICIENT": 6.4
+    },
+    "total_revenue": 2334461.771712983,
+    "total_contribution": 1462569.5717129826,
+    "total_planned_kms": 40599.0,
+    "depot_avg_epk": 57.60383552002039,
+    "depot_avg_or": 0.953753532711038,
+    "revenue_by_quadrant": {
+      "INEFFICIENT": 35333.5329962936,
+      "OVERSUPPLY": 167214.67274797245,
+      "UNDERSUPPLY": 2131913.5659687165
+    },
+    "contribution_by_quadrant": {
+      "INEFFICIENT": -15940.1470037064,
+      "OVERSUPPLY": 69152.97274797247,
+      "UNDERSUPPLY": 1409356.7459687167
+    }
+  },
+  "NIZAMABAD-I": {
+    "depot": "NIZAMABAD-I",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 1819181.0,
+    "total_services": 125,
+    "count_add_slot": 37,
+    "count_cut": 0,
+    "count_no_change": 88,
+    "total_allocated_pkm": 1588162.8249415664,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 59,
+      "OVERSUPPLY": 54,
+      "INEFFICIENT": 12
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 47.2,
+      "OVERSUPPLY": 43.2,
+      "INEFFICIENT": 9.6
+    },
+    "total_revenue": 2094410.8954079563,
+    "total_contribution": 1106686.9154079563,
+    "total_planned_kms": 51753.0,
+    "depot_avg_epk": 42.81553264795842,
+    "depot_avg_or": 0.6632885886162866,
+    "revenue_by_quadrant": {
+      "INEFFICIENT": 37099.12267454777,
+      "OVERSUPPLY": 843255.0493254244,
+      "UNDERSUPPLY": 1214056.7234079842
+    },
+    "contribution_by_quadrant": {
+      "INEFFICIENT": -99400.55732545223,
+      "OVERSUPPLY": 415041.8493254244,
+      "UNDERSUPPLY": 791045.6234079842
+    }
+  },
+  "PARKAL": {
+    "depot": "PARKAL",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 1469799.625,
+    "total_services": 79,
+    "count_add_slot": 39,
+    "count_cut": 2,
+    "count_no_change": 38,
+    "total_allocated_pkm": 1400167.6681276436,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 59,
+      "OVERSUPPLY": 15,
+      "INEFFICIENT": 5
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 74.7,
+      "OVERSUPPLY": 19.0,
+      "INEFFICIENT": 6.3
+    },
+    "total_revenue": 1668791.2526342503,
+    "total_contribution": 941776.0426342506,
+    "total_planned_kms": 34127.0,
+    "depot_avg_epk": 48.77702808947882,
+    "depot_avg_or": 0.7963908298709576,
+    "revenue_by_quadrant": {
+      "INEFFICIENT": 19920.499965708234,
+      "OVERSUPPLY": 229778.75565272788,
+      "UNDERSUPPLY": 1419091.9970158143
+    },
+    "contribution_by_quadrant": {
+      "INEFFICIENT": -18078.040034291764,
+      "OVERSUPPLY": 90897.05565272787,
+      "UNDERSUPPLY": 868957.0270158144
+    }
+  },
+  "THORROR": {
+    "depot": "THORROR",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 2098386.75,
+    "total_services": 94,
+    "count_add_slot": 72,
+    "count_cut": 1,
+    "count_no_change": 21,
+    "total_allocated_pkm": 2027077.3938222341,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 84,
+      "OVERSUPPLY": 9,
+      "INEFFICIENT": 1
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 89.4,
+      "OVERSUPPLY": 9.6,
+      "INEFFICIENT": 1.1
+    },
+    "total_revenue": 2518466.543847239,
+    "total_contribution": 1580735.7738472393,
+    "total_planned_kms": 40942.0,
+    "depot_avg_epk": 61.64005225166969,
+    "depot_avg_or": 0.9818950433018057,
+    "revenue_by_quadrant": {
+      "INEFFICIENT": 0.0,
+      "OVERSUPPLY": 140101.70655180447,
+      "UNDERSUPPLY": 2378364.837295435
+    },
+    "contribution_by_quadrant": {
+      "INEFFICIENT": -10353.57,
+      "OVERSUPPLY": 67941.16655180446,
+      "UNDERSUPPLY": 1523148.1772954348
+    }
+  },
+  "WARANGAL-I": {
+    "depot": "WARANGAL-I",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 2197841.75,
+    "total_services": 132,
+    "count_add_slot": 28,
+    "count_cut": 2,
+    "count_no_change": 102,
+    "total_allocated_pkm": 2002859.181833346,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 72,
+      "OVERSUPPLY": 52,
+      "INEFFICIENT": 8
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 54.5,
+      "OVERSUPPLY": 39.4,
+      "INEFFICIENT": 6.1
+    },
+    "total_revenue": 2936781.3130379664,
+    "total_contribution": 1393750.7330379668,
+    "total_planned_kms": 68078.0,
+    "depot_avg_epk": 44.85634617249088,
+    "depot_avg_or": 0.695621486876418,
+    "revenue_by_quadrant": {
+      "INEFFICIENT": 39521.602218569125,
+      "OVERSUPPLY": 1336546.9641074496,
+      "UNDERSUPPLY": 1560712.7467119477
+    },
+    "contribution_by_quadrant": {
+      "INEFFICIENT": -33867.03778143088,
+      "OVERSUPPLY": 599174.2641074497,
+      "UNDERSUPPLY": 828443.5067119478
+    }
+  },
+  "WARANGAL-II": {
+    "depot": "WARANGAL-II",
+    "target_date": "2026-03-23",
+    "predicted_depot_pkm": 3054249.75,
+    "total_services": 158,
+    "count_add_slot": 53,
+    "count_cut": 5,
+    "count_no_change": 100,
+    "total_allocated_pkm": 2833200.61105835,
+    "quadrant_counts": {
+      "UNDERSUPPLY": 97,
+      "INEFFICIENT": 31,
+      "OVERSUPPLY": 30
+    },
+    "quadrant_pcts": {
+      "UNDERSUPPLY": 61.4,
+      "INEFFICIENT": 19.6,
+      "OVERSUPPLY": 19.0
+    },
+    "total_revenue": 3738184.8684123857,
+    "total_contribution": 784824.308412386,
+    "total_planned_kms": 75884.0,
+    "depot_avg_epk": 49.62599785671336,
+    "depot_avg_or": 0.7460272098521508,
+    "revenue_by_quadrant": {
+      "INEFFICIENT": 418318.1748363819,
+      "OVERSUPPLY": 658654.2052581414,
+      "UNDERSUPPLY": 2661212.4883178626
+    },
+    "contribution_by_quadrant": {
+      "INEFFICIENT": -222050.62516361804,
+      "OVERSUPPLY": 65488.365258141355,
+      "UNDERSUPPLY": 941386.5683178626
+    }
+  }
+}

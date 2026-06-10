@@ -1,0 +1,100 @@
+{
+  "depot": "DUBBAKA",
+  "target_date": "2026-05-28",
+  "predicted_depot_pkm": 1161453.625,
+  "total_services": 41,
+  "count_add_slot": 3,
+  "count_cut": 6,
+  "count_add_candidates_no_spare": 2,
+  "count_no_change": 30,
+  "total_allocated_pkm": 1024185.2088776303,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 31,
+    "INEFFICIENT": 8,
+    "OVERSUPPLY": 2
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 75.6,
+    "INEFFICIENT": 19.5,
+    "OVERSUPPLY": 4.9
+  },
+  "total_revenue": 1208796.8535936344,
+  "total_contribution": 782196.8535936346,
+  "total_planned_kms": 17064.0,
+  "depot_avg_epk": 68.00444827823371,
+  "depot_avg_or": 1.0504349150043144,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 0.0,
+    "OVERSUPPLY": 25300.099245630558,
+    "UNDERSUPPLY": 1183496.754348004
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -64100.0,
+    "OVERSUPPLY": 4450.099245630558,
+    "UNDERSUPPLY": 841846.754348004
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 681438.8408046666,
+  "fleet_breakdown": {
+    "BB": {
+      "available": 5,
+      "planned": 4,
+      "cut": 4,
+      "maintenance": 0,
+      "spare": 5,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "EXP": {
+      "available": 13,
+      "planned": 11,
+      "cut": 2,
+      "maintenance": 0,
+      "spare": 4,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "H-EXP": {
+      "available": 5,
+      "planned": 4,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "H-PVG": {
+      "available": 5,
+      "planned": 4,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 1,
+      "to_add": 2
+    },
+    "I-SL": {
+      "available": 2,
+      "planned": 1,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PVG": {
+      "available": 19,
+      "planned": 17,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 2,
+      "estimated": true,
+      "added": 2,
+      "to_add": 3
+    }
+  }
+}

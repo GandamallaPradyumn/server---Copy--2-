@@ -1,0 +1,110 @@
+{
+  "depot": "HYDERABAD-I",
+  "target_date": "2026-05-28",
+  "predicted_depot_pkm": 1773506.75,
+  "total_services": 112,
+  "count_add_slot": 1,
+  "count_cut": 2,
+  "count_add_candidates_no_spare": 15,
+  "count_no_change": 94,
+  "total_allocated_pkm": 1631505.712330035,
+  "quadrant_counts": {
+    "OVERSUPPLY": 52,
+    "UNDERSUPPLY": 50,
+    "INEFFICIENT": 10
+  },
+  "quadrant_pcts": {
+    "OVERSUPPLY": 46.4,
+    "UNDERSUPPLY": 44.6,
+    "INEFFICIENT": 8.9
+  },
+  "total_revenue": 2441336.931402615,
+  "total_contribution": 1017811.9314026149,
+  "total_planned_kms": 56941.0,
+  "depot_avg_epk": 44.61468668502989,
+  "depot_avg_or": 0.6420542079922854,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 24087.295327779702,
+    "OVERSUPPLY": 1175374.0556497704,
+    "UNDERSUPPLY": 1241875.580425065
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -104187.7046722203,
+    "OVERSUPPLY": 405074.0556497703,
+    "UNDERSUPPLY": 716925.580425065
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1850059.7712297947,
+  "fleet_breakdown": {
+    "AC_SLEEPER_SEAT": {
+      "available": 5,
+      "planned": 4,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "DELUXE": {
+      "available": 13,
+      "planned": 11,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "EXPRESS": {
+      "available": 66,
+      "planned": 60,
+      "cut": 0,
+      "maintenance": 5,
+      "spare": 1,
+      "estimated": true,
+      "added": 1,
+      "to_add": 16
+    },
+    "GARUDA PLUS": {
+      "available": 3,
+      "planned": 2,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "L_N_AC_SLEEP_SE": {
+      "available": 5,
+      "planned": 4,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "RAJDHANI": {
+      "available": 11,
+      "planned": 10,
+      "cut": 1,
+      "maintenance": 1,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "SUP LUX": {
+      "available": 24,
+      "planned": 21,
+      "cut": 1,
+      "maintenance": 2,
+      "spare": 2,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

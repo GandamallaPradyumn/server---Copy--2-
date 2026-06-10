@@ -1,0 +1,35 @@
+{
+  "depot": "ADILABAD",
+  "target_date": "2026-05-17",
+  "predicted_depot_pkm": 2503371.0,
+  "total_services": 136,
+  "count_add_slot": 53,
+  "count_cut": 0,
+  "count_no_change": 83,
+  "total_allocated_pkm": 2449702.5608343445,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 96,
+    "OVERSUPPLY": 38,
+    "INEFFICIENT": 2
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 70.6,
+    "OVERSUPPLY": 27.9,
+    "INEFFICIENT": 1.5
+  },
+  "total_revenue": 3119872.249254558,
+  "total_contribution": 1609522.2492545578,
+  "total_planned_kms": 60414.0,
+  "depot_avg_epk": 52.28771555832923,
+  "depot_avg_or": 0.7940989168634821,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 7294.36133046395,
+    "OVERSUPPLY": 854220.269110301,
+    "UNDERSUPPLY": 2258357.6188137927
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -8905.638669536049,
+    "OVERSUPPLY": 325870.26911030104,
+    "UNDERSUPPLY": 1292557.6188137927
+  }
+}

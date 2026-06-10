@@ -1,0 +1,35 @@
+{
+  "depot": "MAHABOOBNAGAR",
+  "target_date": "2026-05-24",
+  "predicted_depot_pkm": 2318080.25,
+  "total_services": 149,
+  "count_add_slot": 46,
+  "count_cut": 0,
+  "count_no_change": 103,
+  "total_allocated_pkm": 2208595.589373673,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 101,
+    "OVERSUPPLY": 33,
+    "INEFFICIENT": 15
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 67.8,
+    "OVERSUPPLY": 22.1,
+    "INEFFICIENT": 10.1
+  },
+  "total_revenue": 2756609.0606529433,
+  "total_contribution": 1241273.0606529433,
+  "total_planned_kms": 60613.44,
+  "depot_avg_epk": 45.94065410206199,
+  "depot_avg_or": 0.7515173280186915,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 49753.54729361017,
+    "OVERSUPPLY": 577120.002773469,
+    "UNDERSUPPLY": 2129735.5105858645
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -110246.45270638983,
+    "OVERSUPPLY": 189571.00277346896,
+    "UNDERSUPPLY": 1161948.5105858645
+  }
+}

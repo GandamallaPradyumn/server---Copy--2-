@@ -1,0 +1,35 @@
+{
+  "depot": "PARKAL",
+  "target_date": "2026-03-18",
+  "predicted_depot_pkm": 1418870.875,
+  "total_services": 79,
+  "count_add_slot": 36,
+  "count_cut": 1,
+  "count_no_change": 42,
+  "total_allocated_pkm": 1346511.4394510232,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 54,
+    "OVERSUPPLY": 20,
+    "INEFFICIENT": 5
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 68.4,
+    "OVERSUPPLY": 25.3,
+    "INEFFICIENT": 6.3
+  },
+  "total_revenue": 1603895.6450727321,
+  "total_contribution": 876880.4350727323,
+  "total_planned_kms": 34127.0,
+  "depot_avg_epk": 47.102663421125335,
+  "depot_avg_or": 0.7690873506495894,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 21645.740577448178,
+    "OVERSUPPLY": 315202.9392428718,
+    "UNDERSUPPLY": 1267046.9652524123
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -17737.959422551823,
+    "OVERSUPPLY": 132922.57924287184,
+    "UNDERSUPPLY": 761695.8152524122
+  }
+}

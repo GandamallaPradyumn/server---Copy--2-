@@ -1,0 +1,90 @@
+{
+  "depot": "HUSNABAD",
+  "target_date": "2026-05-30",
+  "predicted_depot_pkm": 1162509.5,
+  "total_services": 66,
+  "count_add_slot": 0,
+  "count_cut": 4,
+  "count_add_candidates_no_spare": 0,
+  "count_no_change": 62,
+  "total_allocated_pkm": 1127795.639336173,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 48,
+    "OVERSUPPLY": 12,
+    "INEFFICIENT": 6
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 72.7,
+    "OVERSUPPLY": 18.2,
+    "INEFFICIENT": 9.1
+  },
+  "total_revenue": 1318573.935287561,
+  "total_contribution": 667298.9352875609,
+  "total_planned_kms": 26051.0,
+  "depot_avg_epk": 50.06876764853945,
+  "depot_avg_or": 0.8029523842749156,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 28891.085098393374,
+    "OVERSUPPLY": 186939.31482354118,
+    "UNDERSUPPLY": 1102743.5353656264
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -25408.914901606626,
+    "OVERSUPPLY": 61514.314823541186,
+    "UNDERSUPPLY": 631193.5353656263
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1067976.3182709361,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 16,
+      "planned": 14,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "HT": {
+      "available": 4,
+      "planned": 3,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 28,
+      "planned": 25,
+      "cut": 4,
+      "maintenance": 2,
+      "spare": 5,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PE": {
+      "available": 11,
+      "planned": 10,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PO": {
+      "available": 16,
+      "planned": 14,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

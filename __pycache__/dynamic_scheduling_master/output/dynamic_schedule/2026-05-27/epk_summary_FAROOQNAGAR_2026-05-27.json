@@ -1,0 +1,35 @@
+{
+  "depot": "FAROOQNAGAR",
+  "target_date": "2026-05-27",
+  "predicted_depot_pkm": 857352.4375,
+  "total_services": 153,
+  "count_add_slot": 48,
+  "count_cut": 0,
+  "count_no_change": 105,
+  "total_allocated_pkm": 845953.9484925824,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 97,
+    "OVERSUPPLY": 37,
+    "INEFFICIENT": 19
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 63.4,
+    "OVERSUPPLY": 24.2,
+    "INEFFICIENT": 12.4
+  },
+  "total_revenue": 1162410.3917905088,
+  "total_contribution": 521610.3917905089,
+  "total_planned_kms": 25632.0,
+  "depot_avg_epk": 45.207697393805624,
+  "depot_avg_or": 0.718390627048472,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 6499.975553917654,
+    "OVERSUPPLY": 212993.9602517577,
+    "UNDERSUPPLY": 942916.4559848335
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -76700.02444608235,
+    "OVERSUPPLY": 75018.9602517577,
+    "UNDERSUPPLY": 523291.4559848335
+  }
+}

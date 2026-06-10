@@ -1,0 +1,35 @@
+{
+  "depot": "KAMAREDDY",
+  "target_date": "2026-05-25",
+  "predicted_depot_pkm": 2206280.25,
+  "total_services": 122,
+  "count_add_slot": 36,
+  "count_cut": 0,
+  "count_no_change": 86,
+  "total_allocated_pkm": 2082449.4527732346,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 83,
+    "OVERSUPPLY": 33,
+    "INEFFICIENT": 6
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 68.0,
+    "OVERSUPPLY": 27.0,
+    "INEFFICIENT": 4.9
+  },
+  "total_revenue": 2475098.490350966,
+  "total_contribution": 1203548.490350966,
+  "total_planned_kms": 50862.0,
+  "depot_avg_epk": 49.00708687795141,
+  "depot_avg_or": 0.7707945579002171,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 34497.16220883057,
+    "OVERSUPPLY": 587102.5750146585,
+    "UNDERSUPPLY": 1853498.7531274767
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -26052.837791169433,
+    "OVERSUPPLY": 219552.5750146585,
+    "UNDERSUPPLY": 1010048.7531274768
+  }
+}

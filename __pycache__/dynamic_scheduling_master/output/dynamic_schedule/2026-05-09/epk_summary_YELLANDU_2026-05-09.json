@@ -1,0 +1,35 @@
+{
+  "depot": "YELLANDU",
+  "target_date": "2026-05-09",
+  "predicted_depot_pkm": 773908.4375,
+  "total_services": 34,
+  "count_add_slot": 19,
+  "count_cut": 1,
+  "count_no_change": 14,
+  "total_allocated_pkm": 707817.6693711486,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 29,
+    "OVERSUPPLY": 4,
+    "INEFFICIENT": 1
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 85.3,
+    "OVERSUPPLY": 11.8,
+    "INEFFICIENT": 2.9
+  },
+  "total_revenue": 886618.290459906,
+  "total_contribution": 496943.290459906,
+  "total_planned_kms": 15587.0,
+  "depot_avg_epk": 56.100368862404224,
+  "depot_avg_or": 0.8553328726778052,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 0.0,
+    "OVERSUPPLY": 67137.54072651494,
+    "UNDERSUPPLY": 819480.749733391
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -8000.0,
+    "OVERSUPPLY": 18037.540726514933,
+    "UNDERSUPPLY": 486905.74973339104
+  }
+}

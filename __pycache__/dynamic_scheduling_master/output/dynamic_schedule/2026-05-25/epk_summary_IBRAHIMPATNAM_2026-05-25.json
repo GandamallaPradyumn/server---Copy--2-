@@ -1,0 +1,35 @@
+{
+  "depot": "IBRAHIMPATNAM",
+  "target_date": "2026-05-25",
+  "predicted_depot_pkm": 2111711.75,
+  "total_services": 189,
+  "count_add_slot": 140,
+  "count_cut": 2,
+  "count_no_change": 47,
+  "total_allocated_pkm": 1908131.5666360487,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 157,
+    "OVERSUPPLY": 18,
+    "INEFFICIENT": 14
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 83.1,
+    "OVERSUPPLY": 9.5,
+    "INEFFICIENT": 7.4
+  },
+  "total_revenue": 2532049.522104809,
+  "total_contribution": 1653459.3901048095,
+  "total_planned_kms": 44778.7,
+  "depot_avg_epk": 59.061926381784716,
+  "depot_avg_or": 0.9665672279360588,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 0.0,
+    "OVERSUPPLY": 135885.8014092883,
+    "UNDERSUPPLY": 2396163.7206955208
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -81041.59999999999,
+    "OVERSUPPLY": 48732.489409288304,
+    "UNDERSUPPLY": 1685768.500695521
+  }
+}

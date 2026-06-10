@@ -1,0 +1,90 @@
+{
+  "depot": "HUZURABAD",
+  "target_date": "2026-05-31",
+  "predicted_depot_pkm": 1272121.875,
+  "total_services": 67,
+  "count_add_slot": 1,
+  "count_cut": 4,
+  "count_add_candidates_no_spare": 2,
+  "count_no_change": 60,
+  "total_allocated_pkm": 1214914.9032246983,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 49,
+    "OVERSUPPLY": 12,
+    "INEFFICIENT": 6
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 73.1,
+    "OVERSUPPLY": 17.9,
+    "INEFFICIENT": 9.0
+  },
+  "total_revenue": 1417205.227343558,
+  "total_contribution": 706605.227343558,
+  "total_planned_kms": 28424.0,
+  "depot_avg_epk": 49.91760418300287,
+  "depot_avg_or": 0.8379993939583493,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 19900.31353969114,
+    "OVERSUPPLY": 185403.02328762395,
+    "UNDERSUPPLY": 1211901.890516243
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -37849.68646030886,
+    "OVERSUPPLY": 45228.02328762395,
+    "UNDERSUPPLY": 699226.8905162428
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1280545.1213099745,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 7,
+      "planned": 6,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "HT": {
+      "available": 5,
+      "planned": 4,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 41,
+      "planned": 37,
+      "cut": 4,
+      "maintenance": 3,
+      "spare": 5,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PE": {
+      "available": 14,
+      "planned": 12,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 1,
+      "estimated": true,
+      "added": 1,
+      "to_add": 3
+    },
+    "PO": {
+      "available": 9,
+      "planned": 8,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

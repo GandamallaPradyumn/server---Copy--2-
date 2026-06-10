@@ -1,0 +1,35 @@
+{
+  "depot": "KOTHAGUDEM",
+  "target_date": "2026-05-14",
+  "predicted_depot_pkm": 1198743.375,
+  "total_services": 61,
+  "count_add_slot": 29,
+  "count_cut": 0,
+  "count_no_change": 32,
+  "total_allocated_pkm": 1067692.043307277,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 43,
+    "OVERSUPPLY": 15,
+    "INEFFICIENT": 3
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 70.5,
+    "OVERSUPPLY": 24.6,
+    "INEFFICIENT": 4.9
+  },
+  "total_revenue": 1312731.1425066686,
+  "total_contribution": 646481.1425066688,
+  "total_planned_kms": 26650.0,
+  "depot_avg_epk": 50.63182707310024,
+  "depot_avg_or": 0.8089514929641172,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 7258.824948363497,
+    "OVERSUPPLY": 279922.1973384757,
+    "UNDERSUPPLY": 1025550.1202198295
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -26866.175051636503,
+    "OVERSUPPLY": 89172.19733847566,
+    "UNDERSUPPLY": 584175.1202198295
+  }
+}

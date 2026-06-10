@@ -1,0 +1,35 @@
+{
+  "depot": "VIKARABAD",
+  "target_date": "2026-05-15",
+  "predicted_depot_pkm": 1322336.25,
+  "total_services": 67,
+  "count_add_slot": 28,
+  "count_cut": 2,
+  "count_no_change": 37,
+  "total_allocated_pkm": 1154492.6945873615,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 49,
+    "OVERSUPPLY": 15,
+    "INEFFICIENT": 3
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 73.1,
+    "OVERSUPPLY": 22.4,
+    "INEFFICIENT": 4.5
+  },
+  "total_revenue": 1243547.3561612568,
+  "total_contribution": 611196.3561612568,
+  "total_planned_kms": 25294.04,
+  "depot_avg_epk": 49.81256383112197,
+  "depot_avg_or": 0.7890594686320616,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 12420.98273953723,
+    "OVERSUPPLY": 232438.35192497942,
+    "UNDERSUPPLY": 998688.02149674
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -16904.01726046277,
+    "OVERSUPPLY": 76263.3519249794,
+    "UNDERSUPPLY": 551837.02149674
+  }
+}

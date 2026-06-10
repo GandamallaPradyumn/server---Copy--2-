@@ -1,0 +1,35 @@
+{
+  "depot": "NIRMAL",
+  "target_date": "2026-05-09",
+  "predicted_depot_pkm": 2575358.25,
+  "total_services": 152,
+  "count_add_slot": 72,
+  "count_cut": 0,
+  "count_no_change": 80,
+  "total_allocated_pkm": 2515629.2462415546,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 102,
+    "OVERSUPPLY": 37,
+    "INEFFICIENT": 13
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 67.1,
+    "OVERSUPPLY": 24.3,
+    "INEFFICIENT": 8.6
+  },
+  "total_revenue": 3166754.02177889,
+  "total_contribution": 1476629.02177889,
+  "total_planned_kms": 67605.0,
+  "depot_avg_epk": 48.638968848029556,
+  "depot_avg_or": 0.7676719126283341,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 114320.890567369,
+    "OVERSUPPLY": 758171.049509903,
+    "UNDERSUPPLY": 2294262.081701618
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -26229.109432631,
+    "OVERSUPPLY": 201521.04950990295,
+    "UNDERSUPPLY": 1301337.081701618
+  }
+}

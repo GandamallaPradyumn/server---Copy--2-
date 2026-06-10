@@ -1,0 +1,35 @@
+{
+  "depot": "KODAD",
+  "target_date": "2026-05-08",
+  "predicted_depot_pkm": 1440378.375,
+  "total_services": 80,
+  "count_add_slot": 30,
+  "count_cut": 3,
+  "count_no_change": 47,
+  "total_allocated_pkm": 1360181.3969347042,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 46,
+    "OVERSUPPLY": 24,
+    "INEFFICIENT": 10
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 57.5,
+    "OVERSUPPLY": 30.0,
+    "INEFFICIENT": 12.5
+  },
+  "total_revenue": 1690646.9736689832,
+  "total_contribution": 768421.9736689832,
+  "total_planned_kms": 36889.0,
+  "depot_avg_epk": 47.3036406821039,
+  "depot_avg_or": 0.7229965851454614,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 49097.90741026428,
+    "OVERSUPPLY": 503476.0326174799,
+    "UNDERSUPPLY": 1138073.0336412392
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -46102.09258973572,
+    "OVERSUPPLY": 143201.0326174799,
+    "UNDERSUPPLY": 671323.0336412392
+  }
+}

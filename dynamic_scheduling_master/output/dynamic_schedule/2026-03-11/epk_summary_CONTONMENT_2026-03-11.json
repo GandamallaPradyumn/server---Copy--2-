@@ -1,0 +1,35 @@
+{
+  "depot": "CONTONMENT",
+  "target_date": "2026-03-11",
+  "predicted_depot_pkm": 1771205.125,
+  "total_services": 280,
+  "count_add_slot": 134,
+  "count_cut": 0,
+  "count_no_change": 146,
+  "total_allocated_pkm": 1632732.013861251,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 165,
+    "OVERSUPPLY": 82,
+    "INEFFICIENT": 33
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 58.9,
+    "OVERSUPPLY": 29.3,
+    "INEFFICIENT": 11.8
+  },
+  "total_revenue": 2552587.6302797217,
+  "total_contribution": 1091388.9452797214,
+  "total_planned_kms": 46119.0,
+  "depot_avg_epk": 58.09510967309496,
+  "depot_avg_or": 0.8512837687938007,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 108697.17498095731,
+    "OVERSUPPLY": 599075.3734856256,
+    "UNDERSUPPLY": 1844815.0818131384
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -182106.11001904268,
+    "OVERSUPPLY": 188128.33348562563,
+    "UNDERSUPPLY": 1085366.7218131386
+  }
+}

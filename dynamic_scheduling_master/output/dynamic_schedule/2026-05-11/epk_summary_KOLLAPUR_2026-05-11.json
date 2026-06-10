@@ -1,0 +1,35 @@
+{
+  "depot": "KOLLAPUR",
+  "target_date": "2026-05-11",
+  "predicted_depot_pkm": 1593793.625,
+  "total_services": 65,
+  "count_add_slot": 52,
+  "count_cut": 0,
+  "count_no_change": 13,
+  "total_allocated_pkm": 1549242.8789580693,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 57,
+    "OVERSUPPLY": 7,
+    "INEFFICIENT": 1
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 87.7,
+    "OVERSUPPLY": 10.8,
+    "INEFFICIENT": 1.5
+  },
+  "total_revenue": 1850434.05364137,
+  "total_contribution": 1114259.05364137,
+  "total_planned_kms": 29447.0,
+  "depot_avg_epk": 63.64529991347511,
+  "depot_avg_or": 1.035670411186421,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 4723.351106742885,
+    "OVERSUPPLY": 148412.56688567702,
+    "UNDERSUPPLY": 1697298.1356489502
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -6451.648893257115,
+    "OVERSUPPLY": 46712.56688567702,
+    "UNDERSUPPLY": 1073998.1356489502
+  }
+}

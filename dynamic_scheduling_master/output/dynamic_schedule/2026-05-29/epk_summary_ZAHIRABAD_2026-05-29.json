@@ -1,0 +1,100 @@
+{
+  "depot": "ZAHIRABAD",
+  "target_date": "2026-05-29",
+  "predicted_depot_pkm": 1549727.125,
+  "total_services": 93,
+  "count_add_slot": 1,
+  "count_cut": 2,
+  "count_add_candidates_no_spare": 12,
+  "count_no_change": 78,
+  "total_allocated_pkm": 1349833.0044390357,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 48,
+    "INEFFICIENT": 23,
+    "OVERSUPPLY": 22
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 51.6,
+    "INEFFICIENT": 24.7,
+    "OVERSUPPLY": 23.7
+  },
+  "total_revenue": 1660365.0802888644,
+  "total_contribution": 691565.0802888647,
+  "total_planned_kms": 38752.0,
+  "depot_avg_epk": 42.56405254318605,
+  "depot_avg_or": 0.6758069500285643,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 86645.0454756397,
+    "OVERSUPPLY": 414133.57192423154,
+    "UNDERSUPPLY": 1159586.4628889933
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -131679.9545243603,
+    "OVERSUPPLY": 132883.57192423154,
+    "UNDERSUPPLY": 690361.4628889933
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1471062.6863466026,
+  "fleet_breakdown": {
+    "DLX": {
+      "available": 15,
+      "planned": 13,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "EXP": {
+      "available": 31,
+      "planned": 28,
+      "cut": 0,
+      "maintenance": 2,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "HEXP": {
+      "available": 14,
+      "planned": 12,
+      "cut": 0,
+      "maintenance": 1,
+      "spare": 1,
+      "estimated": true,
+      "added": 1,
+      "to_add": 1
+    },
+    "HPVG": {
+      "available": 19,
+      "planned": 17,
+      "cut": 0,
+      "maintenance": 2,
+      "spare": 0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 12
+    },
+    "PVG": {
+      "available": 22,
+      "planned": 20,
+      "cut": 2,
+      "maintenance": 2,
+      "spare": 2,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "SLX": {
+      "available": 4,
+      "planned": 3,
+      "cut": 0,
+      "maintenance": 0,
+      "spare": 1,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "depot": "DUBBAKA",
+  "target_date": "2026-05-13",
+  "predicted_depot_pkm": 972555.5625,
+  "total_services": 41,
+  "count_add_slot": 25,
+  "count_cut": 6,
+  "count_no_change": 10,
+  "total_allocated_pkm": 761691.0460106656,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 28,
+    "INEFFICIENT": 9,
+    "OVERSUPPLY": 4
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 68.3,
+    "INEFFICIENT": 22.0,
+    "OVERSUPPLY": 9.8
+  },
+  "total_revenue": 899889.8595755543,
+  "total_contribution": 473289.8595755542,
+  "total_planned_kms": 17064.0,
+  "depot_avg_epk": 50.689277207399236,
+  "depot_avg_or": 0.7842250056181409,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 3676.506725462758,
+    "OVERSUPPLY": 66882.49398746836,
+    "UNDERSUPPLY": 829330.8588626231
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -69273.49327453724,
+    "OVERSUPPLY": 22432.493987468355,
+    "UNDERSUPPLY": 520130.8588626231
+  }
+}

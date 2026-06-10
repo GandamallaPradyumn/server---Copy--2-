@@ -1,0 +1,35 @@
+{
+  "depot": "KUKATPALLY",
+  "target_date": "2026-04-07",
+  "predicted_depot_pkm": 1484443.875,
+  "total_services": 204,
+  "count_add_slot": 128,
+  "count_cut": 0,
+  "count_no_change": 76,
+  "total_allocated_pkm": 1430188.748059717,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 163,
+    "OVERSUPPLY": 29,
+    "INEFFICIENT": 12
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 79.9,
+    "OVERSUPPLY": 14.2,
+    "INEFFICIENT": 5.9
+  },
+  "total_revenue": 1949968.9563812958,
+  "total_contribution": 1158719.3163812952,
+  "total_planned_kms": 38029.06,
+  "depot_avg_epk": 54.5287566252206,
+  "depot_avg_or": 0.8803017987531995,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 30188.82691835776,
+    "OVERSUPPLY": 209260.120316582,
+    "UNDERSUPPLY": 1710520.0091463558
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -50576.84308164224,
+    "OVERSUPPLY": 87892.59031658199,
+    "UNDERSUPPLY": 1121403.5691463558
+  }
+}
