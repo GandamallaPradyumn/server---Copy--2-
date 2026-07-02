@@ -236,7 +236,7 @@ def edit():
                         refreshed_df = fetch_data(selected_depot, selected_date)
                         if not refreshed_df.empty:
                             st.markdown("### ✅ Saved Data Preview")
-                            st.dataframe(refreshed_df, use_container_width=True)
+                            st.dataframe(refreshed_df, width="stretch")
                     else:
                         st.error("❌ Failed to update data.")
 

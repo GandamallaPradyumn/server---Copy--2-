@@ -1,0 +1,70 @@
+{
+  "depot": "VIKARABAD",
+  "target_date": "2026-06-08",
+  "predicted_depot_pkm": 1452770.625,
+  "total_services": 67,
+  "count_add_slot": 0,
+  "count_cut": 3,
+  "count_add_candidates_no_spare": 1,
+  "count_no_change": 63,
+  "total_allocated_pkm": 802461.1074351491,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 35,
+    "INEFFICIENT": 30,
+    "OVERSUPPLY": 2
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 52.2,
+    "INEFFICIENT": 44.8,
+    "OVERSUPPLY": 3.0
+  },
+  "total_revenue": 868636.6596516083,
+  "total_contribution": 236285.65965160835,
+  "total_planned_kms": 25294.04,
+  "depot_avg_epk": 35.52758396023599,
+  "depot_avg_or": 0.561485828038957,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 70244.84775002701,
+    "OVERSUPPLY": 22381.011896479187,
+    "UNDERSUPPLY": 776010.8000051022
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -223630.15224997298,
+    "OVERSUPPLY": 2881.0118964791873,
+    "UNDERSUPPLY": 457034.8000051021
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1070844.8714993845,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 8,
+      "planned": 4.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 4.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 49,
+      "planned": 44.0,
+      "cut": 3.0,
+      "maintenance": 1,
+      "spare": 7.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PO": {
+      "available": 19,
+      "planned": 19.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 1
+    }
+  }
+}

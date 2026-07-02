@@ -1,0 +1,120 @@
+{
+  "depot": "BHEL",
+  "target_date": "2026-06-07",
+  "predicted_depot_pkm": 1400141.25,
+  "total_services": 78,
+  "count_add_slot": 3,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 1,
+  "count_no_change": 74,
+  "total_allocated_pkm": 1353024.7216362057,
+  "quadrant_counts": {
+    "OVERSUPPLY": 37,
+    "UNDERSUPPLY": 36,
+    "INEFFICIENT": 5
+  },
+  "quadrant_pcts": {
+    "OVERSUPPLY": 47.4,
+    "UNDERSUPPLY": 46.2,
+    "INEFFICIENT": 6.4
+  },
+  "total_revenue": 2826299.9381920956,
+  "total_contribution": 1405524.938192095,
+  "total_planned_kms": 56831.0,
+  "depot_avg_epk": 49.153807438480015,
+  "depot_avg_or": 0.6711214267551274,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 0.0,
+    "OVERSUPPLY": 1353954.5605245137,
+    "UNDERSUPPLY": 1472345.3776675817
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -86750.0,
+    "OVERSUPPLY": 632404.5605245137,
+    "UNDERSUPPLY": 859870.3776675815
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1042519.6249953335,
+  "fleet_breakdown": {
+    "AH": {
+      "available": 7,
+      "planned": 8.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": -1.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "AL": {
+      "available": 16,
+      "planned": 16.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 1
+    },
+    "EG": {
+      "available": 10,
+      "planned": 9.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "G+": {
+      "available": 2,
+      "planned": 1.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "HA": {
+      "available": 8,
+      "planned": 5.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 3.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "HL": {
+      "available": 2,
+      "planned": 2.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "RJD": {
+      "available": 32,
+      "planned": 29.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 2.0,
+      "estimated": true,
+      "added": 2,
+      "to_add": 2
+    },
+    "SL": {
+      "available": 29,
+      "planned": 26.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 2.0,
+      "estimated": true,
+      "added": 1,
+      "to_add": 1
+    }
+  }
+}

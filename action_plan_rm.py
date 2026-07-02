@@ -133,7 +133,7 @@ def action_rm():
                 "Spot Absent", "Double Duty", "Off Cancellation"
             ]]
 
-            st.dataframe(df, use_container_width=True, hide_index=True)
+            st.dataframe(df, width="stretch", hide_index=True)
 
         else:
             st.info("ℹ️ No Action Plan entries found for this month.")

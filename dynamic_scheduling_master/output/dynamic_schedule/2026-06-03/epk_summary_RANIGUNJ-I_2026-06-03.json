@@ -1,0 +1,90 @@
+{
+  "depot": "RANIGUNJ-I",
+  "target_date": "2026-06-03",
+  "predicted_depot_pkm": 1660300.375,
+  "total_services": 222,
+  "count_add_slot": 6,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 74,
+  "count_no_change": 142,
+  "total_allocated_pkm": 1580737.79867147,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 179,
+    "OVERSUPPLY": 29,
+    "INEFFICIENT": 14
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 80.6,
+    "OVERSUPPLY": 13.1,
+    "INEFFICIENT": 6.3
+  },
+  "total_revenue": 2323390.117918497,
+  "total_contribution": 1434228.1179184967,
+  "total_planned_kms": 35566.479999999996,
+  "depot_avg_epk": 65.14807076480905,
+  "depot_avg_or": 1.1133240486622744,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 19504.31258490845,
+    "OVERSUPPLY": 175826.03560875874,
+    "UNDERSUPPLY": 2128059.7697248296
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -30195.68741509155,
+    "OVERSUPPLY": 54484.035608758735,
+    "UNDERSUPPLY": 1409939.7697248294
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1450778.3011642152,
+  "fleet_breakdown": {
+    "CO": {
+      "available": 47,
+      "planned": 52.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": -6.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 20
+    },
+    "EM": {
+      "available": 72,
+      "planned": 65.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 6.0,
+      "estimated": true,
+      "added": 6,
+      "to_add": 57
+    },
+    "ME": {
+      "available": 3,
+      "planned": 2.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "MS": {
+      "available": 14,
+      "planned": 16.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": -2.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 3
+    },
+    "VC": {
+      "available": 10,
+      "planned": 10.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

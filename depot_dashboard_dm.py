@@ -351,7 +351,7 @@ def plot_comparison_bar(combined_df, ycol, avg1, avg2, depot1, depot2, title, yt
             font=dict(size=10),
         ),
     )
-    st.plotly_chart(fig, use_container_width=True, key=str(uuid.uuid4()))
+    st.plotly_chart(fig, width="stretch", key=str(uuid.uuid4()))
 
 def plot_bar(df, ycol, depot_avg=None, title="", ytitle="", depot=None, region_avg=None):
     if df.empty or ycol not in df.columns:
@@ -414,7 +414,7 @@ def plot_bar(df, ycol, depot_avg=None, title="", ytitle="", depot=None, region_a
         yaxis_title=ytitle,
         bargap=0.3
     )
-    st.plotly_chart(fig, use_container_width=True, key=str(uuid.uuid4()))
+    st.plotly_chart(fig, width="stretch", key=str(uuid.uuid4()))
 
 
 def compute_region_avgs(depot_monthly, depot_name, depot_settings):
@@ -1182,7 +1182,7 @@ def show_absenteeism_pie(entity_name, lsa_df, year_sel="All", is_region=False, r
         color_discrete_sequence=px.colors.qualitative.Set3
     )
     fig.update_traces(textposition="inside", textinfo="percent+label")
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
 
 def show_health_grade_distribution(entity_name, ghc_2024, is_region=False, region_depots=None):
@@ -1237,7 +1237,7 @@ def show_health_grade_distribution(entity_name, ghc_2024, is_region=False, regio
     )
     col1, col2, col3 = st.columns([1, 6, 1])
     with col2:
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
 
 #TOP & BOTTOM DRIVERS
 def show_top_bottom_drivers(entity_name, driver_monthly, years, DEPOT_COL, EMP_COL, is_region=False, region_depots=None):
@@ -1466,7 +1466,7 @@ def show_mu_sl_reasons(entity_name, db_config, is_region=False, region_depots=No
                             title=f"Medical Unfit (MU) Reasons – {entity_name.title()}")
             fig_mu.update_traces(texttemplate='%{text}', textposition='outside')
             fig_mu.update_layout(xaxis_title='Reason', yaxis_title='Count')
-            st.plotly_chart(fig_mu, use_container_width=True)
+            st.plotly_chart(fig_mu, width="stretch")
 
     with col_sl:
         if not sl_df.empty:
@@ -1477,7 +1477,7 @@ def show_mu_sl_reasons(entity_name, db_config, is_region=False, region_depots=No
                             title=f"Sick Leave (SL) Reasons – {entity_name.title()}")
             fig_sl.update_traces(texttemplate='%{text}', textposition='outside')
             fig_sl.update_layout(xaxis_title='Reason', yaxis_title='Count')
-            st.plotly_chart(fig_sl, use_container_width=True)
+            st.plotly_chart(fig_sl, width="stretch")
 
 
 if __name__ == "__main__":

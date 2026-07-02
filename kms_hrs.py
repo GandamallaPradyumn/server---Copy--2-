@@ -273,7 +273,7 @@ def kms_hrs():
     with tab1:
         st.header("Monthly Performance Prediction")
 
-        if st.button("Predict Performance", use_container_width=True):
+        if st.button("Predict Performance", width="stretch"):
             df = pd.DataFrame({
                 "employee_id": [sel_emp],
                 "depot": [sel_depot],
@@ -321,12 +321,12 @@ def kms_hrs():
         fdf["Pred_HRs"] = model_hrs.predict(enc_fdf) * AVG_WORKING_DAYS_PER_MONTH
         fdf["Month"] = [datetime(y, m, 1).strftime("%B %Y") for y, m in zip(years, months)]
 
-        st.dataframe(fdf[["Month", "Pred_KMs", "Pred_HRs"]], use_container_width=True)
+        st.dataframe(fdf[["Month", "Pred_KMs", "Pred_HRs"]], width="stretch")
 
         fig1 = px.bar(fdf, x="Month", y="Pred_KMs", title="Forecasted Kilometers (Next 6 Months)")
         fig2 = px.bar(fdf, x="Month", y="Pred_HRs", title="Forecasted Hours (Next 6 Months)")
-        st.plotly_chart(fig1, use_container_width=True)
-        st.plotly_chart(fig2, use_container_width=True)
+        st.plotly_chart(fig1, width="stretch")
+        st.plotly_chart(fig2, width="stretch")
 
     # -------------------------
     # TAB 3: Actual vs Predicted (Historical)
@@ -414,7 +414,7 @@ def kms_hrs():
         # -----------------------------
         st.dataframe(
             monthly[["Month", "opd_kms", "Predicted_KMs", "hours", "Predicted_Hours"]],
-            use_container_width=True
+            width="stretch"
         )
 
         # -----------------------------
@@ -436,8 +436,8 @@ def kms_hrs():
             title="Actual vs Predicted Hours (Last 12 Months)"
         )
 
-        st.plotly_chart(fig_km, use_container_width=True)
-        st.plotly_chart(fig_hr, use_container_width=True)
+        st.plotly_chart(fig_km, width="stretch")
+        st.plotly_chart(fig_hr, width="stretch")
 
 
         # Optional admin accuracy view

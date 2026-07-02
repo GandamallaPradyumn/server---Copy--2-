@@ -1,0 +1,120 @@
+{
+  "depot": "MEDCHAL",
+  "target_date": "2026-06-13",
+  "predicted_depot_pkm": 1883436.25,
+  "total_services": 182,
+  "count_add_slot": 0,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 3,
+  "count_no_change": 179,
+  "total_allocated_pkm": 1552828.8504547668,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 87,
+    "OVERSUPPLY": 69,
+    "INEFFICIENT": 26
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 47.8,
+    "OVERSUPPLY": 37.9,
+    "INEFFICIENT": 14.3
+  },
+  "total_revenue": 2175535.053583672,
+  "total_contribution": 1073421.5535836718,
+  "total_planned_kms": 44084.54,
+  "depot_avg_epk": 49.16117757521238,
+  "depot_avg_or": 0.6851002136561712,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 62493.533294800065,
+    "OVERSUPPLY": 645908.9635175967,
+    "UNDERSUPPLY": 1467132.5567712751
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -118081.46670519993,
+    "OVERSUPPLY": 264373.9635175967,
+    "UNDERSUPPLY": 927129.0567712751
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1536021.3773676537,
+  "fleet_breakdown": {
+    "IH": {
+      "available": 4,
+      "planned": 4.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "ME": {
+      "available": 42,
+      "planned": 45.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": -4.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 3
+    },
+    "MO": {
+      "available": 17,
+      "planned": 15.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 2.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PM": {
+      "available": 8,
+      "planned": 7.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PS": {
+      "available": 8,
+      "planned": 1.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 7.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "SU": {
+      "available": 5,
+      "planned": 4.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "VR": {
+      "available": 14,
+      "planned": 14.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "XS": {
+      "available": 79,
+      "planned": 39.0,
+      "cut": 0.0,
+      "maintenance": 2,
+      "spare": 38.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

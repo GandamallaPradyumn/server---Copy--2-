@@ -1,0 +1,80 @@
+{
+  "depot": "YELLANDU",
+  "target_date": "2026-06-07",
+  "predicted_depot_pkm": 744226.25,
+  "total_services": 34,
+  "count_add_slot": 0,
+  "count_cut": 1,
+  "count_add_candidates_no_spare": 0,
+  "count_no_change": 33,
+  "total_allocated_pkm": 723201.2371171314,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 26,
+    "OVERSUPPLY": 7,
+    "INEFFICIENT": 1
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 76.5,
+    "OVERSUPPLY": 20.6,
+    "INEFFICIENT": 2.9
+  },
+  "total_revenue": 909258.3839683337,
+  "total_contribution": 519583.3839683337,
+  "total_planned_kms": 15587.0,
+  "depot_avg_epk": 57.3479462583202,
+  "depot_avg_or": 0.8762944848782366,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 0.0,
+    "OVERSUPPLY": 115589.18313664579,
+    "UNDERSUPPLY": 793669.2008316879
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -8000.0,
+    "OVERSUPPLY": 37989.18313664579,
+    "UNDERSUPPLY": 489594.2008316879
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 589298.7273418206,
+  "fleet_breakdown": {
+    "EXP": {
+      "available": 13,
+      "planned": 11.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 2.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "HT": {
+      "available": 7,
+      "planned": 7.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 20,
+      "planned": 15.0,
+      "cut": 1.0,
+      "maintenance": 0,
+      "spare": 6.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "SL": {
+      "available": 1,
+      "planned": 1.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "depot": "MUSHIRABAD",
+  "target_date": "2026-06-08",
+  "predicted_depot_pkm": 1809727.125,
+  "total_services": 201,
+  "count_add_slot": 8,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 83,
+  "count_no_change": 110,
+  "total_allocated_pkm": 1713534.4409307728,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 164,
+    "INEFFICIENT": 32,
+    "OVERSUPPLY": 5
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 81.6,
+    "INEFFICIENT": 15.9,
+    "OVERSUPPLY": 2.5
+  },
+  "total_revenue": 2438941.338031268,
+  "total_contribution": 1649391.3380312682,
+  "total_planned_kms": 31582.0,
+  "depot_avg_epk": 79.06981692452757,
+  "depot_avg_or": 1.21440168769083,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 4872.64414836711,
+    "OVERSUPPLY": 21872.58532017564,
+    "UNDERSUPPLY": 2412196.1085627256
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -142527.3558516329,
+    "OVERSUPPLY": 4147.585320175642,
+    "UNDERSUPPLY": 1787771.1085627256
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1235197.8855460514,
+  "fleet_breakdown": {
+    "CO": {
+      "available": 29,
+      "planned": 26.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 2.0,
+      "estimated": true,
+      "added": 2,
+      "to_add": 39
+    },
+    "FS": {
+      "available": 27,
+      "planned": 24.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 2.0,
+      "estimated": true,
+      "added": 2,
+      "to_add": 16
+    },
+    "SN": {
+      "available": 51,
+      "planned": 46.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 4.0,
+      "estimated": true,
+      "added": 4,
+      "to_add": 36
+    },
+    "VC": {
+      "available": 20,
+      "planned": 18.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 2.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

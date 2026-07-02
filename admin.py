@@ -62,4 +62,4 @@ def admin():
 
         st.markdown("### 📋 All Depots")
         df = get_all_depots()
-        st.dataframe(df, use_container_width=True)
+        st.dataframe(df, width="stretch")

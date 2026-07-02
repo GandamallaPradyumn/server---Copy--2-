@@ -1,0 +1,70 @@
+{
+  "depot": "NIZAMABAD-II",
+  "target_date": "2026-06-13",
+  "predicted_depot_pkm": 1634824.5,
+  "total_services": 116,
+  "count_add_slot": 0,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 21,
+  "count_no_change": 95,
+  "total_allocated_pkm": 1628365.0191130843,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 65,
+    "OVERSUPPLY": 46,
+    "INEFFICIENT": 5
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 56.0,
+    "OVERSUPPLY": 39.7,
+    "INEFFICIENT": 4.3
+  },
+  "total_revenue": 2197855.9583300757,
+  "total_contribution": 1129655.9583300757,
+  "total_planned_kms": 42728.0,
+  "depot_avg_epk": 51.65667421045542,
+  "depot_avg_or": 0.7317646517704851,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 24524.705339111515,
+    "OVERSUPPLY": 659305.4291486307,
+    "UNDERSUPPLY": 1514025.8238423336
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -15525.294660888485,
+    "OVERSUPPLY": 231855.4291486307,
+    "UNDERSUPPLY": 913325.8238423337
+  },
+  "maintenance_pct": 0.12,
+  "pkm_90d_avg": 1740304.9946067568,
+  "fleet_breakdown": {
+    "E DLX": {
+      "available": 6,
+      "planned": 5.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 0.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "E-EXP": {
+      "available": 71,
+      "planned": 64.0,
+      "cut": 0.0,
+      "maintenance": 9,
+      "spare": -2.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 21
+    },
+    "EV SL": {
+      "available": 19,
+      "planned": 17.0,
+      "cut": 0.0,
+      "maintenance": 2,
+      "spare": 0.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

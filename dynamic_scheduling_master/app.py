@@ -29,6 +29,7 @@ from dynamic_scheduling_master.src.dynamic_scheduling.ops_dashboard import (
     load_epk_summary_for_depot,
     list_dates_with_gold_actuals,
     SCHEDULE_DIR,
+    format_indian_number,
 )
 from dynamic_scheduling_master.src.dynamic_scheduling import ops_dashboard
 from auth import get_connection
@@ -180,14 +181,29 @@ def render_dynamic_scheduling():
         schedules, schedule_date = {}, None
 
     # ──────────────────────────────────────────────────────────────────────────
-    # Tabs
+    # View selector (stateful so date changes don't jump back to the first tab)
     # ──────────────────────────────────────────────────────────────────────────
 
-    tab1, tab2, tab3,tab4 = st.tabs(["Demand Accuracy", "Operations Overview", "Modified Schedule","Prediction vs Actual"])
+    tab_labels = ["Demand Accuracy", "Operations Overview", "Modified Schedule", "Prediction vs Actual"]
+    if "active_tab" not in st.session_state:
+        st.session_state.active_tab = tab_labels[0]
+
+    tab_cols = st.columns(len(tab_labels))
+    for idx, label in enumerate(tab_labels):
+        is_active = st.session_state.active_tab == label
+        if tab_cols[idx].button(
+            label,
+            key=f"nav_{label}",
+            use_container_width=True,
+            type="primary" if is_active else "secondary",
+        ):
+            st.session_state.active_tab = label
+
+    active_tab = st.session_state.active_tab
 
     # ── Tab 1: Demand Accuracy ───────────────────────────────────────────────
 
-    with tab1:
+    if active_tab == "Demand Accuracy":
         # Demand data based on role
         if role == "Depot Manager(DMs)":
 
@@ -245,29 +261,29 @@ def render_dynamic_scheduling():
             chart_label = scope_name
             st.plotly_chart(
                 build_demand_accuracy_chart(demand_df, chart_label),
-                use_container_width=True,
+                width="stretch",
             )
 
             st.plotly_chart(
                 build_demand_error_chart(demand_df, chart_label),
-                use_container_width=True,
+                width="stretch",
             )
 
             with st.expander("View Raw Data"):
                 display_df = demand_df.copy()
                 display_df["Date"] = display_df["Date"].dt.strftime("%d-%m-%Y")
-                display_df["Predicted Passenger-KMs"] = display_df["Predicted Passenger-KMs"].apply(lambda x: f"{x:,.0f}" if pd.notna(x) else "-")
-                display_df["Actual Passenger-KMs"] = display_df["Actual Passenger-KMs"].apply(lambda x: f"{x:,.0f}" if pd.notna(x) else "-")
+                display_df["Predicted Passenger-KMs"] = display_df["Predicted Passenger-KMs"].apply(lambda x: format_indian_number(x) if pd.notna(x) else "-")
+                display_df["Actual Passenger-KMs"] = display_df["Actual Passenger-KMs"].apply(lambda x: format_indian_number(x) if pd.notna(x) else "-")
                 display_df["Passenger-KM Error %"] = display_df["Passenger-KM Error %"].apply(lambda x: f"{x:.0f}%" if pd.notna(x) else "-")
                 display_df = display_df.drop(columns=["Passenger-KM Error"], errors="ignore")
                 display_df = display_df.drop(columns=["Status"], errors="ignore")
-                st.dataframe(display_df, use_container_width=True)
+                st.dataframe(display_df, width="stretch")
         else:
             st.info(f"No demand accuracy data available for {scope_name}.")
 
     # ── Tab 2: Operations Overview ─────────────────────────────────────────
 
-    with tab2:
+    elif active_tab == "Operations Overview":
         # Operations overview based on role
         if role == "Depot Manager(DMs)":
 
@@ -298,7 +314,7 @@ def render_dynamic_scheduling():
                         combined_df["quadrant"].value_counts(normalize=True) * 100
                     ).round(1).to_dict(),
                     "action_summary": {},
-                    "schedule_df": combined_df
+                    "schedule_df": combined_df,
                 }
 
             else:
@@ -336,13 +352,13 @@ def render_dynamic_scheduling():
             chart_label = scope_name
             st.plotly_chart(
                 build_epk_or_scatter(sched_df, chart_label),
-                use_container_width=True,
+                width="stretch",
             )
 
             # Row 5: Quadrant breakdown chart
             st.plotly_chart(
                 build_quadrant_breakdown_chart(qc, chart_label),
-                use_container_width=True,
+                width="stretch",
             )
             # Row 6: Fleet breakdown per product (from EPK summary JSON)
             epk_summary = load_epk_summary_for_depot(schedule_date, scope_name)
@@ -355,7 +371,8 @@ def render_dynamic_scheduling():
                 mcols[0].metric("Maintenance %", f"{maint_pct:.1%}")
                 mcols[1].metric("ADD candidates (no spare)", int(no_spare))
                 mcols[2].metric("90d avg PKM", f"{epk_summary.get('pkm_90d_avg', 0.0):,.0f}")
-                st.dataframe(fleet_table, width="stretch", hide_index=True)
+                fleet_table = fleet_table.astype(str)
+                st.dataframe(fleet_table, use_container_width=True, hide_index=True)
 
             # Expander: Full service-level data table
             with st.expander("View Full Service Data"):
@@ -370,7 +387,7 @@ def render_dynamic_scheduling():
                         display_df[col] = display_df[col].apply(lambda x: f"{int(x):,}" if pd.notna(x) else "-")
                 if "or" in display_df.columns:
                     display_df["or"] = display_df["or"].apply(lambda x: f"{x:.0%}" if pd.notna(x) else "-")
-                st.dataframe(display_df, use_container_width=True, height=500)
+                st.dataframe(display_df, width="stretch", height=500)
         else:
             if role == "Depot Manager(DMs)":
                 label = scope_depots[0]
@@ -384,7 +401,7 @@ def render_dynamic_scheduling():
 
     # ── Tab 3: Daily Schedule ────────────────────────────────────────────────
 
-    with tab3:
+    elif active_tab == "Modified Schedule":
         if len(schedules) > 0:
             sched_df = pd.concat(schedules.values(), ignore_index=True)
 
@@ -499,7 +516,7 @@ def render_dynamic_scheduling():
                     display_df[col] = display_df[col].apply(lambda x: f"{int(x):,}" if pd.notna(x) else "-")
             if "or" in display_df.columns:
                 display_df["or"] = display_df["or"].apply(lambda x: f"{x:.0%}" if pd.notna(x) else "-")
-            st.dataframe(display_df, use_container_width=True, height=500)
+            st.dataframe(display_df, width="stretch", height=500)
 
             # ── Implementable Modified Schedule (EPK only) ─────────────────────
             if is_epk:
@@ -556,134 +573,21 @@ def render_dynamic_scheduling():
                         mod_display[col] = mod_display[col].apply(lambda x: f"{int(x):,}" if pd.notna(x) else "-")
                 if "or" in mod_display.columns:
                     mod_display["or"] = mod_display["or"].apply(lambda x: f"{x:.0%}" if pd.notna(x) else "-")
-                st.dataframe(mod_display, use_container_width=True, height=500)
+                st.dataframe(mod_display, width="stretch", height=500)
         else:
             st.info(f"No schedule available for {scope_name}.")
     
-    with tab4:
-        if schedule_dates and selected_schedule_date != "—":
-            accuracy = get_schedule_accuracy_data(schedules, scope_name, selected_schedule_date)
-        else:
-            accuracy = None
+    elif active_tab == "Prediction vs Actual":
+            if role == "Depot Manager(DMs)":
 
-        if accuracy is not None:
-            hl = accuracy["high_level"]
-            ba = accuracy["by_action"]
-
-            st.subheader(f"Schedule Accuracy — {scope_name} — {selected_schedule_date}")
-
-            # ── High-Level Comparison ─────────────────────────────────────
-            st.markdown("### High-Level Summary")
-            pred_col, actual_col = st.columns(2)
-
-            def _fmt_lakhs(v):
-                return f"₹{v / 100000:,.2f} L" if v is not None else "-"
-
-            def _fmt_num(v):
-                return f"{v:,.0f}" if v is not None else "-"
-
-            def _fmt_pct(v):
-                return f"{v:.1%}" if v is not None else "-"
-
-            def _fmt_epk(v):
-                return f"{v:.2f}" if v is not None else "-"
-
-            with pred_col:
-                st.markdown("**Predicted**")
-                st.metric("Passenger KMs", _fmt_num(hl["pred_pkm"]))
-                st.metric("Revenue", _fmt_lakhs(hl["pred_revenue"]))
-                st.metric("Avg EPK", _fmt_epk(hl["pred_epk"]))
-                st.metric("Avg OR", _fmt_pct(hl["pred_or"]))
-                st.metric("Profit", _fmt_lakhs(hl["pred_profit"]))
-
-            with actual_col:
-                st.markdown("**Actual**")
-                st.metric("Passenger KMs", _fmt_num(hl["actual_pkm"]))
-                st.metric("Revenue", _fmt_lakhs(hl["actual_revenue"]))
-                st.metric("Avg EPK", _fmt_epk(hl["actual_epk"]))
-                st.metric("Avg OR", _fmt_pct(hl["actual_or"]))
-                st.metric("Profit", _fmt_lakhs(hl["actual_profit"]))
-
-            st.divider()
-
-            # ── Per-Action Sections ───────────────────────────────────────
-            for action, label, description in [
-                ("CUT", "CUT Services", "Services recommended to be cut"),
-                ("NO_CHANGE", "NO CHANGE Services", "Services recommended to continue as-is"),
-                ("ADD_SLOT", "ADD SLOT Services", "Services recommended to add a new slot"),
-            ]:
-                info = ba[action]
-                st.markdown(f"### {label}")
-                st.caption(description)
-
-                if info["count"] == 0:
-                    st.info(f"No {action} services in this schedule.")
-                    continue
-
-                # Action-level metrics
-                if action == "CUT":
-                    st.markdown(
-                        f"**{info['count']}** services recommended to cut — "
-                        f"**{info['not_ran']}** were actually cut (didn't run), "
-                        f"**{info['actually_ran']}** still ran"
-                    )
-                elif action == "ADD_SLOT":
-                    st.markdown(
-                        f"**{info['count']}** services recommended for additional slot — "
-                        f"**{info['actually_ran']}** ran, "
-                        f"**{info['not_ran']}** were not added by depot"
-                    )
-                else:
-                    st.markdown(
-                        f"**{info['count']}** services kept unchanged — "
-                        f"**{info['actually_ran']}** ran as expected, "
-                        f"**{info['not_ran']}** did not run"
-                    )
-
-                pcol, acol = st.columns(2)
-                with pcol:
-                    st.markdown("**Predicted**")
-                    st.metric("KMs", _fmt_num(info["pred_kms"]), label_visibility="visible")
-                    st.metric("Revenue", _fmt_lakhs(info["pred_revenue"]))
-                    st.metric("Avg EPK", _fmt_epk(info["pred_epk"]))
-                    st.metric("Avg OR", _fmt_pct(info["pred_or"]))
-                    st.metric("Profit", _fmt_lakhs(info["pred_profit"]))
-                with acol:
-                    st.markdown("**Actual**")
-                    st.metric("KMs", _fmt_num(info["actual_kms"]))
-                    st.metric("Revenue", _fmt_lakhs(info["actual_revenue"]))
-                    st.metric("Avg EPK", _fmt_epk(info["actual_epk"]))
-                    st.metric("Avg OR", _fmt_pct(info["actual_or"]))
-                    st.metric("Profit", _fmt_lakhs(info["actual_profit"]))
-
-                # Service-level detail table
-                svc_df = info["services"]
-                if len(svc_df) > 0:
-                    with st.expander(f"View {action} Service Details"):
-                        detail_cols = ["service_number", "route", "product",
-                                    "pred_kms", "actual_kms",
-                                    "pred_revenue", "actual_revenue",
-                                    "pred_epk", "actual_epk",
-                                    "pred_or", "actual_or",
-                                    "pred_profit", "actual_profit",
-                                    "actually_ran"]
-                        detail_cols = [c for c in detail_cols if c in svc_df.columns]
-                        st.dataframe(svc_df[detail_cols], width="stretch", height=400)
-
-                st.divider()
-        else:
-            gold_dates = list_dates_with_gold_actuals(scope_name)
-            if gold_dates:
-                dates_str = ", ".join(gold_dates[:10])
-                more = f" (+{len(gold_dates) - 10} more)" if len(gold_dates) > 10 else ""
-                st.info(
-                    f"No schedule accuracy data available for **{scope_name}** on "
-                    f"**{selected_schedule_date}** — gold actuals for that date are missing. "
-                    f"Pick one of these dates instead: {dates_str}{more}."
+                render_prediction_vs_actual(
+                    selected_depot=scope_name,
+                    schedule_dates=schedule_dates,
+                    selected_schedule_date=selected_schedule_date,
+                    schedules=schedules,
+                    SCHEDULE_DIR=SCHEDULE_DIR
                 )
-            else:
-                st.info(
-                    f"No schedule accuracy data available for **{scope_name}**. "
-                    f"No schedule date has matching gold actuals yet — run the data pipeline "
-                    f"once actual operations data is in."
-                )
+
+            elif role == "Regional Manager(RMs)":
+
+                st.info("Prediction vs Actual view is available only at Depot level.")

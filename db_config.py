@@ -1,6 +1,6 @@
 # db_config.py
 import json
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, inspect, text
 from sqlalchemy.orm import sessionmaker, declarative_base, scoped_session
 from contextlib import contextmanager
 import urllib.parse
@@ -50,6 +50,31 @@ engine = create_engine(
 
 SessionFactory = sessionmaker(bind=engine, autoflush=False, autocommit=False)
 SessionLocal = scoped_session(SessionFactory)
+_ACTION_PLAN_SCHEMA_VERIFIED = False
+
+
+def ensure_action_plan_schema():
+    """Keep the live action_plan table aligned with the ORM model."""
+    global _ACTION_PLAN_SCHEMA_VERIFIED
+    if _ACTION_PLAN_SCHEMA_VERIFIED:
+        return
+
+    inspector = inspect(engine)
+    if not inspector.has_table("action_plan"):
+        _ACTION_PLAN_SCHEMA_VERIFIED = True
+        return
+
+    column_names = {col["name"] for col in inspector.get_columns("action_plan")}
+    if "Driver_Schedule" not in column_names:
+        with engine.begin() as conn:
+            conn.execute(
+                text(
+                    "ALTER TABLE action_plan "
+                    "ADD COLUMN Driver_Schedule varchar(100) DEFAULT NULL"
+                )
+            )
+
+    _ACTION_PLAN_SCHEMA_VERIFIED = True
 
 # ------------------------------
 # Base Class for ORM Models
@@ -68,6 +93,7 @@ def get_session():
         with get_session() as db:
             results = db.query(ActionPlan).all()
     """
+    ensure_action_plan_schema()
     db = SessionLocal()
     try:
         yield db

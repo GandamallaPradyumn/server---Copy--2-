@@ -1,0 +1,90 @@
+{
+  "depot": "MAHABOOBABAD",
+  "target_date": "2026-06-21",
+  "predicted_depot_pkm": 1325554.75,
+  "total_services": 76,
+  "count_add_slot": 3,
+  "count_cut": 2,
+  "count_add_candidates_no_spare": 6,
+  "count_no_change": 65,
+  "total_allocated_pkm": 1278202.050155625,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 54,
+    "OVERSUPPLY": 17,
+    "INEFFICIENT": 5
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 71.1,
+    "OVERSUPPLY": 22.4,
+    "INEFFICIENT": 6.6
+  },
+  "total_revenue": 1480603.615112905,
+  "total_contribution": 922115.8251129049,
+  "total_planned_kms": 31066.0,
+  "depot_avg_epk": 47.16887661140277,
+  "depot_avg_or": 0.7622326449875859,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 14047.665251705188,
+    "OVERSUPPLY": 229703.07568183882,
+    "UNDERSUPPLY": 1236852.874179361
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -21145.874748294813,
+    "OVERSUPPLY": 106847.52568183883,
+    "UNDERSUPPLY": 836414.1741793609
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1258010.142662883,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 13,
+      "planned": 12.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PE": {
+      "available": 11,
+      "planned": 11.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": -1.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PO": {
+      "available": 13,
+      "planned": 13.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": -1.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PVG": {
+      "available": 41,
+      "planned": 37.0,
+      "cut": 2.0,
+      "maintenance": 3,
+      "spare": 3.0,
+      "estimated": true,
+      "added": 3,
+      "to_add": 9
+    },
+    "SL": {
+      "available": 4,
+      "planned": 3.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

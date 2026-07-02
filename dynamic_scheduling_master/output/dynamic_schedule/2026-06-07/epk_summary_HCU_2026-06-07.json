@@ -1,0 +1,60 @@
+{
+  "depot": "HCU",
+  "target_date": "2026-06-07",
+  "predicted_depot_pkm": 1458966.0,
+  "total_services": 138,
+  "count_add_slot": 4,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 56,
+  "count_no_change": 78,
+  "total_allocated_pkm": 1350753.2707920668,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 129,
+    "INEFFICIENT": 6,
+    "OVERSUPPLY": 3
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 93.5,
+    "INEFFICIENT": 4.3,
+    "OVERSUPPLY": 2.2
+  },
+  "total_revenue": 1893009.0009398689,
+  "total_contribution": 1185311.2509398689,
+  "total_planned_kms": 28307.910000000003,
+  "depot_avg_epk": 68.20503376416399,
+  "depot_avg_or": 1.4169802538373917,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 0.0,
+    "OVERSUPPLY": 24075.792981080805,
+    "UNDERSUPPLY": 1868933.2079587881
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -31962.75,
+    "OVERSUPPLY": 7315.542981080807,
+    "UNDERSUPPLY": 1209958.4579587881
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1292644.2836334782,
+  "fleet_breakdown": {
+    "EM": {
+      "available": 42,
+      "planned": 31.5,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 9.5,
+      "estimated": false,
+      "added": 4,
+      "to_add": 4
+    },
+    "EO": {
+      "available": 64,
+      "planned": 73.5,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": -10.5,
+      "estimated": false,
+      "added": 0,
+      "to_add": 56
+    }
+  }
+}

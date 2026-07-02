@@ -1,0 +1,100 @@
+{
+  "depot": "BARKATPURA",
+  "target_date": "2026-06-06",
+  "predicted_depot_pkm": 1578396.625,
+  "total_services": 142,
+  "count_add_slot": 6,
+  "count_cut": 1,
+  "count_add_candidates_no_spare": 34,
+  "count_no_change": 101,
+  "total_allocated_pkm": 1569396.879929779,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 99,
+    "INEFFICIENT": 40,
+    "OVERSUPPLY": 3
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 69.7,
+    "INEFFICIENT": 28.2,
+    "OVERSUPPLY": 2.1
+  },
+  "total_revenue": 2090364.1438862681,
+  "total_contribution": 1370014.1438862684,
+  "total_planned_kms": 28814.0,
+  "depot_avg_epk": 69.69407531417635,
+  "depot_avg_or": 1.1383847327945902,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 0.0,
+    "OVERSUPPLY": 14288.614802467018,
+    "UNDERSUPPLY": 2076075.5290838012
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -201725.0,
+    "OVERSUPPLY": 3538.614802467017,
+    "UNDERSUPPLY": 1568200.5290838012
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1324199.2292264355,
+  "fleet_breakdown": {
+    "CO": {
+      "available": 27,
+      "planned": 24.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 2.0,
+      "estimated": true,
+      "added": 2,
+      "to_add": 13
+    },
+    "MS": {
+      "available": 9,
+      "planned": 8.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "SN": {
+      "available": 13,
+      "planned": 11.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 2.0,
+      "estimated": true,
+      "added": 2,
+      "to_add": 6
+    },
+    "SU": {
+      "available": 38,
+      "planned": 34.5,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 2.5,
+      "estimated": true,
+      "added": 2,
+      "to_add": 21
+    },
+    "VC": {
+      "available": 3,
+      "planned": 2.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "VR": {
+      "available": 31,
+      "planned": 27.5,
+      "cut": 1.0,
+      "maintenance": 1,
+      "spare": 3.5,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

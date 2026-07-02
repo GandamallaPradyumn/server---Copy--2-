@@ -1,0 +1,110 @@
+{
+  "depot": "HAKIMPET",
+  "target_date": "2026-06-23",
+  "predicted_depot_pkm": 1485224.125,
+  "total_services": 152,
+  "count_add_slot": 6,
+  "count_cut": 2,
+  "count_add_candidates_no_spare": 8,
+  "count_no_change": 136,
+  "total_allocated_pkm": 1347607.0444608284,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 137,
+    "OVERSUPPLY": 9,
+    "INEFFICIENT": 6
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 90.1,
+    "OVERSUPPLY": 5.9,
+    "INEFFICIENT": 3.9
+  },
+  "total_revenue": 1816578.4829800888,
+  "total_contribution": 995227.1266800889,
+  "total_planned_kms": 31321.69,
+  "depot_avg_epk": 58.626411116285205,
+  "depot_avg_or": 1.0066512089172512,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 22248.73531470656,
+    "OVERSUPPLY": 61438.89136827532,
+    "UNDERSUPPLY": 1732890.8562971072
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -9314.094685293443,
+    "OVERSUPPLY": 16127.311368275312,
+    "UNDERSUPPLY": 988413.9099971071
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1207538.439734723,
+  "fleet_breakdown": {
+    "ME": {
+      "available": 37,
+      "planned": 22.5,
+      "cut": 1.0,
+      "maintenance": 1,
+      "spare": 14.5,
+      "estimated": false,
+      "added": 1,
+      "to_add": 1
+    },
+    "PM": {
+      "available": 6,
+      "planned": 5.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PS": {
+      "available": 17,
+      "planned": 12.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 5.0,
+      "estimated": false,
+      "added": 1,
+      "to_add": 1
+    },
+    "SN": {
+      "available": 9,
+      "planned": 8.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 1,
+      "to_add": 3
+    },
+    "XC": {
+      "available": 32,
+      "planned": 34.5,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": -3.5,
+      "estimated": false,
+      "added": 0,
+      "to_add": 4
+    },
+    "XM": {
+      "available": 6,
+      "planned": 5.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "XS": {
+      "available": 25,
+      "planned": 22.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 3.0,
+      "estimated": true,
+      "added": 3,
+      "to_add": 5
+    }
+  }
+}

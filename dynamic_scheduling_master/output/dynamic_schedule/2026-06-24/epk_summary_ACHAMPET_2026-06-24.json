@@ -1,0 +1,100 @@
+{
+  "depot": "ACHAMPET",
+  "target_date": "2026-06-24",
+  "predicted_depot_pkm": 1808037.125,
+  "total_services": 83,
+  "count_add_slot": 2,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 0,
+  "count_no_change": 81,
+  "total_allocated_pkm": 1779434.6500506725,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 70,
+    "OVERSUPPLY": 12,
+    "INEFFICIENT": 1
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 84.3,
+    "OVERSUPPLY": 14.5,
+    "INEFFICIENT": 1.2
+  },
+  "total_revenue": 2138569.7088570003,
+  "total_contribution": 1235169.7088570006,
+  "total_planned_kms": 36136.0,
+  "depot_avg_epk": 59.1997103136067,
+  "depot_avg_or": 0.8827247877765816,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 5097.021416744704,
+    "OVERSUPPLY": 234674.57290971457,
+    "UNDERSUPPLY": 1898798.114530541
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -2777.978583255296,
+    "OVERSUPPLY": 86999.57290971455,
+    "UNDERSUPPLY": 1150948.114530541
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1711393.7300883203,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 18,
+      "planned": 12.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 5.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "IE": {
+      "available": 6,
+      "planned": 5.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "IH": {
+      "available": 2,
+      "planned": 2.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 36,
+      "planned": 31.0,
+      "cut": 0.0,
+      "maintenance": 3,
+      "spare": 2.0,
+      "estimated": false,
+      "added": 2,
+      "to_add": 2
+    },
+    "PE": {
+      "available": 21,
+      "planned": 21.0,
+      "cut": 0.0,
+      "maintenance": 2,
+      "spare": -2.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PO": {
+      "available": 6,
+      "planned": 6.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

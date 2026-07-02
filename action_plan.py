@@ -436,7 +436,7 @@ def action_dm():
                      "Special Off (Night Out IC & Online)", "Others",
                      "Leave & Absent", "Sick Leave", "Spot Absent",
                      "Double Duty", "Off Cancellation","Driver/Schedule"]]
-            st.dataframe(df, use_container_width=True, hide_index=True)
+            st.dataframe(df, width="stretch", hide_index=True)
         else:
             st.info("ℹ️ No previous Action Plan entries found for this year.")
 

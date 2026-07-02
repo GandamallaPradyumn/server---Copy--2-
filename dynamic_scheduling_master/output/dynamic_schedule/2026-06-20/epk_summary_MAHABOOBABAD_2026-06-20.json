@@ -1,0 +1,90 @@
+{
+  "depot": "MAHABOOBABAD",
+  "target_date": "2026-06-20",
+  "predicted_depot_pkm": 1364935.875,
+  "total_services": 76,
+  "count_add_slot": 3,
+  "count_cut": 2,
+  "count_add_candidates_no_spare": 6,
+  "count_no_change": 65,
+  "total_allocated_pkm": 1317118.673750456,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 57,
+    "OVERSUPPLY": 12,
+    "INEFFICIENT": 7
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 75.0,
+    "OVERSUPPLY": 15.8,
+    "INEFFICIENT": 9.2
+  },
+  "total_revenue": 1525919.8019383557,
+  "total_contribution": 967432.0119383559,
+  "total_planned_kms": 31066.0,
+  "depot_avg_epk": 48.57522637313177,
+  "depot_avg_or": 0.7847636348849375,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 23779.633131608334,
+    "OVERSUPPLY": 175777.04522501325,
+    "UNDERSUPPLY": 1326363.1235817343
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -23344.386868391666,
+    "OVERSUPPLY": 84816.33522501324,
+    "UNDERSUPPLY": 905960.0635817342
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1258229.7873084936,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 13,
+      "planned": 12.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PE": {
+      "available": 11,
+      "planned": 11.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": -1.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PO": {
+      "available": 13,
+      "planned": 13.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": -1.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PVG": {
+      "available": 41,
+      "planned": 37.0,
+      "cut": 2.0,
+      "maintenance": 3,
+      "spare": 3.0,
+      "estimated": true,
+      "added": 3,
+      "to_add": 9
+    },
+    "SL": {
+      "available": 4,
+      "planned": 3.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

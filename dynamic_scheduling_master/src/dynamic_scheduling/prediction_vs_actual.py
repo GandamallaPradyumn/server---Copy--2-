@@ -5,7 +5,10 @@ import os
 import re
 import plotly.graph_objects as go
 from datetime import datetime, timedelta
-from dynamic_scheduling_master.src.dynamic_scheduling.ops_dashboard import load_schedule_for_date
+from dynamic_scheduling_master.src.dynamic_scheduling.ops_dashboard import (
+    load_schedule_for_date,
+    format_indian_number,
+)
 
 def render_prediction_vs_actual(
         selected_depot,
@@ -322,10 +325,10 @@ def render_prediction_vs_actual(
                 with metric_cols[0]:
                     depot_actual_pkm = _pva_load_depot_actual_pkm(pva_date_str, selected_depot, GOLD_DEPOT_PATH)
                     if depot_actual_pkm is not None:
-                        st.metric("Actual PKM", f"{depot_actual_pkm:,.0f}")
+                        st.metric("Actual PKM", format_indian_number(depot_actual_pkm))
                     elif actual_pkm_col:
                         val = pd.to_numeric(act_df[actual_pkm_col], errors="coerce").sum()
-                        st.metric("Actual PKM", f"{val:,.0f}")
+                        st.metric("Actual PKM", format_indian_number(val))
                     else:
                         st.metric("Actual PKM", "—")
                 
@@ -360,7 +363,7 @@ def render_prediction_vs_actual(
                 with metric_cols2[0]:
                     if actual_kms_col:
                         val = pd.to_numeric(act_df[actual_kms_col], errors="coerce").sum()
-                        st.metric("Actual KMs", f"{val:,.0f}")
+                        st.metric("Actual KMs", format_indian_number(val))
                     else:
                         st.metric("Actual KMs", "—")
                 
@@ -391,10 +394,10 @@ def render_prediction_vs_actual(
                     # PKM from daily_predictions.parquet (matches Demand Prediction tab)
                     pred_pkm = _pva_load_predicted_pkm(pva_date_str, selected_depot, PREDICTIONS_PATH)
                     if pred_pkm is not None:
-                        st.metric("Predicted PKM", f"{pred_pkm:,.0f}")
+                        st.metric("Predicted PKM", format_indian_number(pred_pkm))
                     elif "allocated_pkm" in pva_sched_df.columns:
                         val = pva_sched_df["allocated_pkm"].sum()
-                        st.metric("Predicted PKM", f"{val:,.0f}")
+                        st.metric("Predicted PKM", format_indian_number(val))
                     else:
                         st.metric("Predicted PKM", "—")
 
@@ -419,7 +422,7 @@ def render_prediction_vs_actual(
                 with metric_cols2[0]:
                     # Modified KMs = planned + added - cut (same as Tab 3)
                     if _has_kms:
-                        st.metric("Modified KMs", f"{modified_kms_val:,.0f}")
+                        st.metric("Modified KMs", format_indian_number(modified_kms_val))
                     else:
                         st.metric("Modified KMs", "—")
                         
@@ -608,7 +611,7 @@ def render_prediction_vs_actual(
                 for col in d.columns:
                     if col in int_cols:
                         d[col] = pd.to_numeric(d[col], errors="coerce")
-                        d[col] = d[col].apply(lambda x: f"{x:,.0f}" if pd.notna(x) else "")
+                        d[col] = d[col].apply(lambda x: format_indian_number(x) if pd.notna(x) else "")
                     elif col in pct_cols:
                         d[col] = pd.to_numeric(d[col], errors="coerce")
                         d[col] = d[col].apply(lambda x: f"{x:.1%}" if pd.notna(x) else "")
@@ -678,7 +681,7 @@ def render_prediction_vs_actual(
             for col in d.columns:
                 if col in int_cols:
                     d[col] = pd.to_numeric(d[col], errors="coerce")
-                    d[col] = d[col].apply(lambda x: f"{x:,.0f}" if pd.notna(x) else "—")
+                    d[col] = d[col].apply(lambda x: format_indian_number(x) if pd.notna(x) else "—")
                 elif col in pct_cols:
                     d[col] = pd.to_numeric(d[col], errors="coerce")
                     d[col] = d[col].apply(lambda x: f"{x:.1%}" if pd.notna(x) else "—")
@@ -734,31 +737,31 @@ def render_prediction_vs_actual(
 
         with st.expander(f"Add Slot  ({len(add_slot_data)} services)", expanded=True):
             if not add_slot_data.empty:
-                st.dataframe(_fmt_expander_table(add_slot_data), use_container_width=True, height=300, hide_index=True)
+                st.dataframe(_fmt_expander_table(add_slot_data), width="stretch", height=300, hide_index=True)
             else:
                 st.info("No services in this category.")
 
         with st.expander(f"Cut({len(cut_data)} services)", expanded=True):
             if not cut_data.empty:
-                st.dataframe(_fmt_expander_table(cut_data), use_container_width=True, height=300, hide_index=True)
+                st.dataframe(_fmt_expander_table(cut_data), width="stretch", height=300, hide_index=True)
             else:
                 st.info("No services in this category.")
 
         with st.expander(f"No Change ({len(no_change_data)} services)", expanded=True):
             if not no_change_data.empty:
-                st.dataframe(_fmt_expander_table(no_change_data), use_container_width=True, height=300, hide_index=True)
+                st.dataframe(_fmt_expander_table(no_change_data), width="stretch", height=300, hide_index=True)
             else:
                 st.info("No services in this category.")
 
         with st.expander(f"Extra Services ({len(extra_svc_data)} services)", expanded=True):
             if not extra_svc_data.empty:
-                st.dataframe(_fmt_expander_table(extra_svc_data), use_container_width=True, height=300, hide_index=True)
+                st.dataframe(_fmt_expander_table(extra_svc_data), width="stretch", height=300, hide_index=True)
             else:
                 st.info("No extra services found.")
 
         with st.expander(f"New Services ({len(new_services_data)} services)", expanded=True):
             if not new_services_data.empty:
-                st.dataframe(_fmt_expander_table(new_services_data), use_container_width=True, height=300, hide_index=True)
+                st.dataframe(_fmt_expander_table(new_services_data), width="stretch", height=300, hide_index=True)
             else:
                 st.info("No new services found.")
 
@@ -770,7 +773,7 @@ def render_prediction_vs_actual(
             if not predictions_only_data.empty:
                 st.dataframe(
                     _fmt_expander_table(predictions_only_data, predictions_only=True),
-                    use_container_width=True,
+                    width="stretch",
                     height=300,
                     hide_index=True,
                 )
@@ -779,7 +782,7 @@ def render_prediction_vs_actual(
 
         with st.expander(f"Total All Combined ({len(all_combined_data)} services)", expanded=True):
             if not all_combined_data.empty:
-                st.dataframe(_fmt_expander_table(all_combined_data, include_actions=True), use_container_width=True, height=400, hide_index=True)
+                st.dataframe(_fmt_expander_table(all_combined_data, include_actions=True), width="stretch", height=400, hide_index=True)
             else:
                 st.info("No services available.")
 
@@ -980,7 +983,7 @@ def render_prediction_vs_actual(
                                         margin=dict(l=60, r=180, t=60, b=60),
                                         template="plotly_white"
                                     )
-                                    st.plotly_chart(fig_svc, use_container_width=True)
+                                    st.plotly_chart(fig_svc, width="stretch")
                                 else:
                                     st.warning(f"No actual data available for service {selected_service} — {selected_value}.")
                             else:

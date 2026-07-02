@@ -1,0 +1,110 @@
+{
+  "depot": "NAGARKURNOOL",
+  "target_date": "2026-06-09",
+  "predicted_depot_pkm": 1710124.375,
+  "total_services": 79,
+  "count_add_slot": 2,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 5,
+  "count_no_change": 72,
+  "total_allocated_pkm": 1524913.2104225762,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 63,
+    "OVERSUPPLY": 11,
+    "INEFFICIENT": 5
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 79.7,
+    "OVERSUPPLY": 13.9,
+    "INEFFICIENT": 6.3
+  },
+  "total_revenue": 1745521.8703326536,
+  "total_contribution": 912121.8703326536,
+  "total_planned_kms": 33336.0,
+  "depot_avg_epk": 52.41330880537509,
+  "depot_avg_or": 0.8759556093878909,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 26404.021645945748,
+    "OVERSUPPLY": 227701.10795571434,
+    "UNDERSUPPLY": 1491416.7407309934
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -12995.978354054254,
+    "OVERSUPPLY": 77876.10795571435,
+    "UNDERSUPPLY": 847241.7407309934
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1617788.5857889873,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 4,
+      "planned": 4.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "HT": {
+      "available": 3,
+      "planned": 2.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "IH": {
+      "available": 5,
+      "planned": 2.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 3.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 39,
+      "planned": 34.0,
+      "cut": 0.0,
+      "maintenance": 3,
+      "spare": 2.0,
+      "estimated": false,
+      "added": 2,
+      "to_add": 2
+    },
+    "PE": {
+      "available": 11,
+      "planned": 11.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": -1.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 2
+    },
+    "PO": {
+      "available": 25,
+      "planned": 25.0,
+      "cut": 0.0,
+      "maintenance": 2,
+      "spare": -2.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 3
+    },
+    "SL": {
+      "available": 1,
+      "planned": 1.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

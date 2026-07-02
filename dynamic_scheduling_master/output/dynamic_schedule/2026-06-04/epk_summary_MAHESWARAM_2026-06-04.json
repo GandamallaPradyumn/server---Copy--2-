@@ -1,0 +1,96 @@
+{
+  "depot": "MAHESWARAM",
+  "target_date": "2026-06-04",
+  "predicted_depot_pkm": 1021615.875,
+  "total_services": 80,
+  "count_add_slot": 1,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 0,
+  "count_no_change": 79,
+  "total_allocated_pkm": 1008655.5710302781,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 59,
+    "OVERSUPPLY": 21
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 73.8,
+    "OVERSUPPLY": 26.2
+  },
+  "total_revenue": 1322941.4210009861,
+  "total_contribution": 686943.4210009861,
+  "total_planned_kms": 25439.920000000002,
+  "depot_avg_epk": 50.70659293947671,
+  "depot_avg_or": 0.8406744810971123,
+  "revenue_by_quadrant": {
+    "OVERSUPPLY": 184800.3607199287,
+    "UNDERSUPPLY": 1138141.0602810574
+  },
+  "contribution_by_quadrant": {
+    "OVERSUPPLY": 58075.3607199287,
+    "UNDERSUPPLY": 628868.0602810575
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 862902.7246943077,
+  "fleet_breakdown": {
+    "CO": {
+      "available": 1,
+      "planned": 0.5,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.5,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "MO": {
+      "available": 54,
+      "planned": 48.5,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 4.5,
+      "estimated": true,
+      "added": 1,
+      "to_add": 1
+    },
+    "PM": {
+      "available": 11,
+      "planned": 10.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PS": {
+      "available": 3,
+      "planned": 2.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "SN": {
+      "available": 2,
+      "planned": 1.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "SU": {
+      "available": 10,
+      "planned": 8.5,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.5,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

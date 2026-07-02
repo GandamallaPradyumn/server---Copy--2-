@@ -1,0 +1,66 @@
+{
+  "depot": "KOSGI",
+  "target_date": "2026-06-24",
+  "predicted_depot_pkm": 376514.8125,
+  "total_services": 25,
+  "count_add_slot": 0,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 0,
+  "count_no_change": 25,
+  "total_allocated_pkm": 372787.3378303078,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 15,
+    "OVERSUPPLY": 10
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 60.0,
+    "OVERSUPPLY": 40.0
+  },
+  "total_revenue": 420561.84566377586,
+  "total_contribution": 177661.8456637759,
+  "total_planned_kms": 9716.0,
+  "depot_avg_epk": 42.72657732142822,
+  "depot_avg_or": 0.7122267804347315,
+  "revenue_by_quadrant": {
+    "OVERSUPPLY": 135056.79727463287,
+    "UNDERSUPPLY": 285505.048389143
+  },
+  "contribution_by_quadrant": {
+    "OVERSUPPLY": 46356.797274632874,
+    "UNDERSUPPLY": 131305.04838914302
+  },
+  "maintenance_pct": 0.12,
+  "pkm_90d_avg": 404262.1408187368,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 6,
+      "planned": 5.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "IE": {
+      "available": 2,
+      "planned": 1.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 20,
+      "planned": 19.0,
+      "cut": 0.0,
+      "maintenance": 2,
+      "spare": -1.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

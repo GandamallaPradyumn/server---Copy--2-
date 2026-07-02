@@ -1,0 +1,110 @@
+{
+  "depot": "HAYATHNAGAR-I",
+  "target_date": "2026-06-24",
+  "predicted_depot_pkm": 1696474.25,
+  "total_services": 174,
+  "count_add_slot": 5,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 19,
+  "count_no_change": 150,
+  "total_allocated_pkm": 1573227.5033877334,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 117,
+    "INEFFICIENT": 54,
+    "OVERSUPPLY": 3
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 67.2,
+    "INEFFICIENT": 31.0,
+    "OVERSUPPLY": 1.7
+  },
+  "total_revenue": 2062641.5248776968,
+  "total_contribution": 1275466.0248776968,
+  "total_planned_kms": 31487.02,
+  "depot_avg_epk": 61.04270177510792,
+  "depot_avg_or": 1.011552170571026,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 14333.187651753942,
+    "OVERSUPPLY": 14280.886793075835,
+    "UNDERSUPPLY": 2034027.4504328668
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -204166.81234824605,
+    "OVERSUPPLY": 3530.8867930758342,
+    "UNDERSUPPLY": 1476101.9504328668
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1299916.621027685,
+  "fleet_breakdown": {
+    "MO": {
+      "available": 2,
+      "planned": 1.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "MS": {
+      "available": 15,
+      "planned": 13.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 2.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PA": {
+      "available": 2,
+      "planned": 1.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PM": {
+      "available": 6,
+      "planned": 5.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PS": {
+      "available": 36,
+      "planned": 32.5,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 2.5,
+      "estimated": true,
+      "added": 2,
+      "to_add": 13
+    },
+    "SU": {
+      "available": 41,
+      "planned": 37.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 3.0,
+      "estimated": true,
+      "added": 3,
+      "to_add": 11
+    },
+    "VR": {
+      "available": 25,
+      "planned": 22.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 3.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

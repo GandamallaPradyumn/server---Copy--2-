@@ -1,0 +1,52 @@
+{
+  "depot": "NARKATPALLY",
+  "target_date": "2026-06-05",
+  "predicted_depot_pkm": 757866.6875,
+  "total_services": 26,
+  "count_add_slot": 4,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 2,
+  "count_no_change": 20,
+  "total_allocated_pkm": 748772.6146965219,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 26
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 100.0
+  },
+  "total_revenue": 839756.7645703789,
+  "total_contribution": 581006.7645703789,
+  "total_planned_kms": 10350.0,
+  "depot_avg_epk": 82.12417168428314,
+  "depot_avg_or": 1.3237909824218137,
+  "revenue_by_quadrant": {
+    "UNDERSUPPLY": 839756.7645703789
+  },
+  "contribution_by_quadrant": {
+    "UNDERSUPPLY": 581006.7645703789
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 432511.0034171025,
+  "fleet_breakdown": {
+    "METRO EXP": {
+      "available": 6,
+      "planned": 5.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 1,
+      "to_add": 1
+    },
+    "PALLEVELUGU": {
+      "available": 24,
+      "planned": 21.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 3.0,
+      "estimated": true,
+      "added": 3,
+      "to_add": 5
+    }
+  }
+}

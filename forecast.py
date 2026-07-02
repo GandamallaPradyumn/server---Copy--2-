@@ -460,7 +460,7 @@ def forecast():
         summary_pivot = summary_df.set_index("Date").T.reset_index()
         summary_pivot = summary_pivot.rename(columns={"index": "Metric"})
 
-        st.dataframe(summary_pivot, use_container_width=True, hide_index=True)
+        st.dataframe(summary_pivot, width="stretch", hide_index=True)
 
 
 
@@ -483,10 +483,10 @@ def forecast():
         fig1 = go.Figure()
         fig1.add_trace(go.Scatter(x=df_plot["date"], y=df_plot["passengers_per_day"], mode="lines+markers", name="Actual"))
         fig1.add_trace(go.Scatter(x=df_plot["date"], y=df_plot["Predicted"], mode="lines+markers", name="Predicted", line=dict(dash="dash")))
-        st.plotly_chart(fig1, use_container_width=True)
+        st.plotly_chart(fig1, width="stretch")
 
         fig2 = px.bar(df_plot, x="date", y="Variance %", color="VarSign")
-        st.plotly_chart(fig2, use_container_width=True)
+        st.plotly_chart(fig2, width="stretch")
 
         # st.markdown("---")
         # st.markdown(f"### 📊 Model Performance Metrics ({selected_depot})")

@@ -1,0 +1,90 @@
+{
+  "depot": "RANIGUNJ-I",
+  "target_date": "2026-06-20",
+  "predicted_depot_pkm": 1820436.375,
+  "total_services": 222,
+  "count_add_slot": 6,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 80,
+  "count_no_change": 136,
+  "total_allocated_pkm": 1560967.1292209409,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 175,
+    "OVERSUPPLY": 36,
+    "INEFFICIENT": 11
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 78.8,
+    "OVERSUPPLY": 16.2,
+    "INEFFICIENT": 5.0
+  },
+  "total_revenue": 2299014.5117399422,
+  "total_contribution": 1409852.5117399425,
+  "total_planned_kms": 35566.479999999996,
+  "depot_avg_epk": 65.59705952163495,
+  "depot_avg_or": 1.1253252943917,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 8402.485769759154,
+    "OVERSUPPLY": 234249.73447868964,
+    "UNDERSUPPLY": 2056362.2914914938
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -30697.514230240846,
+    "OVERSUPPLY": 72757.73447868963,
+    "UNDERSUPPLY": 1367792.2914914938
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1479145.410564192,
+  "fleet_breakdown": {
+    "CO": {
+      "available": 47,
+      "planned": 52.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": -6.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 24
+    },
+    "EM": {
+      "available": 72,
+      "planned": 65.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 6.0,
+      "estimated": true,
+      "added": 6,
+      "to_add": 59
+    },
+    "ME": {
+      "available": 3,
+      "planned": 2.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "MS": {
+      "available": 14,
+      "planned": 16.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": -2.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 1
+    },
+    "VC": {
+      "available": 10,
+      "planned": 10.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 2
+    }
+  }
+}

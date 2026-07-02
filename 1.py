@@ -424,7 +424,7 @@ if xlsx_file is None and csv_file is None:
     st.info("Upload at least one file above to enable transformation.")
     st.stop()
 
-if st.button("⚙️ Run Transformation", type="primary", use_container_width=True):
+if st.button("⚙️ Run Transformation", type="primary", width="stretch"):
     with st.spinner("Running transformation pipeline…"):
 
         results = {}
@@ -515,7 +515,7 @@ if st.session_state.get("transformed"):
             st.divider()
             st.subheader("Preview — Transformed Output")
             st.caption(f"Output filename: **{filename}**")
-            st.dataframe(format_for_display(out_df), use_container_width=True, height=420)
+            st.dataframe(format_for_display(out_df), width="stretch", height=420)
 
             # ── Duplicates table (Day Service only) ───────────────────────
             if key == "day_service":
@@ -535,7 +535,7 @@ if st.session_state.get("transformed"):
 
                     st.dataframe(
                         format_for_display(dup_df[show_cols]),
-                        use_container_width=True,
+                        width="stretch",
                         height=320,
                     )
 
@@ -567,12 +567,12 @@ if st.session_state.get("transformed"):
                     data=csv_bytes,
                     file_name=filename,
                     mime="text/csv",
-                    use_container_width=True,
+                    width="stretch",
                     key=f"dl_{key}",
                 )
 
             with col_mv:
-                if st.button("📁 Move to Inbound Folder", use_container_width=True, key=f"mv_{key}"):
+                if st.button("📁 Move to Inbound Folder", width="stretch", key=f"mv_{key}"):
                     if not os.path.isdir(INBOUND_FOLDER):
                         st.error(
                             f"Inbound folder not found:\n`{INBOUND_FOLDER}`\n\n"

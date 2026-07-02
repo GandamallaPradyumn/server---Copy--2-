@@ -495,7 +495,7 @@ class driver_depot_dashboard_ui:
         )
         avg_line = alt.Chart(pd.DataFrame({'OPD_KMS':[avg_kms]})).mark_rule(color='red', strokeDash=[5,5]).encode(y='OPD_KMS:Q')
         avg_text = alt.Chart(pd.DataFrame({'OPD_KMS':[avg_kms],'label':[f'Avg: {avg_kms:.1f}']})).mark_text(align='left', dx=5, dy=-7, color='red').encode(y='OPD_KMS:Q', text='label:N')
-        st.altair_chart((bars + kms_text + avg_line + avg_text).properties(width=900), use_container_width=True)
+        st.altair_chart((bars + kms_text + avg_line + avg_text).properties(width=900), width="stretch")
         chart_legend("Bar: Blue", "#1f77b4", None, None, "Average Line: Red")
 
         # --- Monthly Earnings ---
@@ -519,7 +519,7 @@ class driver_depot_dashboard_ui:
             )
             avg_line2 = alt.Chart(pd.DataFrame({'DAILY_EARNINGS':[avg_earn]})).mark_rule(color='red', strokeDash=[5,5]).encode(y='DAILY_EARNINGS:Q')
             avg_text2 = alt.Chart(pd.DataFrame({'DAILY_EARNINGS':[avg_earn],'label':[f'Avg: {avg_earn:.1f}']})).mark_text(align='left', dx=5, dy=-7, color='red').encode(y='DAILY_EARNINGS:Q', text='label:N')
-            st.altair_chart((bars2 + earnings_text + avg_line2 + avg_text2).properties(width=900), use_container_width=True)
+            st.altair_chart((bars2 + earnings_text + avg_line2 + avg_text2).properties(width=900), width="stretch")
             chart_legend("Bar: Blue", "#1f77b4", None, None, "Average Line: Red")
 
         # --- Productivity Hours ---
@@ -534,7 +534,7 @@ class driver_depot_dashboard_ui:
             hours_text = alt.Chart(hours_monthly).mark_text(align='center', baseline='bottom', dy=-5).encode(x=alt.X('MONTH_YEAR:N', sort=self.month_year), y=alt.Y('HOURS:Q'), text=alt.Text('HOURS:Q', format='.0f'))
             hours_avg_line = alt.Chart(pd.DataFrame({'HOURS':[avg_hours]})).mark_rule(color='red', strokeDash=[4,2]).encode(y='HOURS:Q')
             hours_avg_text = alt.Chart(pd.DataFrame({'HOURS':[avg_hours],'label':[f'Avg: {avg_hours:.1f}']})).mark_text(align='left', dx=5, dy=-7, color='red').encode(y='HOURS:Q', text='label:N')
-            st.altair_chart((hours_bars + hours_text + hours_avg_line + hours_avg_text).properties(width=900), use_container_width=True)
+            st.altair_chart((hours_bars + hours_text + hours_avg_line + hours_avg_text).properties(width=900), width="stretch")
             chart_legend("Bar: Blue", "#1f77b4", None, None, "Average Line: Red")
         else:
             st.info("No hours data for selected filters.")
@@ -551,7 +551,7 @@ class driver_depot_dashboard_ui:
             leaves_text = alt.Chart(leave_monthly).mark_text(align='center', baseline='bottom', dy=-5).encode(x=alt.X('MONTH_YEAR:N', sort=self.month_year), y=alt.Y('Leave_Days:Q'), text=alt.Text('Leave_Days:Q', format='.0f'))
             leave_avg_line = alt.Chart(pd.DataFrame({'Leave_Days':[avg_leave]})).mark_rule(color='red', strokeDash=[4,2]).encode(y='Leave_Days:Q')
             leave_avg_text = alt.Chart(pd.DataFrame({'Leave_Days':[avg_leave],'label':[f'Avg: {avg_leave:.1f}']})).mark_text(align='left', dx=5, dy=-7, color='red').encode(y='Leave_Days:Q', text='label:N')
-            st.altair_chart((leave_bars + leaves_text + leave_avg_line + leave_avg_text).properties(width=900), use_container_width=True)
+            st.altair_chart((leave_bars + leaves_text + leave_avg_line + leave_avg_text).properties(width=900), width="stretch")
             chart_legend("Bar: Blue", "#1f77b4", None, None, "Average Line: Red")
         else:
             st.info("No leave/absenteeism data for selected filters.")
@@ -568,7 +568,7 @@ class driver_depot_dashboard_ui:
                 swarm_plot = alt.Chart(sorted_data3).mark_point(color='red', size=30).encode(x=alt.X('FINAL_GRADING:N', axis=alt.Axis(labelAngle=0)), y=alt.Y('HOURS:Q'), tooltip=[alt.Tooltip('EMPLOYEE_ID', title='Employee ID'), alt.Tooltip('HOURS', title='Hours')])
                 highlighted_employee = alt.Chart(sorted_data3[sorted_data3['EMPLOYEE_ID']==str(self.selected_driver)]).mark_point(color='yellow', size=200, filled=True).encode(x='FINAL_GRADING:N', y='HOURS:Q')
                 final_chart = box_plot + swarm_plot + highlighted_employee
-                st.altair_chart(final_chart, use_container_width=True)
+                st.altair_chart(final_chart, width="stretch")
         else:
             st.info("No health-productivity merge data to display.")
 
@@ -581,7 +581,7 @@ class driver_depot_dashboard_ui:
             swarm_plot = alt.Chart(drv_lsa_ghc).mark_point(color='red', size=30).encode(x=alt.X('FINAL_GRADING:N', axis=alt.Axis(labelAngle=0)), y=alt.Y('LEAVE_COUNT:Q'), tooltip=[alt.Tooltip('EMPLOYEE_ID', title='Employee ID'), alt.Tooltip('LEAVE_COUNT', title='Leave Days')])
             highlighted_employee = alt.Chart(drv_lsa_ghc[drv_lsa_ghc['EMPLOYEE_ID']==str(self.selected_driver)]).mark_point(color='yellow', size=200, filled=True).encode(x='FINAL_GRADING:N', y='LEAVE_COUNT:Q')
             final_chart = box_plot + swarm_plot + highlighted_employee
-            st.altair_chart(final_chart, use_container_width=True)
+            st.altair_chart(final_chart, width="stretch")
         else:
             st.info("No absenteeism-by-health data to display.")
 
@@ -975,7 +975,7 @@ class driver_depot_dashboard_ui:
             avg_df = pd.DataFrame({'avg_kms':[avg_emp_kms]})
             avg_line = alt.Chart(avg_df).mark_rule(color='red', strokeDash=[4,2], size=2).encode(y='avg_kms:Q')
             avg_text = alt.Chart(avg_df).mark_text(color='red', dx=5, dy=-10).encode(y='avg_kms:Q', text=alt.value(f"Avg: {avg_emp_kms:,.0f}"))
-            st.altair_chart((bars_kms + avg_line + avg_text).properties(width=900), use_container_width=True)
+            st.altair_chart((bars_kms + avg_line + avg_text).properties(width=900), width="stretch")
             chart_legend("Depot Employees: Blue", "#1f77b4", "Selected Employee: Red", "red", "Average Line: Red Dashed")
         else:
             st.info("No kilometers data to display for this depot/period.")
@@ -997,7 +997,7 @@ class driver_depot_dashboard_ui:
             avg_df = pd.DataFrame({'avg_earn':[avg_emp_earnings]})
             avg_line = alt.Chart(avg_df).mark_rule(color='red', strokeDash=[4,2], size=2).encode(y='avg_earn:Q')
             avg_text = alt.Chart(avg_df).mark_text(color='red', dx=5, dy=-10).encode(y='avg_earn:Q', text=alt.value(f"Avg: ₹{avg_emp_earnings:,.0f}"))
-            st.altair_chart((bars_earnings + avg_line + avg_text).properties(width=900), use_container_width=True)
+            st.altair_chart((bars_earnings + avg_line + avg_text).properties(width=900), width="stretch")
             chart_legend("Depot Employees: Blue", "#1f77b4", "Selected Employee: Red", "red", "Average Line: Red Dashed")
 
         # Total productivity hours
@@ -1017,7 +1017,7 @@ class driver_depot_dashboard_ui:
             avg_df = pd.DataFrame({'avg_hours':[avg_emp_hours]})
             avg_line = alt.Chart(avg_df).mark_rule(color='red', strokeDash=[4,2], size=2).encode(y='avg_hours:Q')
             avg_text = alt.Chart(avg_df).mark_text(color='red', dx=5, dy=-10).encode(y='avg_hours:Q', text=alt.value(f"Avg: {avg_emp_hours:,.0f}"))
-            st.altair_chart((bars_hours + avg_line + avg_text).properties(width=900), use_container_width=True)
+            st.altair_chart((bars_hours + avg_line + avg_text).properties(width=900), width="stretch")
             chart_legend("Depot Employees: Blue", "#1f77b4", "Selected Employee: Red", "red", "Average Line: Red Dashed")
         else:
             st.info("No hours data to display for this depot/period.")
@@ -1039,7 +1039,7 @@ class driver_depot_dashboard_ui:
             avg_df = pd.DataFrame({'avg_leave':[avg_leave_days]})
             avg_line = alt.Chart(avg_df).mark_rule(color='red', strokeDash=[4,2], size=2).encode(y='avg_leave:Q')
             avg_text = alt.Chart(avg_df).mark_text(color='red', dx=5, dy=-10).encode(y='avg_leave:Q', text=alt.value(f"Avg: {avg_leave_days:,.0f}"))
-            st.altair_chart((bars_leaves + avg_line + avg_text).properties(width=900), use_container_width=True)
+            st.altair_chart((bars_leaves + avg_line + avg_text).properties(width=900), width="stretch")
             chart_legend("Depot Employees: Blue", "#1f77b4", "Selected Employee: Red", "red", "Average Line: Red Dashed")
         else:
             st.info("No leave data available for depot.")
@@ -1064,7 +1064,7 @@ class driver_depot_dashboard_ui:
                 highlighted_employee = alt.Chart(sorted_data3[sorted_data3['EMPLOYEE_ID'].astype(str) == str(self.selected_driver)]).mark_point(
                     color='yellow', size=200, filled=True).encode(x='FINAL_GRADING:N', y='HOURS:Q')
                 final_chart = box_plot + swarm_plot + highlighted_employee
-                st.altair_chart(final_chart, use_container_width=True)
+                st.altair_chart(final_chart, width="stretch")
         else:
             st.info("No productivity-by-health data for depot.")
 
@@ -1088,7 +1088,7 @@ class driver_depot_dashboard_ui:
                 highlighted_employee = alt.Chart(drv_lsa_ghc[drv_lsa_ghc['EMPLOYEE_ID'].astype(str) == str(self.selected_driver)]).mark_point(
                     color='yellow', size=200, filled=True).encode(x='FINAL_GRADING:N', y='LEAVE_COUNT:Q')
                 final_chart = box_plot + swarm_plot + highlighted_employee
-                st.altair_chart(final_chart, use_container_width=True)
+                st.altair_chart(final_chart, width="stretch")
         else:
             st.info("No absenteeism-by-health data for depot.")
 
@@ -1127,7 +1127,7 @@ class driver_depot_dashboard_ui:
                 .style
                 .background_gradient(cmap='Greens')
                 .format({'SCORE': '{:.2f}'}),
-                use_container_width=True
+                width="stretch"
             )
 
         with col2:
@@ -1137,7 +1137,7 @@ class driver_depot_dashboard_ui:
                 .style
                 .background_gradient(cmap='Reds')
                 .format({'SCORE': '{:.2f}'}),
-                use_container_width=True
+                width="stretch"
             )
 
 # ----------------- Main Entry -----------------

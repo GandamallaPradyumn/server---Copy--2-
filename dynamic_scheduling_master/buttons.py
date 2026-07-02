@@ -61,7 +61,7 @@ def render_operations_controls():
 
     # --- BUTTON 1 ---
     with col1:
-        if st.button("Run Data Pipeline", use_container_width=True):
+        if st.button("Run Data Pipeline", width="stretch"):
             with st.spinner("Running data pipeline..."):
                 try:
                     result = run_pipeline()
@@ -78,7 +78,7 @@ def render_operations_controls():
 
     # --- BUTTON 2 ---
     with col2:
-        if st.button("Run Demand Prediction", use_container_width=True):
+        if st.button("Run Demand Prediction", width="stretch"):
             with st.spinner("Running demand prediction..."):
                 try:
                     result = run_prediction()
@@ -93,7 +93,7 @@ def render_operations_controls():
 
     # --- BUTTON 3 ---
     with col3:
-        if st.button("Run Supply Scheduling", use_container_width=True):
+        if st.button("Run Supply Scheduling", width="stretch"):
             with st.spinner("Running supply scheduling..."):
                 try:
                     result = run_scheduling()

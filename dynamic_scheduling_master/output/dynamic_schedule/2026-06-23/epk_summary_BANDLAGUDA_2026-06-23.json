@@ -1,0 +1,96 @@
+{
+  "depot": "BANDLAGUDA",
+  "target_date": "2026-06-23",
+  "predicted_depot_pkm": 1582158.5,
+  "total_services": 148,
+  "count_add_slot": 8,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 63,
+  "count_no_change": 77,
+  "total_allocated_pkm": 1474131.231332568,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 140,
+    "INEFFICIENT": 8
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 94.6,
+    "INEFFICIENT": 5.4
+  },
+  "total_revenue": 1997797.6399830463,
+  "total_contribution": 1347432.6399830463,
+  "total_planned_kms": 26014.6,
+  "depot_avg_epk": 79.46681917696762,
+  "depot_avg_or": 1.279175947645626,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 6803.970159399911,
+    "UNDERSUPPLY": 1990993.6698236463
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -48246.02984060009,
+    "UNDERSUPPLY": 1395678.6698236463
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1339951.1886806411,
+  "fleet_breakdown": {
+    "CO": {
+      "available": 33,
+      "planned": 30.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 2.0,
+      "estimated": true,
+      "added": 2,
+      "to_add": 44
+    },
+    "FS": {
+      "available": 22,
+      "planned": 20.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 2.0,
+      "estimated": true,
+      "added": 2,
+      "to_add": 12
+    },
+    "ME": {
+      "available": 10,
+      "planned": 8.5,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.5,
+      "estimated": true,
+      "added": 1,
+      "to_add": 10
+    },
+    "PS": {
+      "available": 6,
+      "planned": 5.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "SU": {
+      "available": 24,
+      "planned": 21.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 3.0,
+      "estimated": true,
+      "added": 3,
+      "to_add": 5
+    },
+    "VR": {
+      "available": 6,
+      "planned": 5.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "depot": "NARSAPUR",
+  "target_date": "2026-06-24",
+  "predicted_depot_pkm": 771728.9375,
+  "total_services": 35,
+  "count_add_slot": 0,
+  "count_cut": 2,
+  "count_add_candidates_no_spare": 0,
+  "count_no_change": 33,
+  "total_allocated_pkm": 737841.8769641507,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 29,
+    "INEFFICIENT": 4,
+    "OVERSUPPLY": 2
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 82.9,
+    "INEFFICIENT": 11.4,
+    "OVERSUPPLY": 5.7
+  },
+  "total_revenue": 829499.4325532104,
+  "total_contribution": 496149.4325532103,
+  "total_planned_kms": 13334.0,
+  "depot_avg_epk": 60.7530101317409,
+  "depot_avg_or": 0.9544271242169158,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 8287.017278555923,
+    "OVERSUPPLY": 18522.701770162676,
+    "UNDERSUPPLY": 802689.7135044917
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -30137.982721444077,
+    "OVERSUPPLY": 5622.701770162674,
+    "UNDERSUPPLY": 520664.7135044918
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 523400.7034503847,
+  "fleet_breakdown": {
+    "BB": {
+      "available": 9,
+      "planned": 8.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "EXP": {
+      "available": 8,
+      "planned": 7.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "H/PVG": {
+      "available": 4,
+      "planned": 3.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "PVG": {
+      "available": 17,
+      "planned": 15.0,
+      "cut": 2.0,
+      "maintenance": 0,
+      "spare": 4.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

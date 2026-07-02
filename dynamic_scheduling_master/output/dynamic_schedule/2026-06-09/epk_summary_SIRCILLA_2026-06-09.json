@@ -1,0 +1,90 @@
+{
+  "depot": "SIRCILLA",
+  "target_date": "2026-06-09",
+  "predicted_depot_pkm": 1217317.5,
+  "total_services": 65,
+  "count_add_slot": 0,
+  "count_cut": 3,
+  "count_add_candidates_no_spare": 1,
+  "count_no_change": 61,
+  "total_allocated_pkm": 1076543.8373952592,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 45,
+    "INEFFICIENT": 11,
+    "OVERSUPPLY": 9
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 69.2,
+    "INEFFICIENT": 16.9,
+    "OVERSUPPLY": 13.8
+  },
+  "total_revenue": 1324782.3544253013,
+  "total_contribution": 618957.3544253013,
+  "total_planned_kms": 28233.0,
+  "depot_avg_epk": 46.857227375236036,
+  "depot_avg_or": 0.759194266765652,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 48760.252234383275,
+    "OVERSUPPLY": 129995.22457584993,
+    "UNDERSUPPLY": 1146026.877615068
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -71714.74776561673,
+    "OVERSUPPLY": 32595.224575849934,
+    "UNDERSUPPLY": 658076.877615068
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1115248.586694423,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 21,
+      "planned": 19.0,
+      "cut": 0.0,
+      "maintenance": 2,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 16,
+      "planned": 14.0,
+      "cut": 3.0,
+      "maintenance": 1,
+      "spare": 4.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PE": {
+      "available": 13,
+      "planned": 13.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": -1.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 1
+    },
+    "PO": {
+      "available": 9,
+      "planned": 9.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": -1.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "SL": {
+      "available": 10,
+      "planned": 10.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": -1.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

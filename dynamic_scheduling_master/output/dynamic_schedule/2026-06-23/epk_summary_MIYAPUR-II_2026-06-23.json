@@ -1,0 +1,70 @@
+{
+  "depot": "MIYAPUR-II",
+  "target_date": "2026-06-23",
+  "predicted_depot_pkm": 1332519.25,
+  "total_services": 176,
+  "count_add_slot": 7,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 85,
+  "count_no_change": 84,
+  "total_allocated_pkm": 1222029.1089125942,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 102,
+    "INEFFICIENT": 38,
+    "OVERSUPPLY": 36
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 58.0,
+    "INEFFICIENT": 21.6,
+    "OVERSUPPLY": 20.5
+  },
+  "total_revenue": 2145742.367228389,
+  "total_contribution": 1451469.3672283886,
+  "total_planned_kms": 27770.92,
+  "depot_avg_epk": 74.426929361631,
+  "depot_avg_or": 1.2322695008161426,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 4755.847373048931,
+    "OVERSUPPLY": 367238.71683137026,
+    "UNDERSUPPLY": 1773747.8030239693
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -102959.15262695107,
+    "OVERSUPPLY": 186928.2168313703,
+    "UNDERSUPPLY": 1367500.3030239693
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1053360.151087051,
+  "fleet_breakdown": {
+    "EA": {
+      "available": 21,
+      "planned": 19.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 2.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "EB": {
+      "available": 31,
+      "planned": 28.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 2.0,
+      "estimated": true,
+      "added": 2,
+      "to_add": 17
+    },
+    "EM": {
+      "available": 59,
+      "planned": 53.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 5.0,
+      "estimated": true,
+      "added": 5,
+      "to_add": 75
+    }
+  }
+}

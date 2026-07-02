@@ -171,7 +171,7 @@ def absadminmain():
             available = [c for c in TARGETS if c in out.columns]
             out["Total"] = out[available].sum(axis=1)
 
-            st.dataframe(out, use_container_width=True)
+            st.dataframe(out, width="stretch")
             st.plotly_chart(px.line(out, x="Date", y=available, markers=True))
 
     # -----------------------------------------------------
@@ -324,7 +324,7 @@ def absadminmain():
         cols = ["date"] + [c for c in dfm.columns if c != "date"]
         dfm = dfm[cols]
 
-        #st.dataframe(dfm, use_container_width=True)
+        #st.dataframe(dfm, width="stretch")
 
      
         # -------------------------------------------------
@@ -333,7 +333,7 @@ def absadminmain():
         ACTUAL_COLOR = "#1f77b4"   # Blue
         PRED_COLOR   = "#d62728"   # Red
 
-        st.dataframe(dfm, use_container_width=True)
+        st.dataframe(dfm, width="stretch")
 
         st.subheader("📈 Total Absentees — Actual vs Predicted")
 
@@ -354,7 +354,7 @@ def absadminmain():
             legend_title="",
         )
 
-        st.plotly_chart(fig_total, use_container_width=True)
+        st.plotly_chart(fig_total, width="stretch")
         st.subheader("📉 Leave Absent — Actual vs Predicted")
 
         fig_leave = px.line(
@@ -374,7 +374,7 @@ def absadminmain():
             legend_title=""
         )
 
-        st.plotly_chart(fig_leave, use_container_width=True)
+        st.plotly_chart(fig_leave, width="stretch")
         st.subheader("📉 Sick Leave — Actual vs Predicted")
 
         fig_sick = px.line(
@@ -394,7 +394,7 @@ def absadminmain():
             legend_title=""
         )
 
-        st.plotly_chart(fig_sick, use_container_width=True)
+        st.plotly_chart(fig_sick, width="stretch")
         st.subheader("📉 Spot Absent — Actual vs Predicted")
 
         fig_spot = px.line(
@@ -414,7 +414,7 @@ def absadminmain():
             legend_title=""
         )
 
-        st.plotly_chart(fig_spot, use_container_width=True)
+        st.plotly_chart(fig_spot, width="stretch")
 
 if __name__ == "__main__":
     absadminmain()

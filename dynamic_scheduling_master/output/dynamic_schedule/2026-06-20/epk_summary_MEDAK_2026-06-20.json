@@ -1,0 +1,90 @@
+{
+  "depot": "MEDAK",
+  "target_date": "2026-06-20",
+  "predicted_depot_pkm": 1761743.75,
+  "total_services": 83,
+  "count_add_slot": 2,
+  "count_cut": 8,
+  "count_add_candidates_no_spare": 22,
+  "count_no_change": 51,
+  "total_allocated_pkm": 1453947.8563941687,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 59,
+    "INEFFICIENT": 15,
+    "OVERSUPPLY": 9
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 71.1,
+    "INEFFICIENT": 18.1,
+    "OVERSUPPLY": 10.8
+  },
+  "total_revenue": 1615972.2094366634,
+  "total_contribution": 812822.2094366634,
+  "total_planned_kms": 32126.0,
+  "depot_avg_epk": 49.43210595765053,
+  "depot_avg_or": 0.817490004824811,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 42157.74128738402,
+    "OVERSUPPLY": 145123.30348974993,
+    "UNDERSUPPLY": 1428691.1646595295
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -91267.25871261598,
+    "OVERSUPPLY": 51248.30348974993,
+    "UNDERSUPPLY": 852841.1646595296
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1735997.0433413975,
+  "fleet_breakdown": {
+    "BB": {
+      "available": 10,
+      "planned": 9.0,
+      "cut": 8.0,
+      "maintenance": 1,
+      "spare": 8.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "EXP": {
+      "available": 13,
+      "planned": 11.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "HEXP": {
+      "available": 5,
+      "planned": 4.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 1,
+      "to_add": 1
+    },
+    "HPVG": {
+      "available": 53,
+      "planned": 48.0,
+      "cut": 0.0,
+      "maintenance": 4,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 1,
+      "to_add": 23
+    },
+    "PVG": {
+      "available": 13,
+      "planned": 11.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

@@ -258,7 +258,7 @@ def eight_ratios_RM():
             pd.DataFrame({"y": [benchmark]})
         ).mark_rule(color="red", strokeDash=[6, 6], size=2).encode(y="y:Q")
 
-        st.altair_chart(bar + text + benchmark_line, use_container_width=True)
+        st.altair_chart(bar + text + benchmark_line, width="stretch")
         st.markdown("---")
 
     conn.close()

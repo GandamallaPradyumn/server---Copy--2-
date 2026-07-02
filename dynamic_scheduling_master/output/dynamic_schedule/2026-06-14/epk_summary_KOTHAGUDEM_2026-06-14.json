@@ -1,0 +1,80 @@
+{
+  "depot": "KOTHAGUDEM",
+  "target_date": "2026-06-14",
+  "predicted_depot_pkm": 1141014.875,
+  "total_services": 61,
+  "count_add_slot": 0,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 1,
+  "count_no_change": 60,
+  "total_allocated_pkm": 1056780.6015443616,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 42,
+    "OVERSUPPLY": 16,
+    "INEFFICIENT": 3
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 68.9,
+    "OVERSUPPLY": 26.2,
+    "INEFFICIENT": 4.9
+  },
+  "total_revenue": 1293799.721228891,
+  "total_contribution": 627549.7212288909,
+  "total_planned_kms": 26650.0,
+  "depot_avg_epk": 49.488007519698826,
+  "depot_avg_or": 0.7886405806957991,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 9817.634663553428,
+    "OVERSUPPLY": 296570.59164432314,
+    "UNDERSUPPLY": 987411.4949210144
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -28757.36533644657,
+    "OVERSUPPLY": 94870.59164432314,
+    "UNDERSUPPLY": 561436.4949210144
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1101882.1752492564,
+  "fleet_breakdown": {
+    "DLX": {
+      "available": 4,
+      "planned": 3.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "EXP": {
+      "available": 22,
+      "planned": 20.0,
+      "cut": 0.0,
+      "maintenance": 2,
+      "spare": 0.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 1
+    },
+    "HT": {
+      "available": 11,
+      "planned": 10.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 13,
+      "planned": 29.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": -17.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

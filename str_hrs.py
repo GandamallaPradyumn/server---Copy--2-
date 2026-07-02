@@ -337,7 +337,7 @@ def str_hrs():
             y='steering_hours:Q',
             tooltip=['employee_id', 'steering_hours']
         ),
-        use_container_width=True
+        width="stretch"
     )
 
 
@@ -356,7 +356,7 @@ def str_hrs():
             y='opd_kms:Q',
             tooltip=['employee_id', 'opd_kms']
         ),
-        use_container_width=True
+        width="stretch"
     )
 
 

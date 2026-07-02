@@ -576,7 +576,7 @@ def eight_ratios_DM():
                 ]
             ).mark_line(point=True)
 
-            st.altair_chart(combined_chart, use_container_width=True)
+            st.altair_chart(combined_chart, width="stretch")
             st.markdown("---")
 
     if mysql_conn:

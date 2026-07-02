@@ -1,0 +1,96 @@
+{
+  "depot": "BANDLAGUDA",
+  "target_date": "2026-06-06",
+  "predicted_depot_pkm": 1428285.0,
+  "total_services": 148,
+  "count_add_slot": 1,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 59,
+  "count_no_change": 88,
+  "total_allocated_pkm": 1399429.793398479,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 142,
+    "INEFFICIENT": 6
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 95.9,
+    "INEFFICIENT": 4.1
+  },
+  "total_revenue": 1905096.6168951704,
+  "total_contribution": 1254731.6168951704,
+  "total_planned_kms": 26014.6,
+  "depot_avg_epk": 75.63170582727479,
+  "depot_avg_or": 1.2099706519889022,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 0.0,
+    "UNDERSUPPLY": 1905096.6168951702
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -47550.0,
+    "UNDERSUPPLY": 1302281.6168951702
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 1299505.7315744744,
+  "fleet_breakdown": {
+    "CO": {
+      "available": 33,
+      "planned": 30.0,
+      "cut": 0.0,
+      "maintenance": 3,
+      "spare": 0.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 39
+    },
+    "FS": {
+      "available": 22,
+      "planned": 20.0,
+      "cut": 0.0,
+      "maintenance": 2,
+      "spare": 0.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 10
+    },
+    "ME": {
+      "available": 10,
+      "planned": 8.5,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 0.5,
+      "estimated": true,
+      "added": 0,
+      "to_add": 6
+    },
+    "PS": {
+      "available": 6,
+      "planned": 5.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "SU": {
+      "available": 24,
+      "planned": 21.0,
+      "cut": 0.0,
+      "maintenance": 2,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 1,
+      "to_add": 5
+    },
+    "VR": {
+      "available": 6,
+      "planned": 5.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

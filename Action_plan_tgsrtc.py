@@ -93,7 +93,7 @@ def action_plan_corporation():
                 st.info("ℹ️ No data found.")
                 return
 
-            st.dataframe(pd.DataFrame(data), use_container_width=True, hide_index=True)
+            st.dataframe(pd.DataFrame(data), width="stretch", hide_index=True)
 
         except Exception as e:
             st.error(f"Error: {e}")
@@ -139,7 +139,7 @@ def action_plan_corporation():
                     st.info("ℹ️ No records found for this region.")
                     return
 
-                st.dataframe(pd.DataFrame(data), use_container_width=True, hide_index=True)
+                st.dataframe(pd.DataFrame(data), width="stretch", hide_index=True)
 
             except Exception as e:
                 st.error(f"Error: {e}")
@@ -184,7 +184,7 @@ def action_plan_corporation():
                     st.info("ℹ️ No records found for this depot.")
                     return
 
-                st.dataframe(pd.DataFrame(data), use_container_width=True, hide_index=True)
+                st.dataframe(pd.DataFrame(data), width="stretch", hide_index=True)
 
             except Exception as e:
                 st.error(f"Error: {e}")

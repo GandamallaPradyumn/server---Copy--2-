@@ -1,0 +1,130 @@
+{
+  "depot": "WARANGAL-I",
+  "target_date": "2026-06-05",
+  "predicted_depot_pkm": 2043433.125,
+  "total_services": 130,
+  "count_add_slot": 1,
+  "count_cut": 3,
+  "count_add_candidates_no_spare": 6,
+  "count_no_change": 120,
+  "total_allocated_pkm": 1642216.0087670137,
+  "quadrant_counts": {
+    "OVERSUPPLY": 73,
+    "UNDERSUPPLY": 39,
+    "INEFFICIENT": 18
+  },
+  "quadrant_pcts": {
+    "OVERSUPPLY": 56.2,
+    "UNDERSUPPLY": 30.0,
+    "INEFFICIENT": 13.8
+  },
+  "total_revenue": 2416735.254667614,
+  "total_contribution": 891341.2346676141,
+  "total_planned_kms": 67106.0,
+  "depot_avg_epk": 36.574317515581555,
+  "depot_avg_or": 0.5691105529099008,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 35568.96728402136,
+    "OVERSUPPLY": 1468804.127758929,
+    "UNDERSUPPLY": 912362.1596246636
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -163389.31271597862,
+    "OVERSUPPLY": 591977.5677589291,
+    "UNDERSUPPLY": 462752.97962466365
+  },
+  "maintenance_pct": 0.08,
+  "pkm_90d_avg": 2149814.4320497145,
+  "fleet_breakdown": {
+    "AH": {
+      "available": 4,
+      "planned": 4.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "EX": {
+      "available": 8,
+      "planned": 9.0,
+      "cut": 1.0,
+      "maintenance": 1,
+      "spare": -1.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "HL": {
+      "available": 4,
+      "planned": 4.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "HT": {
+      "available": 25,
+      "planned": 21.0,
+      "cut": 0.0,
+      "maintenance": 2,
+      "spare": 2.0,
+      "estimated": false,
+      "added": 1,
+      "to_add": 1
+    },
+    "MB": {
+      "available": 37,
+      "planned": 34.0,
+      "cut": 0.0,
+      "maintenance": 3,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 6
+    },
+    "PE": {
+      "available": 8,
+      "planned": 8.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": -1.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PO": {
+      "available": 33,
+      "planned": 33.0,
+      "cut": 0.0,
+      "maintenance": 3,
+      "spare": -3.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PVG": {
+      "available": 19,
+      "planned": 17.0,
+      "cut": 2.0,
+      "maintenance": 2,
+      "spare": 2.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "SL": {
+      "available": 7,
+      "planned": 6.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 0.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

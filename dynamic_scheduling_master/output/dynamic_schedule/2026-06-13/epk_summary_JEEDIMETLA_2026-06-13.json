@@ -1,0 +1,86 @@
+{
+  "depot": "JEEDIMETLA",
+  "target_date": "2026-06-13",
+  "predicted_depot_pkm": 1919281.0,
+  "total_services": 209,
+  "count_add_slot": 24,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 18,
+  "count_no_change": 167,
+  "total_allocated_pkm": 1772443.373042875,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 184,
+    "OVERSUPPLY": 25
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 88.0,
+    "OVERSUPPLY": 12.0
+  },
+  "total_revenue": 2466229.2537975027,
+  "total_contribution": 1496004.2537975027,
+  "total_planned_kms": 38809.0,
+  "depot_avg_epk": 65.73342249374511,
+  "depot_avg_or": 1.042740892505237,
+  "revenue_by_quadrant": {
+    "OVERSUPPLY": 226012.38969395112,
+    "UNDERSUPPLY": 2240216.8641035515
+  },
+  "contribution_by_quadrant": {
+    "OVERSUPPLY": 67912.38969395113,
+    "UNDERSUPPLY": 1428091.8641035515
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1570962.7038759356,
+  "fleet_breakdown": {
+    "CO": {
+      "available": 72,
+      "planned": 23.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 48.0,
+      "estimated": false,
+      "added": 17,
+      "to_add": 17
+    },
+    "IH": {
+      "available": 5,
+      "planned": 5.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "SN": {
+      "available": 50,
+      "planned": 45.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 4.0,
+      "estimated": false,
+      "added": 4,
+      "to_add": 14
+    },
+    "SU": {
+      "available": 48,
+      "planned": 43.5,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 3.5,
+      "estimated": true,
+      "added": 3,
+      "to_add": 11
+    },
+    "VR": {
+      "available": 9,
+      "planned": 9.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

@@ -437,7 +437,7 @@ def eight_ratios_dashboard():
                     tooltip=tooltip_list,
                 )
 
-            st.altair_chart(chart, use_container_width=True)
+            st.altair_chart(chart, width="stretch")
             try:
                 buffer = io.BytesIO()
                 chart.save(buffer, format="png")
@@ -490,7 +490,7 @@ def eight_ratios_dashboard():
                 )
                 chart = chart + rule
 
-            st.altair_chart(chart, use_container_width=True)
+            st.altair_chart(chart, width="stretch")
             try:
                 buffer = io.BytesIO()
                 chart.save(buffer, format="png")

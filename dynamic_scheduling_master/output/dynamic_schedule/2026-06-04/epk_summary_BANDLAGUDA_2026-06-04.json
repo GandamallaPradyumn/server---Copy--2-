@@ -1,0 +1,96 @@
+{
+  "depot": "BANDLAGUDA",
+  "target_date": "2026-06-04",
+  "predicted_depot_pkm": 1447374.375,
+  "total_services": 148,
+  "count_add_slot": 8,
+  "count_cut": 1,
+  "count_add_candidates_no_spare": 50,
+  "count_no_change": 89,
+  "total_allocated_pkm": 1417708.6733986936,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 141,
+    "INEFFICIENT": 7
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 95.3,
+    "INEFFICIENT": 4.7
+  },
+  "total_revenue": 1934042.9248070815,
+  "total_contribution": 1283677.924807082,
+  "total_planned_kms": 26014.6,
+  "depot_avg_epk": 76.49854164501235,
+  "depot_avg_or": 1.220681522110667,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 3009.6206630966776,
+    "UNDERSUPPLY": 1931033.304143985
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -47765.37933690332,
+    "UNDERSUPPLY": 1331443.304143985
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1295838.015815064,
+  "fleet_breakdown": {
+    "CO": {
+      "available": 33,
+      "planned": 30.0,
+      "cut": 0.5,
+      "maintenance": 1,
+      "spare": 2.5,
+      "estimated": true,
+      "added": 2,
+      "to_add": 38
+    },
+    "FS": {
+      "available": 22,
+      "planned": 20.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 2.0,
+      "estimated": true,
+      "added": 2,
+      "to_add": 11
+    },
+    "ME": {
+      "available": 10,
+      "planned": 8.5,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.5,
+      "estimated": true,
+      "added": 1,
+      "to_add": 4
+    },
+    "PS": {
+      "available": 6,
+      "planned": 5.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "SU": {
+      "available": 24,
+      "planned": 21.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 3.0,
+      "estimated": true,
+      "added": 3,
+      "to_add": 5
+    },
+    "VR": {
+      "available": 6,
+      "planned": 5.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

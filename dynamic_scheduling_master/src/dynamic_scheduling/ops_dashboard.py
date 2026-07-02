@@ -16,6 +16,49 @@ from plotly.subplots import make_subplots
 
 warnings.filterwarnings("ignore")
 
+
+def format_indian_number(value, decimals: int = 0) -> str:
+    """Format numbers using Indian grouping (e.g. 2283367 -> 22,83,367)."""
+    if value is None or (isinstance(value, float) and np.isnan(value)):
+        return "-"
+    if pd.isna(value):
+        return "-"
+
+    try:
+        numeric_value = float(value)
+    except (TypeError, ValueError):
+        return str(value)
+
+    sign = "-" if numeric_value < 0 else ""
+    abs_value = abs(numeric_value)
+
+    if decimals == 0:
+        int_str = str(int(abs_value))
+        if len(int_str) <= 3:
+            return f"{sign}{int_str}"
+
+        last_three = int_str[-3:]
+        rest = int_str[:-3]
+        if len(rest) <= 2:
+            return f"{sign}{rest},{last_three}" if rest else f"{sign}{last_three}"
+
+        groups = []
+        while len(rest) > 2:
+            groups.append(rest[-2:])
+            rest = rest[:-2]
+        if rest:
+            groups.append(rest)
+        groups.reverse()
+        return f"{sign}{','.join(groups)},{last_three}"
+
+    int_part = int(abs_value)
+    frac_part = str(abs_value).split(".")[1][:decimals] if "." in str(abs_value) else ""
+    int_formatted = format_indian_number(int_part, decimals=0)
+    if frac_part:
+        return f"{sign}{int_formatted}.{frac_part}"
+    return f"{sign}{int_formatted}"
+
+
 # ---------------------------------------------------------------------------
 # Path configuration
 # ---------------------------------------------------------------------------
@@ -398,17 +441,23 @@ def build_fleet_breakdown_table(summary: dict) -> pd.DataFrame:
     fb = (summary or {}).get("fleet_breakdown") or {}
     if not fb:
         return pd.DataFrame(columns=cols)
+    def _int_or_zero(value):
+        try:
+            return int(float(value))
+        except (TypeError, ValueError):
+            return 0
+
     rows = []
     for product, vals in fb.items():
-        added = vals.get("added", 0)
+        added = _int_or_zero(vals.get("added", 0))
         rows.append({
             "product": product,
-            "Available Fleet": vals.get("available", 0),
-            "Planned Schedules": vals.get("planned", 0),
-            "Fleet under maintenance": vals.get("maintenance", 0),
-            "Schedules suggested to CUT": vals.get("cut", 0),
-            "Spare Fleet": vals.get("spare", 0),
-            "Suggested Additions": vals.get("to_add", added),
+            "Available Fleet": _int_or_zero(vals.get("available", 0)),
+            "Planned Schedules": _int_or_zero(vals.get("planned", 0)),
+            "Fleet under maintenance": _int_or_zero(vals.get("maintenance", 0)),
+            "Schedules suggested to CUT": _int_or_zero(vals.get("cut", 0)),
+            "Spare Fleet": _int_or_zero(vals.get("spare", 0)),
+            "Suggested Additions": _int_or_zero(vals.get("to_add", added)),
             "Fleet Added": added,
         })
     return pd.DataFrame(rows, columns=cols).sort_values("product").reset_index(drop=True)

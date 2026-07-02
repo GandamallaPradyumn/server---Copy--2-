@@ -295,7 +295,7 @@ else:
 
             user_df = fetch_all_users()
             if not user_df.empty:
-                st.dataframe(user_df, use_container_width=True)
+                st.dataframe(user_df, width="stretch")
             else:
                 st.info("ℹ️ No users found.")
 

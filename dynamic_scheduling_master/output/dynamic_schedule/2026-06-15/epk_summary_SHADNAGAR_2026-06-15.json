@@ -1,0 +1,100 @@
+{
+  "depot": "SHADNAGAR",
+  "target_date": "2026-06-15",
+  "predicted_depot_pkm": 1855712.125,
+  "total_services": 88,
+  "count_add_slot": 0,
+  "count_cut": 8,
+  "count_add_candidates_no_spare": 8,
+  "count_no_change": 72,
+  "total_allocated_pkm": 1650786.2519797268,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 65,
+    "OVERSUPPLY": 12,
+    "INEFFICIENT": 11
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 73.9,
+    "OVERSUPPLY": 13.6,
+    "INEFFICIENT": 12.5
+  },
+  "total_revenue": 1966839.6741330486,
+  "total_contribution": 1088514.6741330484,
+  "total_planned_kms": 35133.0,
+  "depot_avg_epk": 53.92194104641476,
+  "depot_avg_or": 0.8609590039642657,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 41713.03448653862,
+    "OVERSUPPLY": 166903.18272612328,
+    "UNDERSUPPLY": 1758223.4569203865
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -46986.96551346138,
+    "OVERSUPPLY": 48478.18272612328,
+    "UNDERSUPPLY": 1087023.4569203865
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1613094.1515233333,
+  "fleet_breakdown": {
+    "EX": {
+      "available": 15,
+      "planned": 13.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 2.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "IE": {
+      "available": 8,
+      "planned": 1.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 7.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "OR": {
+      "available": 45,
+      "planned": 35.0,
+      "cut": 8.0,
+      "maintenance": 1,
+      "spare": 17.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    },
+    "PE": {
+      "available": 19,
+      "planned": 19.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 2
+    },
+    "PO": {
+      "available": 16,
+      "planned": 16.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 6
+    },
+    "SL": {
+      "available": 4,
+      "planned": 4.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 0
+    }
+  }
+}

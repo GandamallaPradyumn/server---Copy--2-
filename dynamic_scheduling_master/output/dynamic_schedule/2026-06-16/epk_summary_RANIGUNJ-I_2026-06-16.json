@@ -1,0 +1,90 @@
+{
+  "depot": "RANIGUNJ-I",
+  "target_date": "2026-06-16",
+  "predicted_depot_pkm": 1772564.5,
+  "total_services": 222,
+  "count_add_slot": 6,
+  "count_cut": 0,
+  "count_add_candidates_no_spare": 78,
+  "count_no_change": 138,
+  "total_allocated_pkm": 1545005.9723561567,
+  "quadrant_counts": {
+    "UNDERSUPPLY": 176,
+    "OVERSUPPLY": 36,
+    "INEFFICIENT": 10
+  },
+  "quadrant_pcts": {
+    "UNDERSUPPLY": 79.3,
+    "OVERSUPPLY": 16.2,
+    "INEFFICIENT": 4.5
+  },
+  "total_revenue": 2277206.171907816,
+  "total_contribution": 1388044.171907816,
+  "total_planned_kms": 35566.479999999996,
+  "depot_avg_epk": 64.7079873438585,
+  "depot_avg_or": 1.110117275305059,
+  "revenue_by_quadrant": {
+    "INEFFICIENT": 6230.946420915968,
+    "OVERSUPPLY": 233175.84265635125,
+    "UNDERSUPPLY": 2037799.3828305488
+  },
+  "contribution_by_quadrant": {
+    "INEFFICIENT": -29619.053579084033,
+    "OVERSUPPLY": 72666.84265635125,
+    "UNDERSUPPLY": 1344996.3828305488
+  },
+  "maintenance_pct": 0.02,
+  "pkm_90d_avg": 1457331.8879653076,
+  "fleet_breakdown": {
+    "CO": {
+      "available": 47,
+      "planned": 52.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": -6.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 22
+    },
+    "EM": {
+      "available": 72,
+      "planned": 65.0,
+      "cut": 0.0,
+      "maintenance": 1,
+      "spare": 6.0,
+      "estimated": true,
+      "added": 6,
+      "to_add": 59
+    },
+    "ME": {
+      "available": 3,
+      "planned": 2.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 1.0,
+      "estimated": true,
+      "added": 0,
+      "to_add": 0
+    },
+    "MS": {
+      "available": 14,
+      "planned": 16.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": -2.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 1
+    },
+    "VC": {
+      "available": 10,
+      "planned": 10.0,
+      "cut": 0.0,
+      "maintenance": 0,
+      "spare": 0.0,
+      "estimated": false,
+      "added": 0,
+      "to_add": 2
+    }
+  }
+}

@@ -262,7 +262,7 @@ def absdmmain():
             available = [c for c in TARGETS if c in out.columns]
             out["Total"] = out[available].sum(axis=1)
 
-            st.dataframe(out, use_container_width=True)
+            st.dataframe(out, width="stretch")
             st.plotly_chart(px.line(out, x="Date", y=available, markers=True))
 
     # -----------------------------------------------------
@@ -415,7 +415,7 @@ def absdmmain():
         cols = ["date"] + [c for c in dfm.columns if c != "date"]
         dfm = dfm[cols]
 
-        #st.dataframe(dfm, use_container_width=True)
+        #st.dataframe(dfm, width="stretch")
 
      
         # -------------------------------------------------
@@ -465,7 +465,7 @@ def absdmmain():
             legend_title=""
         )
 
-        st.plotly_chart(fig_leave, use_container_width=True)
+        st.plotly_chart(fig_leave, width="stretch")
         st.subheader("📉 Sick Leave — Actual vs Predicted")
 
         fig_sick = px.line(
@@ -485,7 +485,7 @@ def absdmmain():
             legend_title=""
         )
 
-        st.plotly_chart(fig_sick, use_container_width=True)
+        st.plotly_chart(fig_sick, width="stretch")
         st.subheader("📉 Spot Absent — Actual vs Predicted")
 
         fig_spot = px.line(
@@ -505,7 +505,7 @@ def absdmmain():
             legend_title=""
         )
 
-        st.plotly_chart(fig_spot, use_container_width=True)
+        st.plotly_chart(fig_spot, width="stretch")
 
 
 
