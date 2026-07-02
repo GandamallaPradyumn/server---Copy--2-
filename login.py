@@ -322,9 +322,9 @@ else:
         if role == "Depot Manager(DMs)":
             menu = [
                 "Daily Depot Input Sheet",
+				"Dynamic Scheduling",
                 "Productivity Budget 8 Ratios (Rural/Urban)",
                 "Productivity Budget vs. Actual 8 Ratios",
-                "Dynamic Scheduling",
                 "Action Plan For KPI",
                 "Depot Dashboard",
                 "Driver Dashboard",
