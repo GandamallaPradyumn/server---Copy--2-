@@ -1,0 +1,52 @@
+# TGSRTC AI Server Requirements
+
+# Core Web App & Dashboard Framework
+streamlit>=1.30.0
+streamlit-aggrid>=1.0.5
+tornado>=6.3.0
+
+# Database Connectivity & Drivers
+mysql-connector-python>=9.0.0
+pymysql>=1.1.0
+sqlalchemy>=2.0.0
+pysqlite3-binary>=0.5.0
+
+# Security & Authentication
+bcrypt>=4.0.0
+
+# Data Processing & Analytics
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning & Forecasting
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+joblib>=1.3.0
+
+# Data Visualization & Graphics
+plotly>=5.15.0
+altair>=5.0.0
+pillow>=10.0.0
+
+# Excel & File Handling
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+pyyaml>=6.0
+
+# Web Automation, HTTP & Parsing
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+playwright>=1.40.0
+rapidfuzz>=3.0.0
+
+# AI, RAG, OCR & Vector Search
+faiss-cpu>=1.7.4
+groq>=0.9.0
+sentence-transformers>=2.2.0
+easyocr>=1.7.0
+opencv-python>=4.8.0
+
+# API Services & Utilities
+fastapi>=0.100.0
+uvicorn>=0.22.0
+pydantic>=2.0.0

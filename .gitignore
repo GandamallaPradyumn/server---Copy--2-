@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large files exceeding GitHub's 100MB limit
+*.zip
+dynamic_scheduling_master.zip
+ops_daily_service_raw.csv
+
+# Large generated outputs / predictions / evaluations
+dynamic_scheduling_master/output/
+dynamic_scheduling_master/data/archive/
+dynamic_scheduling_master/data/cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment and sensitive files (uncomment if you don't want config.json pushed)
+# config.json
+.env
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
