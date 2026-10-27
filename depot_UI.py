@@ -1565,25 +1565,43 @@ def show_mu_sl_reasons(entity_name, db_config, is_region=False, region_depots=No
 
 
 # Add background watermark
-st.markdown(
-    """
-    <style>
-    .watermark {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%) rotate(-30deg);
-        font-size: 120px;
-        color: rgba(200, 200, 200, 0.15);  /* light gray and transparent */
-        z-index: 0;  /* ensures it's behind content */
-        pointer-events: none;  /* allows clicking on content */
-        user-select: none;
-    }
-    </style>
-    <div class="watermark">AI TEAM</div>
-    """,
-    unsafe_allow_html=True
-)
+import base64
+import os
+
+_logo_file = "LOGO.png"
+if not os.path.exists(_logo_file):
+    _logo_file = config.get("logo_path", "LOGO.png")
+
+if os.path.exists(_logo_file):
+    with open(_logo_file, "rb") as _f:
+        _logo_b64 = base64.b64encode(_f.read()).decode("utf-8")
+    st.markdown(
+        f"""
+        <style>
+        .watermark {{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.10;  /* light transparent watermark */
+            z-index: 0;  /* ensures it's behind content */
+            pointer-events: none;  /* allows clicking on content */
+            user-select: none;
+            width: 400px;
+            max-width: 80vw;
+        }}
+        .watermark img {{
+            width: 100%;
+            height: auto;
+            display: block;
+        }}
+        </style>
+        <div class="watermark">
+            <img src="data:image/png;base64,{_logo_b64}" alt="TSRTC Watermark" />
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 if __name__ == "__main__":
     depot_UI()
